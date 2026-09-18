@@ -1,0 +1,16 @@
+{
+  "note": "ブログAPIから取得できなかった時だけ使う予備一覧（2026-09-12時点）",
+  "articles": [
+    {"service": "REALE（リアレ）", "url": "https://mamesuke12.com/reale/"},
+    {"service": "トーチーズ（TORCHES）", "url": "https://mamesuke12.com/torches/"},
+    {"service": "GATES FUNDING", "url": "https://mamesuke12.com/gates-funding-28/"},
+    {"service": "renga", "url": "https://mamesuke12.com/renga/"},
+    {"service": "CONDO", "url": "https://mamesuke12.com/condo/"},
+    {"service": "BATSUNAGU", "url": "https://mamesuke12.com/batsunagu/"},
+    {"service": "FANTAS funding", "url": "https://mamesuke12.com/fantas-funding-upside/"},
+    {"service": "AGクラウドファンディング", "url": "https://mamesuke12.com/agcf/"},
+    {"service": "COZUCHI", "url": "https://mamesuke12.com/cozuchi-cozuchi/"},
+    {"service": "ヤマワケエステート", "url": "https://mamesuke12.com/yamawake/"},
+    {"service": "HafH（ハフ）", "url": "https://mamesuke12.com/hafh/"}
+  ]
+}

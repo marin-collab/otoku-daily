@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日のお得｜まめさん×ABCash</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --card: #fff; --text: #1a1d23; --sub: #6b7280; --line: #e5e7eb;
+    --accent: #2f6df6; --mame: #b45309; --mame-bg: #fff7ed; --mame-line: #fcd9a6;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 28px 16px 64px; }
+  header { text-align: center; margin-bottom: 22px; }
+  .collab { display: inline-block; background: var(--mame-bg); color: var(--mame); border: 1px solid var(--mame-line); border-radius: 999px; padding: 4px 14px; font-size: 12px; font-weight: 700; }
+  h1 { font-size: 24px; margin: 10px 0 4px; }
+  .updated { color: var(--sub); font-size: 13px; margin: 0; }
+  .updated.stale { color: #b45309; }
+  section { margin-top: 26px; }
+  h2 { font-size: 17px; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
+  .name { font-weight: 700; font-size: 15px; margin: 0 0 4px; }
+  .service { color: var(--sub); font-weight: 500; font-size: 13px; }
+  .detail { font-size: 14px; margin: 0 0 8px; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12px; color: var(--sub); align-items: center; }
+  .period { background: #eef2ff; color: #3730a3; border-radius: 6px; padding: 2px 8px; font-weight: 600; }
+  .meta a { color: var(--sub); }
+  .mame { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .mame a { display: inline-block; background: var(--mame-bg); color: var(--mame); border: 1px solid var(--mame-line); border-radius: 8px; padding: 6px 12px; font-size: 13px; font-weight: 700; text-decoration: none; }
+  .empty { color: var(--sub); font-size: 14px; padding: 10px 2px; }
+  .notes { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px 14px; font-size: 13px; color: #78350f; margin-top: 28px; }
+  .notes p { margin: 0 0 6px; }
+  .loading, .error { text-align: center; color: var(--sub); padding: 40px 0; font-size: 14px; }
+  footer { text-align: center; color: var(--sub); font-size: 12px; margin-top: 28px; }
+  footer a { color: var(--sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="collab">まめさん × ABCash コラボ特典</div>
+    <h1>🎁 今日のお得</h1>
+    <p class="updated" id="updated">読み込み中…</p>
+  </header>
+
+  <div id="content"><div class="loading">お得情報を読み込んでいます…</div></div>
+
+  <div class="notes" id="notes" hidden></div>
+
+  <footer>情報は自動更新時点のものです。申込前に必ず公式サイトでご確認ください。<br>
+  不動産クラウドファンディングは元本割れの可能性があり、利回りは保証されません。<br>
+  まめさんの解説記事にはPRを含みます。／ <a href="https://mamesuke12.com" target="_blank" rel="noopener">まめの民泊とお金の話</a></footer>
+</div>
+
+<script>
+(function () {
+  var DATA_URL = 'https://raw.githubusercontent.com/marin-collab/otoku-daily/main/data/deals.json';
+  var content = document.getElementById('content');
+  var updated = document.getElementById('updated');
+  var notesEl = document.getElementById('notes');
+
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : '#'; }
+
+  function fmtDate(iso) {
+    var d = new Date(iso); if (isNaN(d)) return iso;
+    return (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + d.getHours() + ':' + ('0' + d.getMinutes()).slice(-2) + ' 更新';
+  }
+
+  function render(data) {
+    if (!data.updated_at) {
+      updated.textContent = 'まだ最初の更新が来ていません';
+      content.innerHTML = '<div class="empty">最初のリサーチは明日の朝に届きます。</div>';
+      showNotes(data.notes); return;
+    }
+    var age = (Date.now() - new Date(data.updated_at)) / 36e5;
+    updated.textContent = fmtDate(data.updated_at);
+    if (age > 48) { updated.classList.add('stale'); updated.textContent += '（少し前の情報です）'; }
+
+    var html = '';
+    (data.categories || []).forEach(function (cat) {
+      html += '<section><h2>' + esc(cat.emoji) + ' ' + esc(cat.title) + '</h2>';
+      if (!cat.items || !cat.items.length) { html += '<div class="empty">今回は特に目立った新着情報なし</div></section>'; return; }
+      cat.items.forEach(function (it) {
+        html += '<div class="card">';
+        html += '<p class="name">' + esc(it.name) + (it.service ? ' <span class="service">（' + esc(it.service) + '）</span>' : '') + '</p>';
+        if (it.detail) html += '<p class="detail">' + esc(it.detail) + '</p>';
+        html += '<div class="meta">';
+        if (it.period) html += '<span class="period">' + esc(it.period) + '</span>';
+        if (it.source_url) html += '<a href="' + esc(safeUrl(it.source_url)) + '" target="_blank" rel="noopener">出典: ' + esc(it.source_name || 'リンク') + '</a>';
+        else if (it.source_name) html += '<span>出典: ' + esc(it.source_name) + '</span>';
+        html += '</div>';
+        if (it.mame_articles && it.mame_articles.length) {
+          html += '<div class="mame">';
+          it.mame_articles.forEach(function (a) { html += '<a href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener">▶ ' + esc(a.label || 'まめさんの解説記事') + '</a>'; });
+          html += '</div>';
+        }
+        html += '</div>';
+      });
+      html += '</section>';
+    });
+    content.innerHTML = html || '<div class="empty">データがありません</div>';
+    showNotes(data.notes);
+  }
+
+  function showNotes(notes) {
+    if (!notes || !notes.length) { notesEl.hidden = true; return; }
+    notesEl.innerHTML = notes.map(function (n) { return '<p>' + esc(n) + '</p>'; }).join('');
+    notesEl.hidden = false;
+  }
+
+  fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () {
+      updated.textContent = '';
+      content.innerHTML = '<div class="error">読み込めませんでした。少し待ってから開き直してください。</div>';
+    });
+})();
+</script>
+</body>
+</html>
