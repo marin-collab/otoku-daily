@@ -1,43 +1,52 @@
 {
-  "updated_at": "2026-09-18T16:55:00+09:00",
+  "updated_at": "2026-09-18T17:32:00+09:00",
   "categories": [
     {
       "id": "conbini",
-      "emoji": "🍙",
-      "title": "コンビニ・飲食のお得",
+      "emoji": "🏪",
+      "title": "コンビニ・コンビニアプリ",
       "items": [
         {
-          "name": "1個買うと1個もらえるキャンペーン",
-          "service": "セブン-イレブン／ファミリーマート／ローソン／ミニストップ他",
-          "detail": "対象のアイス・エナジーゼリーなどを1個買うともう1個もらえるキャンペーン。9/17〜9/23は「雪見だいふく→爽バニラ」「inバーシリーズ→inバー エネルギー サツマイモ」が対象。",
-          "period": "〜9/23",
-          "source_name": "ワタシト",
-          "source_url": "https://media.yourmystar.jp/articles/12722f14-f56f-4706-804b-85c01f9c0b49",
-          "mame_articles": []
-        },
-        {
-          "name": "からあげクン増量キャンペーン",
+          "name": "ローソンオリジナル菓子 無料引換券（抽選）",
           "service": "ローソン",
-          "detail": "からあげクン各種が価格そのままで1個増量（通常5個入り→6個入り）になる企画。",
-          "period": "9/15〜9/21",
-          "source_name": "ココトク",
-          "source_url": "https://kojinabi.com/blog-entry-4446.html",
+          "detail": "ローソンアプリから応募すると、ミニ歌舞伎揚や瀬戸内産の塩ポップコーンなど対象のローソンオリジナル菓子の無料引換券が毎日抽選で1万名に当たります🎁 その場で結果がわかります。",
+          "period": "〜9/21",
+          "source_name": "ローソン公式サイト",
+          "source_url": "https://www.lawson.co.jp/lab/tsuushin/art/1508271_4659.html",
           "mame_articles": []
         },
         {
-          "name": "アプリ会員限定 無料引換券配布",
+          "name": "1個買うと1個もらえるキャンペーン（ハピとく祭）",
+          "service": "ローソン",
+          "detail": "対象のドリンク（アサヒ おいしい水、コカ・コーラ ゼロなど）を1本買うと、同じ枠の対象商品がもう1本無料になる引換券がもらえます。1会計で最大30枚まで発券可。",
+          "period": "購入9/15〜9/21、引換9/22〜9/28",
+          "source_name": "超得ニュース",
+          "source_url": "https://superprofitnews.main.jp/archives/19415",
+          "mame_articles": []
+        },
+        {
+          "name": "セブンマイル クーポンキャンペーン（5週連続）",
           "service": "セブン-イレブン",
-          "detail": "アプリ会員限定で「爽 バニラ」「inバー」などの無料引換券や、お菓子半額クーポンを連休に合わせて配布。",
-          "period": "9/17〜（順次）",
-          "source_name": "東京バーゲンマニア",
-          "source_url": "https://bg-mania.jp/2026/09/17703239.html",
+          "detail": "アプリでためたセブンマイルを使って先着でお得に商品交換。9/22〜9/28分は「午後の紅茶」各種が95マイルで交換可能（先着97,000本）など。",
+          "period": "〜10月上旬（週替わり）",
+          "source_name": "AppBank",
+          "source_url": "https://www.appbank.net/2026/09/02/iphone-news/3092706.php",
           "mame_articles": []
         },
         {
           "name": "大谷翔平選手 応援クーポン",
           "service": "ファミリーマート",
-          "detail": "大谷翔平選手がホームランまたは勝利投手になると、ファミマ公式X経由でおむすび50円引きクーポンが配布される企画。",
-          "period": "配信9/8〜9/21、利用期限9/28",
+          "detail": "大谷翔平選手がホームランまたは勝利投手になった翌日、ファミマ公式Xでおむすび50円引きクーポンが配布されます⚾ 配信は9/21まで、利用期限は9/28。",
+          "period": "配信〜9/21、利用〜9/28",
+          "source_name": "ワタシト",
+          "source_url": "https://media.yourmystar.jp/articles/12722f14-f56f-4706-804b-85c01f9c0b49",
+          "mame_articles": []
+        },
+        {
+          "name": "1個買うと1個もらえるキャンペーン（アイス・エナジーゼリー）",
+          "service": "セブン-イレブン／ファミリーマート／ローソン／ミニストップ他",
+          "detail": "対象のアイス・エナジーゼリーなどを1個買うともう1個もらえる企画。「雪見だいふく→爽 バニラ」「inバーシリーズ→inバー エネルギー サツマイモ」などが対象です。",
+          "period": "〜9/23",
           "source_name": "ワタシト",
           "source_url": "https://media.yourmystar.jp/articles/12722f14-f56f-4706-804b-85c01f9c0b49",
           "mame_articles": []
@@ -45,155 +54,200 @@
       ]
     },
     {
-      "id": "ec",
-      "emoji": "🛒",
-      "title": "通販セール",
+      "id": "app",
+      "emoji": "📱",
+      "title": "アプリクーポン",
       "items": [
         {
-          "name": "お買い物マラソン",
+          "name": "クーポンチャンネル マクドナルド割引",
+          "service": "スマートニュース",
+          "detail": "スマートニュースアプリの「クーポン」タブでマクドナルドの割引クーポンが日替わり配信中。今回配布分は9/25の朝4:59まで有効です🍟",
+          "period": "〜9/25",
+          "source_name": "プライシー",
+          "source_url": "https://www.pricey.jp/web/articles/3562",
+          "mame_articles": []
+        },
+        {
+          "name": "公式X フォロー＆リポストでKFCカードが当たる",
+          "service": "ケンタッキーフライドチキン",
+          "detail": "公式Xアカウントをフォロー＆対象ポストをリポストするだけで、抽選300名にデジタルKFCカード1,000円分が毎日当たります。",
+          "period": "〜9/22",
+          "source_name": "ワタシト",
+          "source_url": "https://media.yourmystar.jp/articles/b60f8ce2-4215-419f-8e63-b6d319c13a73",
+          "mame_articles": []
+        },
+        {
+          "name": "感謝デー（コーヒー豆・器具10%オフ）",
+          "service": "スターバックス",
+          "detail": "対象日はコーヒー豆やドリップコーヒー、抽出器具・消耗品などが店頭で10%オフになります☕",
+          "period": "9/25〜9/26",
+          "source_name": "Yahoo!ニュース（コーヒーソムリエKazu）",
+          "source_url": "https://news.yahoo.co.jp/expert/articles/c26673b099f07b98befeea6db63f9de523bde833",
+          "mame_articles": []
+        },
+        {
+          "name": "LYPプレミアム会員限定クーポン",
+          "service": "PayPay",
+          "detail": "LYPプレミアム会員が対象店舗で使うと最大5%相当（1回100円相当が上限）のPayPayクーポンがもらえます。",
+          "period": "〜9/30",
+          "source_name": "LYPプレミアム公式",
+          "source_url": "https://premium.yahoo.co.jp/benefit/coupon/paypay",
+          "mame_articles": []
+        },
+        {
+          "name": "新規会員登録で無料クーポン",
+          "service": "ファミペイ",
+          "detail": "ファミペイに新規登録すると、ファミマルのお茶など対象商品1点に使える無料クーポンがもらえます。",
+          "period": "登録受付中（利用は登録から一定期間）",
+          "source_name": "ファミリーマート公式",
+          "source_url": "https://www.family.co.jp/campaign/spot/2503_famipay-welcome_cp.html",
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "emoji": "🛒",
+      "title": "日用品・食品の激安",
+      "items": [
+        {
+          "name": "おむつクーポン＋定期おトク便の併用で最大40%オフ",
+          "service": "Amazon",
+          "detail": "メリーズなど対象おむつは、定期おトク便割引とクーポンを併用すると実質最大40%オフ相当になることも。育児中の方は要チェックです👶",
+          "period": "随時（クーポン在庫が無くなり次第終了）",
+          "source_name": "PULMO",
+          "source_url": "https://pulmo.jp/13207/",
+          "mame_articles": []
+        },
+        {
+          "name": "お買い物マラソン（買い回りポイントアップ）",
           "service": "楽天市場",
-          "detail": "期間中に買い回りした店舗数に応じてポイント倍率がアップ。上限は期間限定ポイント7,000ポイント、お得な日は9/20と予想されている。",
+          "detail": "1店舗購入ごとにポイント+1倍、10店舗で回ると+9倍に。米・水・洗剤など日用品のまとめ買いを分散して買うとお得です🛍️（期間限定ポイント上限7,000pt）",
           "period": "9/19 20:00〜9/24 1:59",
           "source_name": "アプリオ",
-          "source_url": "https://appllio.com/when-rakuten-shopping-marathon",
+          "source_url": "https://appllio.com/rakuten-ichiba-deals-day",
           "mame_articles": []
         },
         {
-          "name": "Fashion×秋のお出かけ タイムセール祭り",
-          "service": "Amazon",
-          "detail": "THE NORTH FACE、ナノ・ユニバース、new balanceなどのアウトドア・秋物ファッション、キャンプウェアなどが対象。特選・数量限定タイムセールは毎日開催中。",
-          "period": "9/18〜",
-          "source_name": "PsHiON",
-          "source_url": "https://pshion.jp/amazon-sale/",
-          "mame_articles": []
-        },
-        {
-          "name": "5のつく日／プレミアムな日曜日",
-          "service": "Yahoo!ショッピング・PayPay",
-          "detail": "5・10・15・20・25・30日などのポイントアップ日に加え、PayPayアプリ限定で+5%割引クーポンを配布中。",
-          "period": "毎月開催（常設）",
-          "source_name": "アプリオ",
-          "source_url": "https://appllio.com/yahoo-shopping-paypay-matsuri-check-list",
+          "name": "シルバーウィーク高還元",
+          "service": "楽天リーベイツ",
+          "detail": "楽天リーベイツ経由でネットショッピングすると、人気ストアの還元率が通常の2倍に。リーベイツアプリ経由だとさらに+2%上乗せされます。",
+          "period": "9/18 10:00〜9/24 9:59",
+          "source_name": "楽天リーベイツ",
+          "source_url": "https://www.rebates.jp/event/seasonal-point-up",
           "mame_articles": []
         }
       ]
     },
     {
-      "id": "crowdfunding",
-      "emoji": "🏢",
-      "title": "不動産クラウドファンディング",
+      "id": "free",
+      "emoji": "🎁",
+      "title": "無料・もらえる",
       "items": [
         {
-          "name": "REALE1号 恵比寿一棟レジデンス",
-          "service": "REALE（リアレ）",
-          "detail": "想定利回り6.5%（年率・税引前、上振れ可能性あり）、運用期間6ヶ月予定、抽選方式。東証プライム上場ADワークスグループの子会社が運営するサービスの第1号ファンド。",
-          "period": "募集 9/16 12:00〜9/30 9:00",
-          "source_name": "REALE公式",
-          "source_url": "https://reale-fund.jp/information/1",
-          "mame_articles": [
-            {
-              "label": "まめさんの解説記事",
-              "url": "https://mamesuke12.com/reale/"
-            }
-          ]
-        },
-        {
-          "name": "No.65 Hotel Vintage（築地・神楽坂・目黒不動前 3棟）",
-          "service": "トーチーズ（TORCHES）",
-          "detail": "想定利回り24.0%（年率・税引前）、運用期間3.0ヶ月予定、最低出資10万円（10口）。稼働中のホテル3棟を対象とするファンド。募集状況の詳細は公式サイトで確認。",
-          "period": "募集中",
-          "source_name": "ゴクラクブログ",
-          "source_url": "https://gokuraku.io/library/TORCHES-review/",
-          "mame_articles": [
-            {
-              "label": "まめさんの解説記事",
-              "url": "https://mamesuke12.com/torches/"
-            }
-          ]
-        },
-        {
-          "name": "CONDO 最新ファンド",
-          "service": "CONDO",
-          "detail": "想定利回り8.1〜10.2%（年率・税引前）、運用期間1〜3ヶ月。住宅型有料老人ホームなど長期保有物件の賃料収入を配当原資とするインカムゲイン型。",
-          "period": "募集 9/13 15:00〜10/1 14:59",
-          "source_name": "もずびログ",
-          "source_url": "https://mozuby.com/condo/",
-          "mame_articles": [
-            {
-              "label": "まめさんの解説記事",
-              "url": "https://mamesuke12.com/condo/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "card",
-      "emoji": "💳",
-      "title": "クレジットカードキャンペーン",
-      "items": [
-        {
-          "name": "新規入会キャンペーンまとめ",
-          "service": "アメリカン・エキスプレス",
-          "detail": "各カード種類ごとに新規入会特典（ポイント・マイル）の内容が異なるため、カード別の比較記事で最新情報を確認できる。",
-          "period": "2026年9月版",
-          "source_name": "ダイヤモンド・ザイ",
-          "source_url": "https://diamond.jp/zai/articles/-/253589",
+          "name": "新規登録でポイントがもらえる",
+          "service": "TikTok Lite",
+          "detail": "アプリの新規登録だけで1,400円相当のポイントがもらえます。特別な条件は不要です📲",
+          "period": "常時開催（内容は変動あり）",
+          "source_name": "わらう（warau.jp）",
+          "source_url": "https://www.warau.jp/style/article/campaign-point-now/",
           "mame_articles": []
         },
         {
-          "name": "新規入会・エントリーで対象店舗20%ポイント還元",
-          "service": "三菱UFJカード・プラチナ・アメリカン・エキスプレス・カード",
-          "detail": "新規入会とエントリーが条件。対象店舗の利用分が期間中20%ポイント還元（上限2万円相当）。",
-          "period": "〜9/30",
-          "source_name": "みんかぶ",
-          "source_url": "https://minkabu.jp/creditcard/campaign/",
+          "name": "新規会員登録キャンペーン",
+          "service": "楽天競馬",
+          "detail": "新規で会員登録すると、投票マネー500円分と楽天ポイント500ポイントがもらえます。",
+          "period": "9月中",
+          "source_name": "楽天競馬公式",
+          "source_url": "https://keiba.rakuten.co.jp/event/first",
           "mame_articles": []
         },
         {
-          "name": "25歳以下限定 楽天ペイ20%ポイント還元",
-          "service": "楽天カード",
-          "detail": "25歳以下限定で楽天カードを新規発行し、楽天ペイアプリで支払うとポイント20%還元。",
-          "period": "9/1 10:00〜11/30 9:59",
-          "source_name": "マイベスト",
-          "source_url": "https://my-best.com/articles/1678",
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "travel",
-      "emoji": "✈️",
-      "title": "HafH・旅行系",
-      "items": [
-        {
-          "name": "夏ガチャ祭",
+          "name": "夏ガチャ祭（新規登録キャンペーン）",
           "service": "HafH",
-          "detail": "招待コード適用で初月2,980円（通常16,200円）。新規登録で無料宿泊券が当たるガチャチケットを進呈（当選確率アップ中）。300コイン以上の継続で2〜4ヶ月目に毎月コインボーナスもあり。招待コード経由の登録が必須。",
-          "period": "ガチャチケット獲得 〜9/30 23:59",
+          "detail": "招待コード経由で新規登録すると初月2,980円で泊まれ、さらに無料宿泊券が当たるガチャに挑戦できます（当選確率50%）。新規登録の対象期間は9/30までです✈️",
+          "period": "〜9/30",
           "source_name": "HafH公式",
           "source_url": "https://www.hafh.com/en/topics/26744",
           "mame_articles": [
-            {
-              "label": "まめさんの解説記事",
-              "url": "https://mamesuke12.com/hafh/"
-            }
+            {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/hafh/"},
+            {"label": "キャンペーン記事", "url": "https://mamesuke12.com/hafh-campaign/"}
           ]
         },
         {
-          "name": "国内線タイムセール",
-          "service": "JAL",
-          "detail": "羽田-伊丹9,460円〜、羽田-新千歳11,000円〜、羽田-沖縄11,440円〜など。年末の帰省シーズン直前までの搭乗分が対象。",
-          "period": "一般販売9/9〜（JMB会員先行9/8）",
-          "source_name": "いりここんぶブログ",
-          "source_url": "https://iriko-kombu-blog.com/2026sep-flight/",
+          "name": "招待コード登録でポイント即時付与",
+          "service": "メルカリ",
+          "detail": "招待コードを入力して新規登録＆本人確認を完了すると、500円分のポイントがすぐにもらえます。",
+          "period": "常時開催",
+          "source_name": "カードレビューズ",
+          "source_url": "https://www.card-reviews.com/entry/registration-promotion-matome",
+          "mame_articles": []
+        },
+        {
+          "name": "無料コスメサンプル・モニター募集",
+          "service": "LIPS",
+          "detail": "対象コスメが抽選で当たる無料プレゼント企画を毎日更新中。人気ブランドのモニターも随時募集されています💄",
+          "period": "随時（商品ごとに締切あり）",
+          "source_name": "LIPS",
+          "source_url": "https://lipscosme.com/sample_campaigns",
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "point",
+      "emoji": "💰",
+      "title": "ポイント・キャッシュレス還元",
+      "items": [
+        {
+          "name": "ウエルシアお客様感謝デー（ウエル活）",
+          "service": "ウエルシア薬局",
+          "detail": "毎月20日はWAON POINTを200pt以上使うと1.5倍分のお買い物ができる日。今週は日曜が対象日です。日用品のまとめ買いにどうぞ。",
+          "period": "9/20",
+          "source_name": "マネトラ",
+          "source_url": "https://savarins.jp/welcia-poikatu/",
+          "mame_articles": []
+        },
+        {
+          "name": "あなたのまちを応援プロジェクト",
+          "service": "PayPay",
+          "detail": "全国46自治体で開催中、対象店舗での支払いで最大25%還元。例：紀美野町（和歌山）は最大25%（〜10/31）、あま市（愛知）は最大10%（〜9/30）。",
+          "period": "自治体により〜9月末・10月末など",
+          "source_name": "8and",
+          "source_url": "https://8and.jp/2026/09/05/paypay-jichitai-campaign-2026-september/",
+          "mame_articles": []
+        },
+        {
+          "name": "残高チャージ＆お買い物キャンペーン",
+          "service": "d払い",
+          "detail": "事前エントリーのうえd払い残高へのチャージと利用で、抽選最大10,000ポイントが当たります。",
+          "period": "9/1〜9/30",
+          "source_name": "AppBank",
+          "source_url": "https://www.appbank.net/2026/09/02/iphone-news/3092364.php",
+          "mame_articles": []
+        },
+        {
+          "name": "5と0のつく日ポイントアップ",
+          "service": "楽天市場（楽天カード決済）",
+          "detail": "9/20（日）は「5と0のつく日」。楽天カードで決済するとポイント+2倍。開催中のお買い物マラソンの買い回り特典と重ねるとさらにお得です。",
+          "period": "9/20",
+          "source_name": "アプリオ",
+          "source_url": "https://appllio.com/rakuten-ichiba-deals-day",
+          "mame_articles": []
+        },
+        {
+          "name": "スーパーPayPayクーポン",
+          "service": "PayPay（セブン-イレブン・ミニストップ・ベルクなど）",
+          "detail": "対象店舗の専用アプリ決済で最大10%相当が戻ります（通常決済は5%）。ミニストップやセブン-イレブンなどが対象です。",
+          "period": "9月中",
+          "source_name": "ケータイWatch",
+          "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2134984.html",
           "mame_articles": []
         }
       ]
     }
   ],
   "notes": [
-    "情報は自動更新時点のものです。申込前に公式サイトで最新状況をご確認ください。",
-    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
   ]
 }
