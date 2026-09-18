@@ -91,7 +91,10 @@
           "source_name": "REALE公式",
           "source_url": "https://reale-fund.jp/information/1",
           "mame_articles": [
-            {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/reale/"}
+            {
+              "label": "まめさんの解説記事",
+              "url": "https://mamesuke12.com/reale/"
+            }
           ]
         },
         {
@@ -102,7 +105,10 @@
           "source_name": "ゴクラクブログ",
           "source_url": "https://gokuraku.io/library/TORCHES-review/",
           "mame_articles": [
-            {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/torches/"}
+            {
+              "label": "まめさんの解説記事",
+              "url": "https://mamesuke12.com/torches/"
+            }
           ]
         },
         {
@@ -113,7 +119,10 @@
           "source_name": "もずびログ",
           "source_url": "https://mozuby.com/condo/",
           "mame_articles": [
-            {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/condo/"}
+            {
+              "label": "まめさんの解説記事",
+              "url": "https://mamesuke12.com/condo/"
+            }
           ]
         }
       ]
@@ -165,7 +174,10 @@
           "source_name": "HafH公式",
           "source_url": "https://www.hafh.com/en/topics/26744",
           "mame_articles": [
-            {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/hafh/"}
+            {
+              "label": "まめさんの解説記事",
+              "url": "https://mamesuke12.com/hafh/"
+            }
           ]
         },
         {
@@ -182,7 +194,6 @@
   ],
   "notes": [
     "情報は自動更新時点のものです。申込前に公式サイトで最新状況をご確認ください。",
-    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。",
-    "まめさんのブログ記事一覧APIへのアクセスがネットワーク制限で失敗したため、data/fallback_articles.json の一覧（2026-09-12時点）をもとに紹介記事リンクを付与しました。"
+    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
   ]
 }

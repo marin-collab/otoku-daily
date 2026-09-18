@@ -12,14 +12,15 @@
 
 この配信は **2026年9月30日（日本時間）まで** の期間限定。`TZ=Asia/Tokyo date +%F` で今日の日付を確認し、**2026-10-01以降なら何もせず「配信期間終了のため何もしませんでした」とだけ報告して終了する**。
 
-### 1. まめさんのブログから記事一覧を取得する
+### 1. まめさんのブログの記事一覧を読む
 
-次の2つのURLを取得する（`curl -s` でよい）。
+**この実行環境からは mamesuke12.com に直接アクセスできない（通信制限）。curlやWebFetchで取りに行かないこと。** 代わりに、リポジトリ内の `data/mame_articles.json` を読む（GitHub Actionsが毎朝ブログから取得して更新している）。
 
-- クラファン記事一覧: `https://mamesuke12.com/wp-json/wp/v2/posts?categories=16&per_page=50&_fields=title,link,date`
-- HafH記事: `https://mamesuke12.com/wp-json/wp/v2/posts?search=HafH&per_page=5&_fields=title,link,date`
+構造: `crowdfunding`（クラファン記事の配列）と `hafh`（HafH記事の配列）。各要素は `title`・`link`・`date`（公開日）。`fetched_at` が取得日時。
 
-各要素は `title.rendered`（HTMLエンティティを含むことがある）・`link`・`date` を持つ。タイトルから、まめさんが紹介しているサービス名の一覧（トーチーズ、GATES FUNDING、REALE、CONDO、BATSUNAGU、renga、FANTAS funding、AGクラウドファンディング、COZUCHI、ヤマワケエステート、HafH など。新しいものがあればそれも）を読み取る。取得に失敗したら `data/fallback_articles.json` の一覧を使い、notesにその旨を書く。
+タイトルから、まめさんが紹介しているサービス名の一覧（トーチーズ、GATES FUNDING、REALE、CONDO、BATSUNAGU、renga、FANTAS funding、AGクラウドファンディング、COZUCHI、ヤマワケエステート、HafH など。新しいものがあればそれも）を読み取る。
+
+`data/mame_articles.json` が無い、または壊れている時だけ `data/fallback_articles.json` を使う。その場合も **notes には技術的な事情を書かない**（notesは一般の読者に表示される）。最後の報告にだけ書く。
 
 ### 2. Web検索でリサーチする（5ジャンル）
 

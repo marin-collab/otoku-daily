@@ -1,0 +1,49 @@
+name: fetch-mame-articles
+
+on:
+  schedule:
+    - cron: "37 21 * * *"   # 毎日 06:37 JST（ルーティンの30分前）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: まめさんのブログから記事一覧を取得
+        run: |
+          set -e
+          curl -sSf --max-time 30 \
+            "https://mamesuke12.com/wp-json/wp/v2/posts?categories=16&per_page=50&_fields=title,link,date" \
+            -o /tmp/crowdfunding.json
+          curl -sSf -G --max-time 30 "https://mamesuke12.com/wp-json/wp/v2/posts" \
+            --data-urlencode "search=HafH" --data-urlencode "per_page=5" \
+            --data-urlencode "_fields=title,link,date" \
+            -o /tmp/hafh.json
+          python3 - <<'PY'
+          import json, html, datetime
+          def load(p):
+              return [{"title": html.unescape(x["title"]["rendered"]), "link": x["link"], "date": x["date"][:10]}
+                      for x in json.load(open(p))]
+          out = {
+              "fetched_at": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(timespec="seconds"),
+              "source": "https://mamesuke12.com/wp-json/wp/v2/posts",
+              "crowdfunding": load("/tmp/crowdfunding.json"),
+              "hafh": load("/tmp/hafh.json"),
+          }
+          json.dump(out, open("data/mame_articles.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+          print("crowdfunding:", len(out["crowdfunding"]), "hafh:", len(out["hafh"]))
+          PY
+
+      - name: 変更があればコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/mame_articles.json
+          git diff --cached --quiet && echo "変更なし" && exit 0
+          git commit -m "update mame articles: $(TZ=Asia/Tokyo date +%F)"
+          git push
