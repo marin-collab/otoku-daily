@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>今日のお得｜まめ×ABCash</title>
-<meta name="description" content="まめとえだまめくんの今日のお得。コンビニ・アプリクーポン・日用品の激安・もらえる・ポイント還元を毎朝自動でまとめてお届け。">
+<meta name="description" content="まめとえだまめくんの今日のお得。今日やること3つと締切カレンダーを毎朝7時に自動でお届け。">
 <meta property="og:title" content="今日のお得｜まめ×ABCash">
-<meta property="og:description" content="毎朝7時に更新。今日使えるお得だけ、ぱっと見でわかるよ🧡">
+<meta property="og:description" content="毎朝7時に更新。今日やることは3つだけ🧡">
 <meta name="theme-color" content="#fffaf4">
 <style>
   :root {
@@ -19,70 +19,99 @@
   .wrap { background:var(--cream); border-radius:24px; max-width:760px; margin:auto; padding:26px 18px 40px; }
   .topline { display:flex; justify-content:space-between; gap:10px; font-size:11px; letter-spacing:.12em; color:var(--muted); }
 
-  /* hero */
-  .hero { position:relative; margin:18px 0 8px; border-radius:20px; overflow:hidden; padding:24px 12px 118px; text-align:center;
+  /* hero（小さめ） */
+  .hero { position:relative; margin:16px 0 0; border-radius:20px; overflow:hidden; padding:20px 12px 86px; text-align:center;
     background:
-      radial-gradient(circle at 8% 18%, #ffd9a6 0 46px, transparent 47px),
-      radial-gradient(circle at 92% 22%, #cfe9b8 0 40px, transparent 41px),
-      radial-gradient(circle at 18% 88%, #cfe9b8 0 34px, transparent 35px),
-      radial-gradient(circle at 84% 84%, #ffd9a6 0 52px, transparent 53px),
-      radial-gradient(circle at 50% 4%, #fff3d6 0 30px, transparent 31px),
+      radial-gradient(circle at 8% 18%, #ffd9a6 0 40px, transparent 41px),
+      radial-gradient(circle at 92% 22%, #cfe9b8 0 34px, transparent 35px),
+      radial-gradient(circle at 84% 84%, #ffd9a6 0 44px, transparent 45px),
       linear-gradient(180deg,#fff9ee,#fff3e2); border:1px solid #f3e4d0; }
   .hero .chars { display:flex; justify-content:space-between; align-items:flex-end; position:absolute; inset:auto 0 0 0; pointer-events:none; }
-  .hero .chars img { width:30%; max-width:140px; height:auto; display:block; }
+  .hero .chars img { width:26%; max-width:110px; height:auto; display:block; }
   .hero .chars img.mame { transform:translate(-4px,6px); }
   .hero .chars img.eda { transform:translate(4px,8px); }
-  .hero .inner { position:relative; z-index:1; padding:0; }
-  .hero .eyebrow { display:inline-block; white-space:nowrap; background:var(--green); color:#fff; font-weight:800; font-size:13px; letter-spacing:.04em; padding:4px 14px; border-radius:999px; box-shadow:0 2px 0 #1f6b39; }
-  .hero h1 { margin:8px 0 6px; font-size:clamp(40px,14vw,68px); line-height:1.1; white-space:nowrap; font-weight:900; letter-spacing:.02em;
+  .hero .inner { position:relative; z-index:1; }
+  .hero .eyebrow { display:inline-block; white-space:nowrap; background:var(--green); color:#fff; font-weight:800; font-size:12px; padding:3px 12px; border-radius:999px; box-shadow:0 2px 0 #1f6b39; }
+  .hero h1 { margin:6px 0 4px; font-size:clamp(36px,12vw,56px); line-height:1.1; white-space:nowrap; font-weight:900; letter-spacing:.02em;
     background:linear-gradient(180deg,#2f8f4e 0 48%,#f08a2e 52% 100%); -webkit-background-clip:text; background-clip:text; color:transparent;
     filter:drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff) drop-shadow(2px -2px 0 #fff) drop-shadow(-2px 2px 0 #fff) drop-shadow(0 4px 0 rgba(120,80,30,.18)); }
-  .hero .sub { display:inline-block; background:#fff; border:2px solid var(--orange); color:#b45309; font-weight:800; font-size:13px; padding:4px 14px; border-radius:999px; }
-  .hero .updated { position:relative; z-index:1; margin:12px 0 0; font-size:12px; color:var(--muted); }
+  .hero .sub { display:inline-block; background:#fff; border:2px solid var(--orange); color:#b45309; font-weight:800; font-size:12px; padding:3px 12px; border-radius:999px; }
+  .hero .updated { position:relative; z-index:1; margin:10px 0 0; font-size:12px; color:var(--muted); }
   .hero .updated.stale { color:#b45309; }
-  @media (max-width:420px){ .hero{ padding-bottom:104px; } .hero .chars img{ width:31%; } }
 
-  .intro { text-align:center; font-size:14px; margin:18px 0 6px; }
-  .nav { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:14px 0 26px; }
-  .nav a { text-decoration:none; background:#fff; border:1px solid var(--line); color:var(--ink); font-weight:700; font-size:13px; padding:7px 13px; border-radius:999px; }
+  /* 掛け合い */
+  .talk { margin:18px 0 6px; display:grid; gap:8px; }
+  .line { display:flex; gap:8px; align-items:flex-end; }
+  .line.eda { flex-direction:row-reverse; }
+  .line img { width:40px; height:40px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.08); flex:none; }
+  .line .b { max-width:78%; background:#fff; border:1px solid var(--line); border-radius:16px; padding:8px 13px; font-size:14px; font-weight:600; position:relative; }
+  .line.mame .b { border-bottom-left-radius:4px; }
+  .line.eda .b { border-bottom-right-radius:4px; background:#eef7e6; border-color:#d6e8c8; }
 
-  section { margin-top:30px; scroll-margin-top:16px; }
-  .sec-head { display:flex; align-items:center; gap:10px; margin-bottom:10px; }
-  .sec-head h2 { margin:0; font-size:21px; line-height:1.4; }
-  .sec-head .dot { width:12px; height:12px; border-radius:50%; background:var(--c,#999); flex:none; }
-  .bubble { display:flex; gap:10px; align-items:flex-start; margin:0 0 14px; }
-  .bubble img { width:46px; height:46px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.08); flex:none; }
-  .bubble .txt { background:#fff3e6; border-radius:14px; padding:9px 13px; font-size:14px; position:relative; }
-  .bubble .txt b { display:block; font-size:11px; color:var(--muted); margin-bottom:2px; }
-  .bubble .txt:before { content:""; position:absolute; left:-7px; top:16px; border:7px solid transparent; border-right-color:#fff3e6; border-left:0; }
-
-  .card { background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; margin:0 0 16px; box-shadow:0 8px 24px rgba(103,67,38,.05); }
-  .banner { position:relative; padding:18px 16px 16px; color:#fff; min-height:132px; display:flex; flex-direction:column; justify-content:center; gap:6px;
-    background:
-      radial-gradient(circle at 92% 12%, rgba(255,255,255,.28) 0 38px, transparent 39px),
-      radial-gradient(circle at 6% 90%, rgba(255,255,255,.22) 0 30px, transparent 31px),
-      radial-gradient(circle at 78% 92%, rgba(255,255,255,.18) 0 22px, transparent 23px),
-      linear-gradient(135deg,var(--c1),var(--c2)); }
-  .banner:after { content:""; position:absolute; inset:8px; border:2px dashed rgba(255,255,255,.35); border-radius:14px; pointer-events:none; }
-  .banner .service { display:inline-flex; align-items:center; gap:6px; align-self:flex-start; background:rgba(255,255,255,.95); color:var(--ink); font-weight:800; font-size:12px; padding:3px 11px; border-radius:999px; position:relative; z-index:1; }
-  .banner .service span.ico { font-size:14px; }
-  .banner .headline { position:relative; z-index:1; font-size:clamp(30px,8.6vw,44px); line-height:1.15; font-weight:900; letter-spacing:.01em; color:#fff;
-    text-shadow:0 0 0 #fff, 2px 2px 0 var(--c3), -2px 2px 0 var(--c3), 2px -2px 0 var(--c3), -2px -2px 0 var(--c3), 0 5px 0 rgba(0,0,0,.18); word-break:keep-all; }
-  .banner .period { position:relative; z-index:1; display:inline-flex; align-self:flex-start; background:#fff; color:var(--c3); font-weight:800; font-size:12px; padding:3px 11px; border-radius:6px; }
-  .banner .mascot { position:absolute; right:10px; bottom:0; width:74px; height:auto; z-index:1; filter:drop-shadow(0 2px 3px rgba(0,0,0,.15)); }
-  .banner .mascot.round { bottom:10px; width:66px; height:66px; border-radius:50%; object-fit:cover; border:3px solid #fff; }
-  .banner .fit { padding-right:84px; }
-  .body { padding:14px 16px 16px; }
-  .name { font-weight:800; font-size:15px; margin:0 0 4px; line-height:1.5; }
-  .detail { font-size:14px; margin:0 0 8px; color:#5a4a44; }
+  /* 今日やること3つ */
+  .sec-title { display:flex; align-items:baseline; gap:8px; margin:26px 0 10px; }
+  .sec-title h2 { margin:0; font-size:22px; }
+  .sec-title small { color:var(--muted); font-size:12px; }
+  .todo { display:grid; gap:12px; }
+  .todo .card { position:relative; display:grid; grid-template-columns:48px 1fr; gap:0; overflow:hidden; border:2px solid var(--c,#999); }
+  .todo .card.done { opacity:.55; }
+  .todo .chk { background:var(--c,#999); display:flex; align-items:flex-start; justify-content:center; padding-top:14px; cursor:pointer; }
+  .todo .chk span { width:26px; height:26px; border-radius:8px; background:#fff; display:flex; align-items:center; justify-content:center; font-weight:900; color:var(--c,#999); font-size:18px; box-shadow:0 2px 0 rgba(0,0,0,.15); }
+  .todo .card.done .chk span:before { content:"✓"; }
+  .todo .main { padding:12px 14px 12px; }
+  .todo .rank { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:800; color:var(--c3,#333); }
+  .todo .rank .num { background:var(--c,#999); color:#fff; border-radius:999px; width:20px; height:20px; display:inline-flex; align-items:center; justify-content:center; font-size:12px; }
+  .todo .hl { font-size:clamp(24px,7vw,34px); line-height:1.15; font-weight:900; color:var(--c3,#333); margin:2px 0; }
+  .todo .nm { font-weight:800; font-size:14px; margin:0; }
+  .todo .why { margin:4px 0 8px; font-size:14px; background:#fff6ec; border-left:4px solid var(--orange); padding:6px 10px; border-radius:0 8px 8px 0; }
+  .badge { display:inline-block; font-size:11px; font-weight:800; padding:2px 9px; border-radius:6px; background:#eee; color:#333; }
+  .badge.today { background:#e0332a; color:#fff; }
+  .badge.soon { background:#f08a2e; color:#fff; }
+  .badge.week { background:#f2c14e; color:#5b3f00; }
   .meta { font-size:12px; color:var(--muted); }
   .meta a { color:var(--muted); }
-  .links { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .links { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
   .links a { display:inline-flex; align-items:center; gap:4px; background:#fff; color:var(--c3,#333); border:1.5px solid var(--c,#999); border-radius:10px; padding:8px 13px; font-size:13px; font-weight:800; text-decoration:none; }
   .links a.primary { background:var(--c,#999); color:#fff; border-color:var(--c,#999); }
   .mame { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
   .mame a { display:inline-block; background:var(--accent); color:#fff; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:800; text-decoration:none; }
   .mame a.sub { background:#fff; color:var(--accent); border:1px solid var(--accent); }
+  .progress { text-align:center; font-size:13px; color:var(--muted); margin-top:10px; }
+  .progress b { color:var(--accent); }
+
+  /* 締切カレンダー */
+  .cal { background:#fff; border:1px solid var(--line); border-radius:16px; padding:6px 14px; }
+  .cal .row { display:grid; grid-template-columns:auto 1fr; gap:4px 10px; align-items:center; padding:9px 0; border-top:1px dashed var(--line); font-size:14px; }
+  .cal .row:first-child { border-top:0; }
+  .cal .row .badge { flex:none; min-width:64px; text-align:center; }
+  .cal .row a { color:var(--ink); text-decoration:none; font-weight:700; min-width:0; }
+  .cal .row a b { color:var(--c3,var(--ink)); }
+  .cal .row .sv { grid-column:2; color:var(--muted); font-size:12px; }
+  .cal .none { padding:10px 0; color:var(--muted); font-size:14px; }
+
+  /* 他のお得（折りたたみ） */
+  details.cat { background:#fff; border:1px solid var(--line); border-radius:16px; margin-bottom:10px; overflow:hidden; }
+  details.cat summary { list-style:none; cursor:pointer; display:flex; align-items:center; gap:10px; padding:13px 14px; font-weight:800; font-size:16px; }
+  details.cat summary::-webkit-details-marker { display:none; }
+  details.cat summary .dot { width:12px; height:12px; border-radius:50%; background:var(--c,#999); flex:none; }
+  details.cat summary .cnt { margin-left:auto; color:var(--muted); font-size:12px; font-weight:600; }
+  details.cat summary .arw { color:var(--muted); font-size:12px; transition:transform .2s; }
+  details.cat[open] summary .arw { transform:rotate(180deg); }
+  details.cat .inner { padding:0 12px 12px; }
+  .bubble { display:flex; gap:10px; align-items:flex-start; margin:0 0 12px; }
+  .bubble img { width:40px; height:40px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.08); flex:none; }
+  .bubble .txt { background:#fff3e6; border-radius:14px; padding:8px 12px; font-size:14px; position:relative; }
+  .bubble .txt b { display:block; font-size:11px; color:var(--muted); margin-bottom:2px; }
+
+  .card { background:#fff; border:1px solid var(--line); border-radius:16px; overflow:hidden; margin:0 0 12px; box-shadow:0 6px 18px rgba(103,67,38,.05); }
+  .mini { display:flex; gap:12px; padding:12px; align-items:stretch; }
+  .mini .tile { flex:none; width:104px; border-radius:12px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:8px 6px; color:#fff;
+    background:linear-gradient(135deg,var(--c1),var(--c2)); }
+  .mini .tile .h { font-size:18px; line-height:1.15; font-weight:900; text-shadow:1px 1px 0 var(--c3), -1px 1px 0 var(--c3), 1px -1px 0 var(--c3), -1px -1px 0 var(--c3); word-break:keep-all; }
+  .mini .tile .s { margin-top:4px; font-size:10px; font-weight:700; background:rgba(255,255,255,.92); color:var(--ink); border-radius:999px; padding:1px 7px; max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .mini .body { flex:1; min-width:0; }
+  .name { font-weight:800; font-size:14px; margin:0 0 2px; line-height:1.45; }
+  .detail { font-size:13px; margin:0 0 6px; color:#5a4a44; }
   .empty { color:var(--muted); font-size:14px; padding:6px 2px 0; }
 
   .cat-conbini { --c:#2f7dd6; --c1:#5fa5f0; --c2:#2f7dd6; --c3:#1b579c; }
@@ -92,11 +121,13 @@
   .cat-point   { --c:#c9931a; --c1:#f2c14e; --c2:#c9931a; --c3:#8c6410; }
   .cat-crowdfunding { --c:#af4d35; --c1:#d4826c; --c2:#af4d35; --c3:#7a3223; }
 
-  .notes { background:#f3e9de; border-radius:14px; padding:14px 16px; font-size:13px; margin-top:30px; }
+  .notes { background:#f3e9de; border-radius:14px; padding:14px 16px; font-size:13px; margin-top:26px; }
   .notes p { margin:0 0 6px; } .notes p:last-child { margin:0; }
   footer { text-align:center; color:var(--muted); font-size:12px; margin-top:26px; line-height:1.9; }
   footer a { color:var(--muted); }
   .loading, .error { text-align:center; color:var(--muted); padding:40px 0; font-size:14px; }
+  .flash { animation:flash 1.2s ease-out 1; }
+  @keyframes flash { 0%{ box-shadow:0 0 0 4px rgba(240,138,46,.6);} 100%{ box-shadow:0 0 0 0 rgba(240,138,46,0);} }
 </style>
 </head>
 <body>
@@ -113,10 +144,7 @@
     <div class="chars"><img class="mame" src="assets/mame.png" alt=""><img class="eda" src="assets/edamame.png" alt=""></div>
   </div>
 
-  <p class="intro">「今日、これ使える！」だけを集めたよ🧡<br>気になるところからチェックしてね。</p>
-  <div class="nav" id="nav"></div>
-
-  <div id="content"><div class="loading">お得情報を読み込んでいます…</div></div>
+  <div id="content"><div class="loading">今日のお得を読み込んでいます…</div></div>
 
   <div class="notes" id="notes" hidden></div>
 
@@ -132,7 +160,6 @@
   var content = document.getElementById('content');
   var updated = document.getElementById('updated');
   var notesEl = document.getElementById('notes');
-  var nav = document.getElementById('nav');
 
   if (Date.now() > EXPIRES_AT.getTime()) {
     updated.textContent = '';
@@ -140,9 +167,12 @@
     return;
   }
 
+  var CHAR = { mame:['まめ','assets/mame.png'], edamame:['えだまめくん','assets/edamame.png'] };
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
   function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : '#'; }
   function fmtDate(iso) { var d = new Date(iso); if (isNaN(d)) return iso; return (d.getMonth()+1)+'月'+d.getDate()+'日 '+d.getHours()+':'+('0'+d.getMinutes()).slice(-2)+' 更新'; }
+  function jstToday() { var n = new Date(Date.now() + 9*36e5); return new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), n.getUTCDate())); }
+  function ymd(d) { return d.getUTCFullYear()+'-'+('0'+(d.getUTCMonth()+1)).slice(-2)+'-'+('0'+d.getUTCDate()).slice(-2); }
 
   var PATTERNS = [/最大\d+[%％](?:OFF|オフ|相当|還元)?/, /\d+[%％](?:OFF|オフ|還元|相当)/, /\d{1,3}(?:,\d{3})*円(?:分|引き|相当|OFF)?/, /1個買うと1個/, /無料(?:引換券|クーポン|宿泊券)?/, /[+＋]?\d+(?:\.\d+)?倍/, /\d+(?:,\d{3})*(?:ポイント|pt|マイル)/];
   function headline(it) {
@@ -151,63 +181,182 @@
     for (var i = 0; i < PATTERNS.length; i++) { var m = t.match(PATTERNS[i]); if (m) return m[0]; }
     return (it.name || '').slice(0, 10);
   }
-  var CHAR = [['まめ','assets/mame.png'], ['えだまめくん','assets/edamame.png']];
+  // 締切: deadline(YYYY-MM-DD) が無ければ period の最後の「M/D」から推定
+  function deadlineOf(it, today) {
+    if (it.deadline && /^\d{4}-\d{2}-\d{2}$/.test(it.deadline)) return new Date(it.deadline + 'T00:00:00Z');
+    var p = it.period || '';
+    if (/常時|随時|毎月|毎週|毎日/.test(p)) return null;
+    var all = p.match(/(\d{1,2})\/(\d{1,2})/g);
+    if (!all) return null;
+    var last = all[all.length - 1].split('/');
+    var y = today.getUTCFullYear(), mo = +last[0]-1, d = +last[1];
+    var dt = new Date(Date.UTC(y, mo, d));
+    if (dt < today && (today - dt) > 200*864e5) dt = new Date(Date.UTC(y+1, mo, d));
+    return dt;
+  }
+  function daysLeft(dl, today) { return dl ? Math.round((dl - today) / 864e5) : null; }
+  function badgeFor(n) {
+    if (n === null || n < 0) return '';
+    if (n === 0) return '<span class="badge today">今日まで！</span>';
+    if (n === 1) return '<span class="badge soon">明日まで</span>';
+    if (n <= 3) return '<span class="badge soon">あと' + n + '日</span>';
+    if (n <= 7) return '<span class="badge week">今週中</span>';
+    return '';
+  }
+
+  // 自動で3つ選ぶ（pickが無い日の保険）
+  function autoPick(items, today) {
+    var scored = items.map(function (it) {
+      var n = daysLeft(deadlineOf(it, today), today), s = 0;
+      if (n !== null && n >= 0) s += Math.max(0, 8 - n) * 3;
+      var t = (it.headline || '') + (it.name || '');
+      if (/無料|もらえる|引換/.test(t)) s += 6;
+      if (/\d+[%％]|円/.test(t)) s += 2;
+      if (it.cat === 'crowdfunding') s -= 100;
+      return { it: it, s: s };
+    }).sort(function (a, b) { return b.s - a.s; });
+    var out = [], used = {};
+    scored.forEach(function (x) { if (out.length < 3 && !used[x.it.cat]) { used[x.it.cat] = 1; out.push(x.it); } });
+    scored.forEach(function (x) { if (out.length < 3 && out.indexOf(x.it) < 0) out.push(x.it); });
+    return out;
+  }
+
+  var doneKey = 'otoku-done-';
+  function loadDone(day) { try { return JSON.parse(localStorage.getItem(doneKey + day) || '{}'); } catch (e) { return {}; } }
+  function saveDone(day, o) { try { localStorage.setItem(doneKey + day, JSON.stringify(o)); } catch (e) {} }
+
+  function linksHtml(it) {
+    var h = '';
+    if (it.links && it.links.length) {
+      h += '<div class="links">';
+      it.links.forEach(function (l, li) { h += '<a class="' + (li ? '' : 'primary') + '" href="' + esc(safeUrl(l.url)) + '" target="_blank" rel="noopener">' + esc(l.label || '公式ページ') + ' →</a>'; });
+      h += '</div>';
+    }
+    if (it.mame_articles && it.mame_articles.length) {
+      h += '<div class="mame">';
+      it.mame_articles.forEach(function (a, ai) { h += '<a class="' + (ai ? 'sub' : '') + '" href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener">' + esc(a.label || 'まめの解説記事') + ' →</a>'; });
+      h += '</div>';
+    }
+    return h;
+  }
+  function srcHtml(it) {
+    if (it.source_url) return '出典: <a href="' + esc(safeUrl(it.source_url)) + '" target="_blank" rel="noopener">' + esc(it.source_name || 'リンク') + '</a>';
+    return it.source_name ? '出典: ' + esc(it.source_name) : '';
+  }
 
   function render(data) {
     if (!data.updated_at) {
       updated.textContent = 'まだ最初の更新が来ていません';
-      content.innerHTML = '<div class="empty">最初のお得は明日の朝に届きます。</div>';
-      showNotes(data.notes); return;
+      content.innerHTML = '<div class="empty">最初のお得は明日の朝に届きます。</div>'; showNotes(data.notes); return;
     }
     var age = (Date.now() - new Date(data.updated_at)) / 36e5;
     updated.textContent = fmtDate(data.updated_at);
     if (age > 48) { updated.classList.add('stale'); updated.textContent += '（少し前の情報です）'; }
 
+    var today = jstToday(), day = ymd(today);
     var cats = data.categories || [];
-    nav.innerHTML = cats.map(function (c) { return '<a href="#cat-' + esc(c.id) + '">' + esc(c.emoji) + ' ' + esc(c.title) + '</a>'; }).join('');
+    var all = [];
+    cats.forEach(function (c) { (c.items || []).forEach(function (it, i) { it.cat = c.id; it.catTitle = c.title; it.catEmoji = c.emoji; it.uid = c.id + '-' + i; all.push(it); }); });
+
+    var picks = all.filter(function (it) { return it.pick && it.pick.rank; }).sort(function (a, b) { return a.pick.rank - b.pick.rank; }).slice(0, 3);
+    if (picks.length < 3) picks = autoPick(all, today);
 
     var html = '';
+
+    // 掛け合い
+    var dlg = (data.dialogue && data.dialogue.length) ? data.dialogue : null;
+    if (!dlg) {
+      var top = picks[0];
+      dlg = [
+        { who:'mame', text: top ? '今日は「' + headline(top) + '」（' + (top.service || top.catTitle) + '）からチェックしてね🧡' : '今日のお得、まとめたよ🧡' },
+        { who:'edamame', text: '下の「今日やること3つ」だけやればOK！' },
+        { who:'mame', text: '締切が近いものは赤いバッジを見てね' }
+      ];
+    }
+    html += '<div class="talk">' + dlg.slice(0,3).map(function (l) {
+      var ch = CHAR[l.who] || CHAR.mame, cls = (l.who === 'edamame') ? 'eda' : 'mame';
+      return '<div class="line ' + cls + '"><img src="' + ch[1] + '" alt=""><div class="b">' + esc(l.text) + '</div></div>';
+    }).join('') + '</div>';
+
+    // 今日やること3つ
+    var done = loadDone(day);
+    html += '<div class="sec-title"><h2>✅ 今日やること3つ</h2><small>タップでチェック</small></div><div class="todo" id="todo">';
+    picks.forEach(function (it, i) {
+      var n = daysLeft(deadlineOf(it, today), today);
+      var why = (it.pick && it.pick.why) || (n === 0 ? '今日で終わり！' : (n !== null && n <= 3) ? 'あと' + n + '日で終わるから早めに' : '手間が少なくて、もらえる額が大きいよ');
+      html += '<div class="card cat-' + esc(it.cat) + (done[it.uid] ? ' done' : '') + '" data-uid="' + esc(it.uid) + '">';
+      html += '<div class="chk" role="button" aria-label="できた"><span></span></div>';
+      html += '<div class="main">';
+      html += '<div class="rank"><span class="num">' + (i+1) + '</span>' + esc(it.catEmoji) + ' ' + esc(it.service || it.catTitle) + ' ' + badgeFor(n) + '</div>';
+      html += '<div class="hl">' + esc(headline(it)) + '</div>';
+      html += '<p class="nm">' + esc(it.name) + '</p>';
+      html += '<div class="why">' + esc(why) + '</div>';
+      if (it.detail) html += '<p class="detail">' + esc(it.detail) + '</p>';
+      html += '<div class="meta">' + (it.period ? esc(it.period) + '　' : '') + srcHtml(it) + '</div>';
+      html += linksHtml(it);
+      html += '</div></div>';
+    });
+    html += '</div><div class="progress" id="progress"></div>';
+
+    // 締切カレンダー
+    var rows = all.map(function (it) { return { it: it, n: daysLeft(deadlineOf(it, today), today) }; })
+      .filter(function (r) { return r.n !== null && r.n >= 0 && r.n <= 7; })
+      .sort(function (a, b) { return a.n - b.n; });
+    html += '<div class="sec-title"><h2>📅 締切カレンダー</h2><small>7日以内に終わるもの</small></div><div class="cal">';
+    if (!rows.length) html += '<div class="none">今週中に締切のものはないよ。ゆっくりで大丈夫🧡</div>';
+    rows.forEach(function (r) {
+      var lbl = r.n === 0 ? '今日まで' : r.n === 1 ? '明日まで' : 'あと' + r.n + '日';
+      var cls = r.n === 0 ? 'today' : r.n <= 3 ? 'soon' : 'week';
+      html += '<div class="row cat-' + esc(r.it.cat) + '"><span class="badge ' + cls + '">' + lbl + '</span><a href="#i-' + esc(r.it.uid) + '" data-jump="' + esc(r.it.uid) + '"><b>' + esc(headline(r.it)) + '</b>　' + esc(r.it.name) + '</a><span class="sv">' + esc(r.it.catEmoji) + ' ' + esc(r.it.service || '') + '</span></div>';
+    });
+    html += '</div>';
+
+    // 他のお得（カテゴリ折りたたみ）
+    html += '<div class="sec-title"><h2>🗂 他のお得</h2><small>気になるところを開いてね</small></div>';
     cats.forEach(function (cat, ci) {
-      var cls = 'cat-' + esc(cat.id);
-      html += '<section id="cat-' + esc(cat.id) + '" class="' + cls + '">';
-      html += '<div class="sec-head"><span class="dot"></span><h2>' + esc(cat.emoji) + ' ' + esc(cat.title) + '</h2></div>';
+      var items = cat.items || [];
+      html += '<details class="cat cat-' + esc(cat.id) + '" id="cat-' + esc(cat.id) + '"><summary><span class="dot"></span>' + esc(cat.emoji) + ' ' + esc(cat.title) + '<span class="cnt">' + items.length + '件</span><span class="arw">▼</span></summary><div class="inner">';
       if (cat.comment) {
-        var ch = CHAR[ci % 2];
+        var who = (ci % 2 === 0) ? 'mame' : 'edamame', ch = CHAR[who];
         html += '<div class="bubble"><img src="' + ch[1] + '" alt=""><div class="txt"><b>' + ch[0] + '</b>' + esc(cat.comment) + '</div></div>';
       }
-      if (!cat.items || !cat.items.length) { html += '<div class="empty">今回は特に目立った新着情報なし</div></section>'; return; }
-      cat.items.forEach(function (it, ii) {
-        var mascot = ((ci + ii) % 3 === 0) ? CHAR[(ci + ii) % 2][1] : null;
-        html += '<div class="card">';
-        html += '<div class="banner">';
-        html += '<span class="service"><span class="ico">' + esc(cat.emoji) + '</span>' + esc(it.service || '') + '</span>';
-        html += '<div class="headline' + (mascot ? ' fit' : '') + '">' + esc(headline(it)) + '</div>';
-        if (it.period) html += '<span class="period">' + esc(it.period) + '</span>';
-        if (mascot) html += '<img class="mascot' + (/mame\.png/.test(mascot) ? ' round' : '') + '" src="' + mascot + '" alt="">';
-        html += '</div>';
-        html += '<div class="body">';
-        html += '<p class="name">' + esc(it.name) + '</p>';
+      if (!items.length) html += '<div class="empty">今回は特に目立った新着情報なし</div>';
+      items.forEach(function (it) {
+        var n = daysLeft(deadlineOf(it, today), today);
+        html += '<div class="card" id="i-' + esc(it.uid) + '"><div class="mini">';
+        html += '<div class="tile"><div class="h">' + esc(headline(it)) + '</div><div class="s">' + esc(it.service || '') + '</div></div>';
+        html += '<div class="body"><p class="name">' + esc(it.name) + ' ' + badgeFor(n) + '</p>';
         if (it.detail) html += '<p class="detail">' + esc(it.detail) + '</p>';
-        html += '<div class="meta">';
-        if (it.source_url) html += '出典: <a href="' + esc(safeUrl(it.source_url)) + '" target="_blank" rel="noopener">' + esc(it.source_name || 'リンク') + '</a>';
-        else if (it.source_name) html += '出典: ' + esc(it.source_name);
-        html += '</div>';
-        if (it.links && it.links.length) {
-          html += '<div class="links">';
-          it.links.forEach(function (l, li) { html += '<a class="' + (li ? '' : 'primary') + '" href="' + esc(safeUrl(l.url)) + '" target="_blank" rel="noopener">' + esc(l.label || '公式ページ') + ' →</a>'; });
-          html += '</div>';
-        }
-        if (it.mame_articles && it.mame_articles.length) {
-          html += '<div class="mame">';
-          it.mame_articles.forEach(function (a, ai) { html += '<a class="' + (ai ? 'sub' : '') + '" href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener">' + esc(a.label || 'まめの解説記事') + ' →</a>'; });
-          html += '</div>';
-        }
-        html += '</div></div>';
+        html += '<div class="meta">' + (it.period ? esc(it.period) + '　' : '') + srcHtml(it) + '</div>';
+        html += linksHtml(it);
+        html += '</div></div></div>';
       });
-      html += '</section>';
+      html += '</div></details>';
     });
-    content.innerHTML = html || '<div class="empty">データがありません</div>';
+
+    content.innerHTML = html;
     showNotes(data.notes);
+
+    function updProgress() {
+      var d = loadDone(day), c = picks.filter(function (p) { return d[p.uid]; }).length;
+      document.getElementById('progress').innerHTML = c === 3 ? '<b>3つ全部できた！今日のお得、コンプリート🎉</b>' : '今日のお得 <b>' + c + ' / 3</b> できた';
+    }
+    updProgress();
+    content.querySelectorAll('.todo .chk').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var card = el.closest('.card'), uid = card.getAttribute('data-uid'), d = loadDone(day);
+        if (d[uid]) delete d[uid]; else d[uid] = 1;
+        saveDone(day, d); card.classList.toggle('done', !!d[uid]); updProgress();
+      });
+    });
+    content.querySelectorAll('[data-jump]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        var t = document.getElementById('i-' + a.getAttribute('data-jump')); if (!t) return;
+        var det = t.closest('details'); if (det) det.open = true;
+        t.scrollIntoView({ behavior:'smooth', block:'center' }); t.classList.remove('flash'); void t.offsetWidth; t.classList.add('flash');
+      });
+    });
   }
 
   function showNotes(notes) {
