@@ -3,54 +3,123 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>今日のお得｜まめさん×ABCash</title>
+<title>今日のお得｜まめ×ABCash</title>
+<meta name="description" content="まめとえだまめくんの今日のお得。コンビニ・アプリクーポン・日用品の激安・もらえる・ポイント還元を毎朝自動でまとめてお届け。">
+<meta property="og:title" content="今日のお得｜まめ×ABCash">
+<meta property="og:description" content="毎朝7時に更新。今日使えるお得だけ、ぱっと見でわかるよ🧡">
+<meta name="theme-color" content="#fffaf4">
 <style>
   :root {
-    --bg: #f6f7f9; --card: #fff; --text: #1a1d23; --sub: #6b7280; --line: #e5e7eb;
-    --accent: #2f6df6; --mame: #b45309; --mame-bg: #fff7ed; --mame-line: #fcd9a6;
+    --ink:#493b36; --muted:#796b63; --accent:#af4d35; --cream:#fffaf4; --line:#e8d8cb; --page:#eee6df;
+    --green:#2f8f4e; --orange:#f08a2e;
   }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif; line-height: 1.7; -webkit-font-smoothing: antialiased; }
-  .wrap { max-width: 640px; margin: 0 auto; padding: 28px 16px 64px; }
-  header { text-align: center; margin-bottom: 22px; }
-  .collab { display: inline-block; background: var(--mame-bg); color: var(--mame); border: 1px solid var(--mame-line); border-radius: 999px; padding: 4px 14px; font-size: 12px; font-weight: 700; }
-  h1 { font-size: 24px; margin: 10px 0 4px; }
-  .updated { color: var(--sub); font-size: 13px; margin: 0; }
-  .updated.stale { color: #b45309; }
-  section { margin-top: 26px; }
-  h2 { font-size: 17px; margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; }
-  .name { font-weight: 700; font-size: 15px; margin: 0 0 4px; }
-  .service { color: var(--sub); font-weight: 500; font-size: 13px; }
-  .detail { font-size: 14px; margin: 0 0 8px; }
-  .meta { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12px; color: var(--sub); align-items: center; }
-  .period { background: #eef2ff; color: #3730a3; border-radius: 6px; padding: 2px 8px; font-weight: 600; }
-  .meta a { color: var(--sub); }
-  .mame { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-  .mame a { display: inline-block; background: var(--mame-bg); color: var(--mame); border: 1px solid var(--mame-line); border-radius: 8px; padding: 6px 12px; font-size: 13px; font-weight: 700; text-decoration: none; }
-  .empty { color: var(--sub); font-size: 14px; padding: 10px 2px; }
-  .notes { background: #fffbeb; border: 1px solid #fde68a; border-radius: 10px; padding: 12px 14px; font-size: 13px; color: #78350f; margin-top: 28px; }
-  .notes p { margin: 0 0 6px; }
-  .loading, .error { text-align: center; color: var(--sub); padding: 40px 0; font-size: 14px; }
-  footer { text-align: center; color: var(--sub); font-size: 12px; margin-top: 28px; }
-  footer a { color: var(--sub); }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:20px 8px 40px; background:var(--page); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.8; font-size:15px; -webkit-font-smoothing:antialiased; }
+  .wrap { background:var(--cream); border-radius:24px; max-width:760px; margin:auto; padding:26px 18px 40px; }
+  .topline { display:flex; justify-content:space-between; gap:10px; font-size:11px; letter-spacing:.12em; color:var(--muted); }
+
+  /* hero */
+  .hero { position:relative; margin:18px 0 8px; border-radius:20px; overflow:hidden; padding:24px 12px 118px; text-align:center;
+    background:
+      radial-gradient(circle at 8% 18%, #ffd9a6 0 46px, transparent 47px),
+      radial-gradient(circle at 92% 22%, #cfe9b8 0 40px, transparent 41px),
+      radial-gradient(circle at 18% 88%, #cfe9b8 0 34px, transparent 35px),
+      radial-gradient(circle at 84% 84%, #ffd9a6 0 52px, transparent 53px),
+      radial-gradient(circle at 50% 4%, #fff3d6 0 30px, transparent 31px),
+      linear-gradient(180deg,#fff9ee,#fff3e2); border:1px solid #f3e4d0; }
+  .hero .chars { display:flex; justify-content:space-between; align-items:flex-end; position:absolute; inset:auto 0 0 0; pointer-events:none; }
+  .hero .chars img { width:30%; max-width:140px; height:auto; display:block; }
+  .hero .chars img.mame { transform:translate(-4px,6px); }
+  .hero .chars img.eda { transform:translate(4px,8px); }
+  .hero .inner { position:relative; z-index:1; padding:0; }
+  .hero .eyebrow { display:inline-block; white-space:nowrap; background:var(--green); color:#fff; font-weight:800; font-size:13px; letter-spacing:.04em; padding:4px 14px; border-radius:999px; box-shadow:0 2px 0 #1f6b39; }
+  .hero h1 { margin:8px 0 6px; font-size:clamp(40px,14vw,68px); line-height:1.1; white-space:nowrap; font-weight:900; letter-spacing:.02em;
+    background:linear-gradient(180deg,#2f8f4e 0 48%,#f08a2e 52% 100%); -webkit-background-clip:text; background-clip:text; color:transparent;
+    filter:drop-shadow(2px 2px 0 #fff) drop-shadow(-2px -2px 0 #fff) drop-shadow(2px -2px 0 #fff) drop-shadow(-2px 2px 0 #fff) drop-shadow(0 4px 0 rgba(120,80,30,.18)); }
+  .hero .sub { display:inline-block; background:#fff; border:2px solid var(--orange); color:#b45309; font-weight:800; font-size:13px; padding:4px 14px; border-radius:999px; }
+  .hero .updated { position:relative; z-index:1; margin:12px 0 0; font-size:12px; color:var(--muted); }
+  .hero .updated.stale { color:#b45309; }
+  @media (max-width:420px){ .hero{ padding-bottom:104px; } .hero .chars img{ width:31%; } }
+
+  .intro { text-align:center; font-size:14px; margin:18px 0 6px; }
+  .nav { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:14px 0 26px; }
+  .nav a { text-decoration:none; background:#fff; border:1px solid var(--line); color:var(--ink); font-weight:700; font-size:13px; padding:7px 13px; border-radius:999px; }
+
+  section { margin-top:30px; scroll-margin-top:16px; }
+  .sec-head { display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+  .sec-head h2 { margin:0; font-size:21px; line-height:1.4; }
+  .sec-head .dot { width:12px; height:12px; border-radius:50%; background:var(--c,#999); flex:none; }
+  .bubble { display:flex; gap:10px; align-items:flex-start; margin:0 0 14px; }
+  .bubble img { width:46px; height:46px; border-radius:50%; object-fit:cover; background:#fff; border:2px solid #fff; box-shadow:0 2px 6px rgba(0,0,0,.08); flex:none; }
+  .bubble .txt { background:#fff3e6; border-radius:14px; padding:9px 13px; font-size:14px; position:relative; }
+  .bubble .txt b { display:block; font-size:11px; color:var(--muted); margin-bottom:2px; }
+  .bubble .txt:before { content:""; position:absolute; left:-7px; top:16px; border:7px solid transparent; border-right-color:#fff3e6; border-left:0; }
+
+  .card { background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; margin:0 0 16px; box-shadow:0 8px 24px rgba(103,67,38,.05); }
+  .banner { position:relative; padding:18px 16px 16px; color:#fff; min-height:132px; display:flex; flex-direction:column; justify-content:center; gap:6px;
+    background:
+      radial-gradient(circle at 92% 12%, rgba(255,255,255,.28) 0 38px, transparent 39px),
+      radial-gradient(circle at 6% 90%, rgba(255,255,255,.22) 0 30px, transparent 31px),
+      radial-gradient(circle at 78% 92%, rgba(255,255,255,.18) 0 22px, transparent 23px),
+      linear-gradient(135deg,var(--c1),var(--c2)); }
+  .banner:after { content:""; position:absolute; inset:8px; border:2px dashed rgba(255,255,255,.35); border-radius:14px; pointer-events:none; }
+  .banner .service { display:inline-flex; align-items:center; gap:6px; align-self:flex-start; background:rgba(255,255,255,.95); color:var(--ink); font-weight:800; font-size:12px; padding:3px 11px; border-radius:999px; position:relative; z-index:1; }
+  .banner .service span.ico { font-size:14px; }
+  .banner .headline { position:relative; z-index:1; font-size:clamp(30px,8.6vw,44px); line-height:1.15; font-weight:900; letter-spacing:.01em; color:#fff;
+    text-shadow:0 0 0 #fff, 2px 2px 0 var(--c3), -2px 2px 0 var(--c3), 2px -2px 0 var(--c3), -2px -2px 0 var(--c3), 0 5px 0 rgba(0,0,0,.18); word-break:keep-all; }
+  .banner .period { position:relative; z-index:1; display:inline-flex; align-self:flex-start; background:#fff; color:var(--c3); font-weight:800; font-size:12px; padding:3px 11px; border-radius:6px; }
+  .banner .mascot { position:absolute; right:10px; bottom:0; width:74px; height:auto; z-index:1; filter:drop-shadow(0 2px 3px rgba(0,0,0,.15)); }
+  .banner .mascot.round { bottom:10px; width:66px; height:66px; border-radius:50%; object-fit:cover; border:3px solid #fff; }
+  .banner .fit { padding-right:84px; }
+  .body { padding:14px 16px 16px; }
+  .name { font-weight:800; font-size:15px; margin:0 0 4px; line-height:1.5; }
+  .detail { font-size:14px; margin:0 0 8px; color:#5a4a44; }
+  .meta { font-size:12px; color:var(--muted); }
+  .meta a { color:var(--muted); }
+  .mame { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .mame a { display:inline-block; background:var(--accent); color:#fff; border-radius:10px; padding:9px 14px; font-size:13px; font-weight:800; text-decoration:none; }
+  .mame a.sub { background:#fff; color:var(--accent); border:1px solid var(--accent); }
+  .empty { color:var(--muted); font-size:14px; padding:6px 2px 0; }
+
+  .cat-conbini { --c:#2f7dd6; --c1:#5fa5f0; --c2:#2f7dd6; --c3:#1b579c; }
+  .cat-app     { --c:#7b4fd6; --c1:#a684ee; --c2:#7b4fd6; --c3:#54349c; }
+  .cat-daily   { --c:#2e9a5c; --c1:#6cc48d; --c2:#2e9a5c; --c3:#1f6d40; }
+  .cat-free    { --c:#e0673a; --c1:#ff9a6a; --c2:#e0673a; --c3:#a8441e; }
+  .cat-point   { --c:#c9931a; --c1:#f2c14e; --c2:#c9931a; --c3:#8c6410; }
+  .cat-crowdfunding { --c:#af4d35; --c1:#d4826c; --c2:#af4d35; --c3:#7a3223; }
+
+  .notes { background:#f3e9de; border-radius:14px; padding:14px 16px; font-size:13px; margin-top:30px; }
+  .notes p { margin:0 0 6px; } .notes p:last-child { margin:0; }
+  footer { text-align:center; color:var(--muted); font-size:12px; margin-top:26px; line-height:1.9; }
+  footer a { color:var(--muted); }
+  .loading, .error { text-align:center; color:var(--muted); padding:40px 0; font-size:14px; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="collab">まめさん × ABCash コラボ特典</div>
-    <h1>🎁 今日のお得</h1>
+  <div class="topline"><span>MAME × ABCASH</span><span>PR｜広告リンクを含みます</span></div>
+
+  <div class="hero">
+    <div class="inner">
+      <span class="eyebrow">まめとえだまめくんの</span>
+      <h1>今日のお得</h1>
+      <span class="sub">毎朝7時に自動更新✨</span>
+    </div>
     <p class="updated" id="updated">読み込み中…</p>
-  </header>
+    <div class="chars"><img class="mame" src="assets/mame.png" alt=""><img class="eda" src="assets/edamame.png" alt=""></div>
+  </div>
+
+  <p class="intro">「今日、これ使える！」だけを集めたよ🧡<br>気になるところからチェックしてね。</p>
+  <div class="nav" id="nav"></div>
 
   <div id="content"><div class="loading">お得情報を読み込んでいます…</div></div>
 
   <div class="notes" id="notes" hidden></div>
 
-  <footer>このページは2026年10月31日までの期間限定配信です。<br>情報は自動更新時点のものです。申込前に必ず公式サイトでご確認ください。<br>
-  不動産クラウドファンディングは元本割れの可能性があり、利回りは保証されません。<br>
-  まめさんの解説記事にはPRを含みます。／ <a href="https://mamesuke12.com" target="_blank" rel="noopener">まめの民泊とお金の話</a></footer>
+  <footer>このページは2026年10月31日までの期間限定配信です。<br>
+  情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、申込前にアプリや公式サイトでご確認ください。<br>
+  まめの解説記事にはPRを含みます。／ <a href="https://mamesuke12.com" target="_blank" rel="noopener">まめの民泊とお金の話</a></footer>
 </div>
 
 <script>
@@ -60,6 +129,7 @@
   var content = document.getElementById('content');
   var updated = document.getElementById('updated');
   var notesEl = document.getElementById('notes');
+  var nav = document.getElementById('nav');
 
   if (Date.now() > EXPIRES_AT.getTime()) {
     updated.textContent = '';
@@ -69,41 +139,62 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
   function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : '#'; }
+  function fmtDate(iso) { var d = new Date(iso); if (isNaN(d)) return iso; return (d.getMonth()+1)+'月'+d.getDate()+'日 '+d.getHours()+':'+('0'+d.getMinutes()).slice(-2)+' 更新'; }
 
-  function fmtDate(iso) {
-    var d = new Date(iso); if (isNaN(d)) return iso;
-    return (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + d.getHours() + ':' + ('0' + d.getMinutes()).slice(-2) + ' 更新';
+  var PATTERNS = [/最大\d+[%％](?:OFF|オフ|相当|還元)?/, /\d+[%％](?:OFF|オフ|還元|相当)/, /\d{1,3}(?:,\d{3})*円(?:分|引き|相当|OFF)?/, /1個買うと1個/, /無料(?:引換券|クーポン|宿泊券)?/, /[+＋]?\d+(?:\.\d+)?倍/, /\d+(?:,\d{3})*(?:ポイント|pt|マイル)/];
+  function headline(it) {
+    if (it.headline) return it.headline;
+    var t = (it.name || '') + ' ' + (it.detail || '');
+    for (var i = 0; i < PATTERNS.length; i++) { var m = t.match(PATTERNS[i]); if (m) return m[0]; }
+    return (it.name || '').slice(0, 10);
   }
+  var CHAR = [['まめ','assets/mame.png'], ['えだまめくん','assets/edamame.png']];
 
   function render(data) {
     if (!data.updated_at) {
       updated.textContent = 'まだ最初の更新が来ていません';
-      content.innerHTML = '<div class="empty">最初のリサーチは明日の朝に届きます。</div>';
+      content.innerHTML = '<div class="empty">最初のお得は明日の朝に届きます。</div>';
       showNotes(data.notes); return;
     }
     var age = (Date.now() - new Date(data.updated_at)) / 36e5;
     updated.textContent = fmtDate(data.updated_at);
     if (age > 48) { updated.classList.add('stale'); updated.textContent += '（少し前の情報です）'; }
 
+    var cats = data.categories || [];
+    nav.innerHTML = cats.map(function (c) { return '<a href="#cat-' + esc(c.id) + '">' + esc(c.emoji) + ' ' + esc(c.title) + '</a>'; }).join('');
+
     var html = '';
-    (data.categories || []).forEach(function (cat) {
-      html += '<section><h2>' + esc(cat.emoji) + ' ' + esc(cat.title) + '</h2>';
+    cats.forEach(function (cat, ci) {
+      var cls = 'cat-' + esc(cat.id);
+      html += '<section id="cat-' + esc(cat.id) + '" class="' + cls + '">';
+      html += '<div class="sec-head"><span class="dot"></span><h2>' + esc(cat.emoji) + ' ' + esc(cat.title) + '</h2></div>';
+      if (cat.comment) {
+        var ch = CHAR[ci % 2];
+        html += '<div class="bubble"><img src="' + ch[1] + '" alt=""><div class="txt"><b>' + ch[0] + '</b>' + esc(cat.comment) + '</div></div>';
+      }
       if (!cat.items || !cat.items.length) { html += '<div class="empty">今回は特に目立った新着情報なし</div></section>'; return; }
-      cat.items.forEach(function (it) {
+      cat.items.forEach(function (it, ii) {
+        var mascot = ((ci + ii) % 3 === 0) ? CHAR[(ci + ii) % 2][1] : null;
         html += '<div class="card">';
-        html += '<p class="name">' + esc(it.name) + (it.service ? ' <span class="service">（' + esc(it.service) + '）</span>' : '') + '</p>';
+        html += '<div class="banner">';
+        html += '<span class="service"><span class="ico">' + esc(cat.emoji) + '</span>' + esc(it.service || '') + '</span>';
+        html += '<div class="headline' + (mascot ? ' fit' : '') + '">' + esc(headline(it)) + '</div>';
+        if (it.period) html += '<span class="period">' + esc(it.period) + '</span>';
+        if (mascot) html += '<img class="mascot' + (/mame\.png/.test(mascot) ? ' round' : '') + '" src="' + mascot + '" alt="">';
+        html += '</div>';
+        html += '<div class="body">';
+        html += '<p class="name">' + esc(it.name) + '</p>';
         if (it.detail) html += '<p class="detail">' + esc(it.detail) + '</p>';
         html += '<div class="meta">';
-        if (it.period) html += '<span class="period">' + esc(it.period) + '</span>';
-        if (it.source_url) html += '<a href="' + esc(safeUrl(it.source_url)) + '" target="_blank" rel="noopener">出典: ' + esc(it.source_name || 'リンク') + '</a>';
-        else if (it.source_name) html += '<span>出典: ' + esc(it.source_name) + '</span>';
+        if (it.source_url) html += '出典: <a href="' + esc(safeUrl(it.source_url)) + '" target="_blank" rel="noopener">' + esc(it.source_name || 'リンク') + '</a>';
+        else if (it.source_name) html += '出典: ' + esc(it.source_name);
         html += '</div>';
         if (it.mame_articles && it.mame_articles.length) {
           html += '<div class="mame">';
-          it.mame_articles.forEach(function (a) { html += '<a href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener">▶ ' + esc(a.label || 'まめさんの解説記事') + '</a>'; });
+          it.mame_articles.forEach(function (a, ai) { html += '<a class="' + (ai ? 'sub' : '') + '" href="' + esc(safeUrl(a.url)) + '" target="_blank" rel="noopener">' + esc(a.label || 'まめの解説記事') + ' →</a>'; });
           html += '</div>';
         }
-        html += '</div>';
+        html += '</div></div>';
       });
       html += '</section>';
     });
@@ -120,10 +211,7 @@
   fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(render)
-    .catch(function () {
-      updated.textContent = '';
-      content.innerHTML = '<div class="error">読み込めませんでした。少し待ってから開き直してください。</div>';
-    });
+    .catch(function () { updated.textContent = ''; content.innerHTML = '<div class="error">読み込めませんでした。少し待ってから開き直してください。</div>'; });
 })();
 </script>
 </body>
