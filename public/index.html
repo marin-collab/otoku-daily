@@ -48,7 +48,7 @@
 
   <div class="notes" id="notes" hidden></div>
 
-  <footer>このページは2026年9月30日までの期間限定配信です。<br>情報は自動更新時点のものです。申込前に必ず公式サイトでご確認ください。<br>
+  <footer>このページは2026年10月31日までの期間限定配信です。<br>情報は自動更新時点のものです。申込前に必ず公式サイトでご確認ください。<br>
   不動産クラウドファンディングは元本割れの可能性があり、利回りは保証されません。<br>
   まめさんの解説記事にはPRを含みます。／ <a href="https://mamesuke12.com" target="_blank" rel="noopener">まめの民泊とお金の話</a></footer>
 </div>
@@ -56,14 +56,14 @@
 <script>
 (function () {
   var DATA_URL = 'https://raw.githubusercontent.com/marin-collab/otoku-daily/main/data/deals.json';
-  var EXPIRES_AT = new Date('2026-09-30T23:59:59+09:00');
+  var EXPIRES_AT = new Date('2026-10-31T23:59:59+09:00');
   var content = document.getElementById('content');
   var updated = document.getElementById('updated');
   var notesEl = document.getElementById('notes');
 
   if (Date.now() > EXPIRES_AT.getTime()) {
     updated.textContent = '';
-    content.innerHTML = '<div class="empty" style="text-align:center;padding:40px 0">このページの配信は<strong>2026年9月30日</strong>で終了しました。<br>ご利用ありがとうございました。</div>';
+    content.innerHTML = '<div class="empty" style="text-align:center;padding:40px 0">このページの配信は<strong>2026年10月31日</strong>で終了しました。<br>ご利用ありがとうございました。</div>';
     return;
   }
 
