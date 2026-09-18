@@ -15,12 +15,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: まめさんのブログから記事一覧を取得
+        env:
+          UA: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36"
         run: |
           set -e
-          curl -sSf --max-time 30 \
+          curl -sSf --max-time 30 -A "$UA" -H "Accept: application/json" -H "Accept-Language: ja,en;q=0.8" \
             "https://mamesuke12.com/wp-json/wp/v2/posts?categories=16&per_page=50&_fields=title,link,date" \
             -o /tmp/crowdfunding.json
-          curl -sSf -G --max-time 30 "https://mamesuke12.com/wp-json/wp/v2/posts" \
+          curl -sSf -G --max-time 30 -A "$UA" -H "Accept: application/json" -H "Accept-Language: ja,en;q=0.8" "https://mamesuke12.com/wp-json/wp/v2/posts" \
             --data-urlencode "search=HafH" --data-urlencode "per_page=5" \
             --data-urlencode "_fields=title,link,date" \
             -o /tmp/hafh.json
