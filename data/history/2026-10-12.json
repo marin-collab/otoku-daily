@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-10-12T07:10:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はセブンのコーヒーが狙い目だよ☕"},
+    {"who": "edamame", "text": "LINE開くだけで50%OFFくじ当たるよ！"},
+    {"who": "mame", "text": "花王の日用品もdポイント+20%だよ"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンのコーヒー、ポイント半額で引換できるよ☕", "items": [
+      {"name": "Vポイントおトク引換券(第1週)", "service": "セブン-イレブン(Vポイント)", "headline": "半額ポイントで引換", "detail": "Vポイントアプリの「景品交換」からセブンカフェのホット/アイスコーヒーR(各70ポイント)やセブンプレミアムのカフェラテ2種(各100ポイント)などの引換券を取得し、店頭でバーコードを提示すると交換できます。必要ポイントは商品価格のおおむね半額相当。各商品・各週とも先着2万名限定です。", "period": "交換10/7 14:00〜10/13 23:59・利用〜10/20", "deadline": "2026-10-13", "pick": {"rank": 1, "why": "明日13日23時59分で第1週分が終了するから"}, "source_name": "ケータイWatch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2143663.html", "links": [], "mame_articles": []},
+      {"name": "おかわりクーポン(おにぎり・寿司・弁当)", "service": "セブン-イレブン", "headline": "次回30円引き", "detail": "対象のおにぎり・寿司・弁当を1個買うと、次回使える30円引きのレシートクーポンが発券されます。複数購入すれば購入数分もらえ、そのクーポンでまた対象商品を買うと次のクーポンも発券されます。冷凍のおにぎり・寿司・弁当や麺類、グラタン・ドリアは対象外です。", "period": "10/15〜10/24購入・利用10/15〜10/31", "deadline": "2026-10-31", "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2145535.html", "links": [], "mame_articles": []},
+      {"name": "サントリー天然水きりっと果実→ピンクグレープフルーツ&マスカット無料引換券", "service": "ファミリーマート(ファミペイ)", "headline": "無料引換券", "detail": "「サントリー天然水 きりっと果実 2種のぶどう&もも」(600ml)を購入すると、「ピンクグレープフルーツ&マスカット」の無料引換券がもらえます。引換・利用期間は10/13〜10/19です。", "period": "10/13〜10/19", "deadline": "2026-10-19", "source_name": "ファミリーマート公式", "source_url": "https://www.family.co.jp/campaign/spot/famipay_1buy1.html", "links": [{"label": "ファミリーマート公式のキャンペーンページ", "url": "https://www.family.co.jp/campaign/spot/famipay_1buy1.html"}], "mame_articles": []},
+      {"name": "ファミペイクーポン(キリン おいしい免疫ケア)", "service": "ファミリーマート(ファミペイ)", "headline": "無料クーポン", "detail": "ファミペイに配信されたクーポンで、「キリン おいしい免疫ケア」「おいしい免疫ケア カロリーオフ」のいずれか1点に使える無料クーポンです。利用期間は10/13〜10/19(「+ダブルビタミン」は対象外)。", "period": "10/13〜10/19", "deadline": "2026-10-19", "source_name": "ファミリーマート公式", "source_url": "https://www.family.co.jp/campaign/spot/famipay_1buy1.html", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "LINE開くだけで今日はくじ日だよ🎰", "items": [
+      {"name": "Sukipass(10月分)", "service": "すき家(公式アプリ/店頭)", "headline": "70円引き", "detail": "牛丼・カレー・まぐろたたき丼が70円引きになる定期券型クーポン「Sukipass」。1枚200円で、店頭またはすき家公式アプリで購入できます。使用期間は10/1 9:00〜10/31 23:59です。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2144316.html", "links": [], "mame_articles": []},
+      {"name": "くるりんチャレンジ", "service": "LINEギフト", "headline": "50%OFFクーポン", "detail": "LINEアプリのショッピング内でルーレットを回すとその場で当たる企画。もれなく全員にLINEギフトの50%OFFクーポンが当たります。開催は月・水・金の11:00〜20:00(本日も開催日)。もらったクーポンの利用期限は獲得日から3日間です。", "period": "月・水・金 11:00〜20:00", "deadline": null, "pick": {"rank": 2, "why": "今日月曜の開催日。ボタン押すだけで50%OFF"}, "source_name": "懸賞マニア", "source_url": "https://ke-ma.net/113022/", "links": [{"label": "LINEギフト公式サイト", "url": "https://gift.line.me/"}], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "ストック品はAmazonの定期便でまとめ買いがお得🛒", "items": [
+      {"name": "定期おトク便のまとめ割引", "service": "Amazon", "headline": "最大15%OFF", "detail": "Amazon定期おトク便は通常10%OFFですが、同じお届け日に3点以上まとめて指定すると割引が上乗せされ最大15%OFFになります。米・水・トイレットペーパーなどのストック品のまとめ買いにおすすめです。", "period": "通年実施中", "deadline": null, "source_name": "appllio", "source_url": "https://appllio.com/amazon-scheduled-delivery-recommendation", "links": [], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "JAL Payは登録だけでポイントもらえるよ🎁", "items": [
+      {"name": "新規会員 初月メンバーシップ料金30%OFF", "service": "HafH", "headline": "初月30%OFF", "detail": "定額制で全国のホテルに泊まれるHafHが、入会時期にかかわらず初月のメンバーシップ料金全体を30%割引するキャンペーンを10月から実施予定です。詳しい開始日や条件は公式サイト・トピックスで案内されます。", "period": "2026年10月開始予定", "deadline": null, "source_name": "KabuK Style", "source_url": "https://dime.jp/company_news/detail/?pr=2714694", "links": [], "mame_articles": [{"label": "まめさんの解説記事", "url": "https://mamesuke12.com/hafh/"}]},
+      {"name": "JAL Pay新規入会キャンペーン", "service": "JAL Pay", "headline": "最大300pt", "detail": "JAL Payに新規入会し、Apple PayまたはGoogle Payに設定のうえ3,000円以上チャージすると、JALカード会員は300ポイント、その他のJMB会員は150ポイント(1ポイント=1円相当)がもらえます。応募は10/31までです。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "ちんぱんブログ", "source_url": "https://tinpanblog.com/jal-pay-new-member-campaign-2026-october31-guide/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "花王の日用品がdポイント+20%になるよ💰", "items": [
+      {"name": "5のつく日キャンペーン", "service": "楽天ペイ", "headline": "最大3%還元", "detail": "対象店舗で楽天ペイのコード・QR決済を利用すると、5のつく日(5日・15日・25日)に決済金額の最大3%の楽天ポイントが還元されます。エントリー不要。10月の対象日は10/15と10/25です。", "period": "9/5〜12/25(5のつく日)", "deadline": "2026-12-25", "source_name": "ITmedia Mobile", "source_url": "https://www.itmedia.co.jp/mobile/articles/2610/03/news012.html", "links": [], "mame_articles": []},
+      {"name": "花王対象商品購入でdポイント+20%還元", "service": "マツモトキヨシ・ココカラファイン", "headline": "+20%還元", "detail": "キャンペーンサイトからエントリーし、dポイントカードの利用者情報登録を済ませたうえで、対象の花王商品を1回1,500円(税込)以上購入すると、購入金額の20%相当のdポイント(期間・用途限定)が進呈されます。還元上限は1人3,000ポイント。期間中に合計3,500円以上購入すると100ポイントも別途もらえます。", "period": "〜10/31", "deadline": "2026-10-31", "pick": {"rank": 3, "why": "花王の日用品がエントリーだけで+20%還元"}, "source_name": "ケータイWatch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2145304.html", "links": [], "mame_articles": []}
+    ]},
+    {"id": "crowdfunding", "emoji": "🏢", "title": "不動産クラウドファンディング", "comment": "新しいファンドの募集が始まったよ🏢", "items": [
+      {"name": "FunFund 第17号(川崎市多摩区)", "service": "FunFund(フロンティアハウス)", "detail": "川崎市多摩区の1棟収益アパートが対象です。想定利回り年10.0%(年率・税引前)、運用期間は5ヶ月を予定しています。選考方式は抽選です。利回りは確定したものではなく、元本保証もありません。詳しくは記事リンク先でご確認ください。", "period": "募集10/9 17:00〜10/16 12:00", "deadline": "2026-10-16", "source_name": "PR TIMES", "source_url": "https://prtimes.jp/main/html/rd/p/000000115.000068760.html", "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。", "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"]
+}
