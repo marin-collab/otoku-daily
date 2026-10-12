@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-10-13T07:18:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "ファミマで今日から新企画スタート🎁"},
+    {"who": "edamame", "text": "スキャンするだけで無料クーポンもらえるよ"},
+    {"who": "mame", "text": "金麦の抽選、毎日挑戦できるよ🍺"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ファミペイ新企画、今日はスキャンだけ🎁", "items": [
+      {"name": "ファミペイを提示して1個買うと、1個もらえる(グリコ「アイスの実」・ロッテ「キシリトールガム」各種・アサヒ「ワンダ コクのカフェオレ」など)", "service": "ファミリーマート(ファミペイ)", "headline": "1個で1個無料", "detail": "ファミペイのバーコードを提示して対象商品を1個買うと、同シリーズの別商品と交換できる無料クーポンがもらえます。対象商品は配信期間ごとに入れ替わり、クーポンが反映されるまで数時間かかることがあります。", "period": "配信10/13〜10/19・利用10/20〜10/26", "deadline": "2026-10-19", "pick": {"rank": 1, "why": "今日から配信スタート。スキャンするだけで無料に"}, "source_name": "ファミリーマート公式サイト", "source_url": "https://www.family.co.jp/campaign/spot/famipay_1buy1.html", "links": [{"label": "ファミリーマート公式のキャンペーンページ", "url": "https://www.family.co.jp/campaign/spot/famipay_1buy1.html"}], "mame_articles": []},
+      {"name": "Vポイントおトク引換券(第2週・セブンカフェ/のむヨーグルトなど)", "service": "セブン-イレブン(Vポイント)", "headline": "半額ポイントで引換", "detail": "Vポイントアプリの「景品交換」から、セブンカフェのコーヒーR各種(70ポイント)やセブンプレミアムの「のむヨーグルト」(80ポイント)などの引換券を取得し、店頭でバーコードを提示すると交換できます。必要ポイントは商品価格のおおむね半額相当。各商品・各週とも先着2万名限定です。", "period": "交換10/14 14:00〜10/20 23:59", "deadline": "2026-10-20", "source_name": "ケータイWatch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2143663.html", "links": [], "mame_articles": []},
+      {"name": "お試し引換券(本日7時発券分)", "service": "ローソン(Ponta/dポイント)", "headline": "ポイントで半額引換", "detail": "ローソンアプリや店頭のLoppiで、Pontaポイントかdポイントを使って新商品などの引換券を発行できます。必要ポイントはおおむね商品価格の半額相当。本日10/13(火)7:00から新しい対象商品の発券が始まり、上限数に達すると終了するので早めがおすすめです(お酒を除く)。", "period": "本日7:00〜発券開始", "deadline": null, "source_name": "ローソン公式サイト", "source_url": "https://www.lawson.co.jp/ponta/tsukau/otameshi/oct/1346727_2591.html", "links": [{"label": "ローソン公式のお試し引換券ページ", "url": "https://www.lawson.co.jp/ponta/tsukau/otameshi/oct/1346727_2591.html"}], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "モスのマンスリークーポン忘れずに📱", "items": [
+      {"name": "マンスリークーポン", "service": "モスバーガー(公式アプリ)", "headline": "最大8%OFF", "detail": "モスバーガー公式アプリで毎月配信されるクーポンで、対象商品が3〜8%引きになります。エントリー不要、アプリのクーポン欄を会計時に提示するだけで使えます。", "period": "毎月更新", "deadline": null, "source_name": "ichioshi(NTTドコモ)", "source_url": "https://ichioshi.smt.docomo.ne.jp/articles/limited/37318", "links": [], "mame_articles": []},
+      {"name": "ドトールバリューカード チケットレストラン利用でVポイント付与", "service": "ドトールコーヒー(Edenred)", "headline": "毎回10pt", "detail": "ドトールグループの店舗で、福利厚生サービス「チケットレストラン」のICカードを使って支払うと、利用ごとにVポイントが10ポイント付与されます。勤務先がチケットレストランを導入している方が対象です。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "Edenred公式サイト", "source_url": "https://edenred.jp/notice/20261001", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "大きいお得は見つからず、また探すね🛒", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "金麦の無料引換、毎日挑戦してね🍺", "items": [
+      {"name": "ビールになった金麦 26万名様に当たる！", "service": "サントリー「金麦」(LINE応募・20歳以上限定)", "headline": "無料引換券", "detail": "【20歳以上限定】LINEでログインし初回アンケートに答えると、引換えたいコンビニを選んで抽選に参加できます。当たれば「金麦」か新発売の「金麦〈豊潤〉」350ml缶のどちらか1本のコンビニ無料引換クーポンが届きます。当たるまで1日1回挑戦可能。金麦はセブン-イレブン/ローソンストア100で引換え中、〈豊潤〉は明日10/14から引換え開始です。", "period": "応募〜11/4 23:59・引換〜11/9 23:59", "deadline": "2026-11-04", "pick": {"rank": 2, "why": "毎日挑戦できる抽選。20歳以上限定"}, "source_name": "サントリー公式キャンペーンサイト", "source_url": "https://kinmugi-cvs.campaign.suntory.co.jp/", "links": [{"label": "サントリー公式のLINE応募ページ", "url": "https://kinmugi-cvs.campaign.suntory.co.jp/"}], "mame_articles": []},
+      {"name": "新規登録+外食モニター1件完了で5,000Rポイント", "service": "ファンくる", "headline": "500円相当", "detail": "外食モニターサイト「ファンくる」に新規登録し、対象店舗での飲食モニター(食事をしてレシートやアンケートを提出)を1件完了すると、5,000Rポイント(500円相当)がもらえます。登録に特別なコードは不要です。", "period": "開催中", "deadline": null, "source_name": "ポイ活ブログ(りけいマイラー)", "source_url": "https://rikei-miler.com/fancrew", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ローソンでdポイント777倍に挑戦💰", "items": [
+      {"name": "抽選でdポイント最大777倍キャンペーン", "service": "dポイント(ローソン・ナチュラルローソン・ローソンストア100)", "headline": "抽選777倍", "detail": "エントリーのうえ、対象店舗でdポイントカードを提示して200円(税抜)以上買い物をすると抽選に参加できます。1等777倍(100名)、2等77倍(1,000名)、3等2倍(48,900名)が当たります。ポイントの進呈は12月末予定。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 3, "why": "買い物がそのまま抽選に。エントリーだけでOK"}, "source_name": "NTTドコモ公式発表", "source_url": "https://dxmagazine.jp/?p=224654", "links": [], "mame_articles": []},
+      {"name": "毎月最終日曜日 ポイント+10%還元", "service": "楽天ペイ(スーパー・ドラッグストア26社)", "headline": "最大10%還元", "detail": "ツルハドラッグ・サンドラッグ・西友・イトーヨーカドーなど対象店舗で、毎月最終日曜日に楽天ペイのコード・QR決済を使うと最大10%の楽天ポイントが還元されます(エントリー不要、1人1日2,000ポイント上限)。次回は10/25です。", "period": "8/30〜12/27(毎月最終日曜)", "deadline": "2026-12-27", "source_name": "楽天ペイ公式サイト", "source_url": "https://pay.rakuten.co.jp/", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+}
