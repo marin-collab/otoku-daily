@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-10-14T07:15:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "ローソンで「爽」が無料でもらえるよ🍨"},
+    {"who": "edamame", "text": "水曜日の今日はピザがLサイズ半額！"},
+    {"who": "mame", "text": "グーンはスギ薬局で+30%戻るよ"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "爽の無料引換券、見逃さないで🍨", "items": [
+      {"name": "「爽」アイス・新作「クラフトボス」無料引換券、ロッテのお菓子で「チョコパイ」クーポンも", "service": "ローソン", "headline": "無料引換券", "detail": "対象のロッテのお菓子を買うと「チョコパイ」に使えるクーポンがもらえるほか、「爽」のアイスや新作「クラフトボス」の無料引換券も登場中です。対象商品はローソンアプリのクーポン欄でチェックできます。利用は10/19まで。", "period": "〜10/19", "deadline": "2026-10-19", "pick": {"rank": 1, "why": "対象品買うだけで無料に。利用は10/19までで急いで"}, "source_name": "bg-mania.jp", "source_url": "https://bg-mania.jp/2026/10/13703546.html", "links": [], "mame_articles": []},
+      {"name": "セブンマイルクーポン(第2弾・セブンカフェ130円引換)", "service": "セブン-イレブン(セブンマイル)", "headline": "130円引換", "detail": "セブン‐イレブンアプリの対象クーポンをセブンマイル90マイルで交換すると、セブンカフェ(全サイズ)が130円(税込140.40円)で飲めます。先着25,000枚限定で、交換期間は10/13〜10/19、商品は10/14から使えます。交換後のマイル返還はできません。", "period": "交換10/13〜10/19", "deadline": "2026-10-19", "source_name": "san-tatsu.jp", "source_url": "https://san-tatsu.jp/pressrelease/559102/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "今日水曜はピザがお得な日🍕", "items": [
+      {"name": "半額ウェンズデー(デリバリーLサイズ50%OFF)", "service": "ドミノ・ピザ", "headline": "L50%OFF", "detail": "毎週水曜日、ドミノ・ピザのデリバリーでLサイズのピザが50%オフになります。公式サイト・アプリで対象ピザとクーポンコードを確認して注文時に入力します(対象ピザ・地域により内容が異なる場合があります)。", "period": "毎週水曜(デリバリー)", "deadline": null, "pick": {"rank": 3, "why": "水曜日の今日だけ。Lサイズがその場で半額に"}, "source_name": "ichioshi(NTTドコモ)", "source_url": "https://ichioshi.smt.docomo.ne.jp/articles/limited/27558", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "おむつ買うならスギ薬局が狙い目", "items": [
+      {"name": "グーン対象商品をd払いで購入するとdポイント+20%・+30%還元", "service": "スギ薬局グループ×グーン(d払い)", "headline": "+30%還元", "detail": "スギ薬局・スギドラッグなど対象店舗で大王製紙「グーン」のおむつ・おしりふきなどをd払い(コード決済)で購入すると、累計6,000円(税込)以上で+20%、8,000円(税込)以上で+30%のdポイント(期間・用途限定)が還元されます。1人あたりの還元上限は期間中2,500ポイント、オンライン購入は対象外です。", "period": "9/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "おむつ8,000円以上の購入で+30%戻る。今月末まで"}, "source_name": "NTTドコモ公式サイト(d払い)", "source_url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/daiouseishi_goon_2609_MI0177/", "links": [{"label": "d払い公式のキャンペーンページ", "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/daiouseishi_goon_2609_MI0177/"}], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "新規登録だけでポイントもらえるよ", "items": [
+      {"name": "新規登録でTOKYU POINT500pt、PASMO定期購入なら+10%還元", "service": "東急電鉄(TOKYU POINT)", "headline": "500pt+10%", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録するとTOKYU POINTが500ポイントもらえます。あわせて東急線のPASMO定期券を購入して登録すると、購入額の10%相当のポイントも還元されます(磁気定期券・バス定期券は対象外)。10月購入分の登録期限は10/31です。", "period": "9/14〜10/31", "deadline": "2026-10-31", "source_name": "東急電鉄公式サイト", "source_url": "https://www.tokyu.co.jp/company/information/detail/61846.html", "links": [{"label": "東急電鉄公式のキャンペーンページ", "url": "https://www.tokyu.co.jp/company/information/detail/61846.html"}], "mame_articles": []},
+      {"name": "トイレクリーナー(お試しサイズ)無料モニター50名", "service": "カウネット", "headline": "無料サンプル", "detail": "会員登録(無料)のうえ応募すると、抽選で50名にトイレ洗剤のお試しサイズ無料モニターが当たります。締め切りは10/19です。", "period": "〜10/19", "deadline": "2026-10-19", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/388395", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "タッチ決済だけで還元増えるよ💳", "items": [
+      {"name": "スマホのタッチ決済でコンビニ・飲食店最大7%還元", "service": "三井住友カード(Visaのタッチ決済/Mastercardタッチ決済)", "headline": "最大7%還元", "detail": "対象のコンビニ・飲食店で、スマートフォンのApple PayやGoogle PayでVisaのタッチ決済・Mastercard(R)タッチ決済を使って支払うと、通常還元に加えて最大7%相当のVポイントが還元されます。カード現物でのタッチ決済やiD、磁気取引は対象外です。", "period": "通年実施中", "deadline": null, "source_name": "三井住友カード公式サイト", "source_url": "https://www.smbc-card.com/camp/article_numberless/index_a.jsp", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+}
