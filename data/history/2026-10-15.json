@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-10-15T07:10:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はセブンの抽選、前半ラストだよ🎰"},
+    {"who": "edamame", "text": "アプリ開くだけ、参加してみて!"},
+    {"who": "mame", "text": "ウエル活は10/20までが大チャンス"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "アプリ開くだけで当たるかも🎰", "items": [
+      {"name": "セブン-イレブンアプリ「毎日抽選」キャンペーン", "service": "セブン-イレブン", "headline": "毎日抽選1等7名", "detail": "アプリで1日1回抽選に参加でき、1等は毎日7名(7のつく日は77名)に豪華賞品、2等は毎日1万名にセブンマイル1マイルが当たります。前半は本日10/15まで、後半は10/16〜31に実施。", "period": "〜10/31", "deadline": "2026-10-31", "pick": {"rank": 1, "why": "前半は今日が最終日。1日1回参加できるよ"}, "source_name": "セブン&アイ・ホールディングス公式", "source_url": "https://www.sej.co.jp/cmp/app_lottery2610/", "links": [{"label": "セブン-イレブン公式キャンペーンページ", "url": "https://www.sej.co.jp/cmp/app_lottery2610/"}], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "外食もアプリ提示でお得に!", "items": [
+      {"name": "PayPayクーポン(SRSグループ外食チェーン)", "service": "PayPay", "headline": "最大5%還元", "detail": "「和食さと」「うまい鮨勘」「にぎり長次郎」「家族亭」「宮本むなし」などで、1,000円以上の支払いで最大3%、2,000円以上で最大5%相当のPayPayポイントが還元されます。事前にPayPayアプリでクーポンの取得が必要です。", "period": "10/9〜10/22", "deadline": "2026-10-22", "pick": {"rank": 2, "why": "和食さとなど外食で最大5%戻る。〜10/22まで"}, "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2145625.html", "links": [], "mame_articles": []},
+      {"name": "楽天ペイ「ようこそ&おかえりキャンペーン」", "service": "楽天ペイ", "headline": "+500ポイント", "detail": "楽天ペイのコード決済が初めて、または久しぶりの方が対象。エントリーのうえ対象月の決済対象期間中に合計2,500円以上支払うと、楽天ポイント500ポイントがもらえます。エントリーは期間ごとに必要です。", "period": "エントリー受付〜12/31", "deadline": "2026-12-31", "source_name": "Payment Navi", "source_url": "https://paymentnavi.com/?p=181297", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "日用品は感謝祭の前に下見を", "items": [
+      {"name": "Amazonプライム感謝祭", "service": "Amazon", "headline": "本セール明日から", "detail": "プライム会員向けセール「プライム感謝祭」の先行セールが開催中。本セールは10/16〜19で、トイレットペーパーや詰め替え洗剤、コーヒー・お茶のまとめ買いなど日用品が狙い目です。欲しいものは先に「ほしい物リスト」に入れておくと見つけやすいです。", "period": "先行〜10/16、本セール10/16〜19", "deadline": "2026-10-19", "source_name": "Lifehacker Japan", "source_url": "https://www.lifehacker.jp/article/amazon-sale-prime-apprecation-list/", "links": [{"label": "Amazon公式サイト", "url": "https://www.amazon.co.jp/"}], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "参加するだけでチャンスあり", "items": [
+      {"name": "三井ショッピングパークカード《セゾン》新規入会キャンペーン", "service": "三井ショッピングパークカード(セゾン)", "headline": "5,000円相当", "detail": "新規入会で最大5,000円相当のポイントがもらえます。条件を満たすとさらに5,000円相当が追加されることも。ららぽーと等でよく買い物する方向けです。", "period": "〜10/18", "deadline": "2026-10-18", "pick": {"rank": 3, "why": "最大5,000円相当。10/18までの新規入会限定"}, "source_name": "SMBCカード公式", "source_url": "https://www.smbc-card.com/nyukai/campaign/26/cardinfo3010687.jsp", "links": [{"label": "三井ショッピングパークカード公式キャンペーンページ", "url": "https://www.smbc-card.com/nyukai/campaign/26/cardinfo3010687.jsp"}], "mame_articles": []},
+      {"name": "カネボウ化粧品「#推しKATE」キャンペーン", "service": "KATE(カネボウ化粧品)", "headline": "投稿するだけ", "detail": "X(旧Twitter)で「使ってみたい、または使ったことがあるKATEの商品」を指定ハッシュタグ「#推しKATE」を付けて投稿するだけで応募完了。会員登録不要です。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "koubo.jp", "source_url": "https://koubo.jp/article/125996", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ウエル活は今のうちがお得", "items": [
+      {"name": "三井住友カード Apple分割払いキャンペーン", "service": "三井住友カード(Vポイント)", "headline": "+500pt抽選10万pt", "detail": "対象の三井住友カードでエントリーし、Apple Storeオンラインで分割払い手数料無料プランを利用すると、もれなく500ポイントが進呈されます。さらに抽選で10名に10万ポイントが当たります。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/", "links": [], "mame_articles": []},
+      {"name": "ウエル活、上限引き下げ前の駆け込みチャンス", "service": "ウエルシア(WAON POINT)", "headline": "今だけ3万pt", "detail": "毎月20日の「お客様感謝デー」はWAON POINTの価値が1.5倍になりますが、11/20からは1日あたりの利用上限が3万ポイントから5千ポイントに大きく縮小される見込みです。大きな買い物でまとめて使いたい方は10/20が最後のチャンスになりそうです。", "period": "〜10/20(現行上限)", "deadline": "2026-10-20", "source_name": "お得情報まとめブログ", "source_url": "https://tinpanblog.com/?p=54880", "links": [], "mame_articles": []}
+    ]},
+    {"id": "crowdfunding", "emoji": "🏢", "title": "不動産クラウドファンディング", "comment": "今日は不動産クラファンの日", "items": [
+      {"name": "VIFA 25号(千葉県市川市の物件)", "service": "VIFA(レクストアセットマネジメント)", "detail": "想定利回り年7.26%(年率・税引前)。優先劣後方式を採用し、劣後出資によって投資家側のリスクを抑える仕組みのファンドです。千葉県市川市の物件が対象で、先着順の募集となっています。", "period": "募集 10/1〜(先着順・なくなり次第終了)", "source_name": "voix.jp", "source_url": "https://voix.jp/money/?p=33883", "links": [{"label": "VIFA公式サイト", "url": "https://ouchinosaiseifund-vifa.jp/"}], "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。", "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"]
+}
