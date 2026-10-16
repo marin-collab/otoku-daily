@@ -1,28 +1,188 @@
 {
-  "updated_at": "2026-10-16T07:20:00+09:00",
+  "updated_at": "2026-10-17T07:18:00+09:00",
   "dialogue": [
-    {"who": "mame", "text": "今日はセブンでおでん食べよ🍢"},
-    {"who": "edamame", "text": "レシート応募で乃木坂コラボも当たるよ！"},
-    {"who": "mame", "text": "贅沢搾りの無料券、LINEで今日から応募できるよ"}
+    {"who": "mame", "text": "今日は吉野家で牛丼100円引きだよ🍚"},
+    {"who": "edamame", "text": "ローソンストア100の焼き芋も今週まで!"},
+    {"who": "mame", "text": "かっぱ寿司はPayPayクーポンでお得✨"}
   ],
   "categories": [
-    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "おでん祭り、今日からだよ🍢", "items": [
-      {"name": "セブン-イレブン「おでん全品10%引きセール」", "service": "セブン-イレブン", "headline": "全品10%引き", "detail": "レジカウンターのおでんが全品10%引きになります(「セブンプレミアムおでん」と大盛りは対象外)。他の値引きキャンペーンとの併用はできませんが、クーポンとの併用はOK。対象は全国の店舗です。", "period": "10/16〜10/20", "deadline": "2026-10-20", "pick": {"rank": 1, "why": "今日から5日間限定、レジで言うだけでお得"}, "source_name": "Impress Watch(GourmetWatch)", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2145542.html", "links": [], "mame_articles": []},
-      {"name": "セブン-イレブン×乃木坂46コラボキャンペーン", "service": "セブン-イレブン", "headline": "800円で応募", "detail": "対象店舗でたばこを除く800円(税込)購入ごとにレシートのシリアルナンバーで応募できます。抽選で限定ライブ(2,000名)、直筆サイン入りマルチケース(1,000名)、スイーツ無料クーポンなどが当たります。購入期間は10/16〜10/31、応募は11/7まで。", "period": "購入10/16〜10/31(応募〜11/7)", "deadline": "2026-10-31", "source_name": "乃木坂46公式サイト", "source_url": "https://www.nogizaka46.com/s/n46/news/detail/102319", "links": [{"label": "乃木坂46公式サイトのキャンペーン告知", "url": "https://www.nogizaka46.com/s/n46/news/detail/102319"}], "mame_articles": []}
-    ]},
-    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "すき家でこっそり100円引き狙ってます", "items": [
-      {"name": "すき家公式アプリ「得すきクーポン」", "service": "すき家(公式アプリ)", "headline": "100円引き", "detail": "公式アプリ「得すきクーポン」で、ローストポーク丼・おんたまローストポーク丼などが100円引き(〜10/26)、Sukiシェイクが30円引き(〜10/31)になるクーポンが配信中です。アプリでクーポンを選んで会計時に提示するだけ。", "period": "〜10/26・10/31", "deadline": "2026-10-26", "pick": {"rank": 3, "why": "アプリ開くだけで100円引き、26日まで"}, "source_name": "Impress Watch(GourmetWatch)", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2146606.html", "links": [], "mame_articles": []}
-    ]},
-    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "ウエルシアはLINEだけでプチ得できるよ", "items": [
-      {"name": "ウエルシア公式LINE 友だち登録クーポン", "service": "ウエルシア(WAON POINT)", "headline": "1品10%OFF", "detail": "ウエルシアの公式LINEアカウントを友だち登録すると、対象商品1品が10%オフになるクーポンがもらえます。登録は無料で、レジでクーポン画面を見せるだけ使えます。", "period": "配布中(期間限定なし)", "deadline": null, "source_name": "LINEヤフー ビジネス活用事例", "source_url": "https://www.lycbiz.com/jp/case-study/line-flyer/welcia/", "links": [], "mame_articles": []}
-    ]},
-    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "お酒も証券口座も、今日はチャンスあり", "items": [
-      {"name": "アサヒビール公式LINE「贅沢搾りプレミアム」無料引換クーポン", "service": "アサヒビール(LINE・20歳以上限定)", "headline": "無料引換券", "detail": "アサヒビール公式LINEを友だち追加してアンケートに回答すると、その場の抽選で「アサヒ贅沢搾りプレミアム」350ml缶1本のコンビニ無料引換クーポンが当たります(抽選15万名、当たるまで1日1回応募可)。20歳以上の方限定です。", "period": "10/15 13:00〜10/28 10:00", "deadline": "2026-10-28", "pick": {"rank": 2, "why": "LINE開くだけ、20歳以上なら今日から挑戦"}, "source_name": "個人の懸賞情報ブログ", "source_url": "https://kojinabi.com/blog-entry-10931.html", "links": [], "mame_articles": []},
-      {"name": "kabu.com証券 新規口座開設+投信買付キャンペーン", "service": "kabu.com証券", "headline": "5,000円", "detail": "2026年10月1日以降に証券口座を新規開設し、投資信託の買付など対象取引を行うと、もれなく5,000円がもらえます。事前エントリーが必要で、キャンペーン期間は2027年3月31日までです。", "period": "10/1〜2027/3/31", "deadline": "2027-03-31", "source_name": "kabu.com証券公式", "source_url": "https://kabu.com/campaign/20261001_1.html", "links": [{"label": "kabu.com証券公式のキャンペーンページ", "url": "https://kabu.com/campaign/20261001_1.html"}], "mame_articles": []}
-    ]},
-    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ネットショッピングで当たるかもチェックしてね", "items": [
-      {"name": "三井住友カード「Vクーポン ネットショッピングキャンペーン」", "service": "三井住友カード(Vポイント)", "headline": "抽選1万pt", "detail": "Vpassにログインし対象カードでエントリーのうえ、Vクーポン経由で1,000円以上のネットショッピングをすると、抽選で1等300名に10,000ポイント、Wチャンスで5,000名に200ポイントが当たります。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "Impress Watch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2051333.html", "links": [], "mame_articles": []}
-    ]}
+    {
+      "id": "conbini",
+      "emoji": "🏪",
+      "title": "コンビニ・コンビニアプリ",
+      "comment": "焼き芋クーポンは今週がラストだよ🍠",
+      "items": [
+        {
+          "name": "紅はるか焼き芋Lサイズ 発売&引換券",
+          "service": "ローソンストア100",
+          "headline": "50円引き券",
+          "detail": "国産「紅はるか」の焼き芋Lサイズ(本体198円・税込214円)を買うと、次回の同商品購入に使える50円引き券がもらえます。秋の味覚をおトクに。",
+          "period": "発券10/14(水)〜10/20(火)・利用10/14〜10/27",
+          "deadline": "2026-10-20",
+          "pick": {"rank": 2, "why": "発券は10/20まで。焼き芋クーポンは今週がラスト"},
+          "source_name": "ベストカレンダー",
+          "source_url": "https://bestcalendar.jp/press/157600",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "title": "アプリクーポン",
+      "comment": "吉野家の牛丼100円引き、見逃さないで!",
+      "items": [
+        {
+          "name": "秋の牛丼フェス",
+          "service": "吉野家",
+          "headline": "牛丼100円引き",
+          "detail": "牛丼・牛丼弁当・牛皿・牛皿ファミリーパックなどが通常価格より税込100円引きに。店内で食事すると「牛すき鍋膳」に使える50円引きクーポン2枚なども貰えます(数量限定・なくなり次第終了)。朝牛セットやデリバリーは対象外。",
+          "period": "10/15(木)11:00〜10/21(水)15:00",
+          "deadline": "2026-10-21",
+          "pick": {"rank": 1, "why": "今日から使える。牛丼が今週だけ100円引き"},
+          "source_name": "吉野家公式発表(各メディア報道)",
+          "source_url": "https://www.yoshinoya.com/",
+          "links": [{"label": "吉野家公式サイト", "url": "https://www.yoshinoya.com/"}],
+          "mame_articles": []
+        },
+        {
+          "name": "松屋 PayPayくじキャンペーン",
+          "service": "松屋(松弁ネット・松弁デリバリー・モバイルオーダー)",
+          "headline": "抽選で全額還元",
+          "detail": "松弁ネット・デリバリー・モバイルオーダーで800円以上をPayPay払いすると抽選くじが引けます。1等なら決済額の100%分のPayPayポイントが戻ることも(上限10万ポイント)。全員対象の最大10%還元クーポンもあります。",
+          "period": "10/1(木)0:00〜10/31(土)23:59",
+          "deadline": "2026-10-31",
+          "source_name": "PayPay公式",
+          "source_url": "https://paypay.ne.jp/event/matsuya-20261001/",
+          "links": [{"label": "PayPay公式キャンペーンページ", "url": "https://paypay.ne.jp/event/matsuya-20261001/"}],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "emoji": "🛒",
+      "title": "日用品・食品の激安",
+      "comment": "お水のまとめ買いは今がチャンス💧",
+      "items": [
+        {
+          "name": "Amazonの富士山の天然水 500ml×24本",
+          "service": "Amazon",
+          "headline": "14%OFF",
+          "detail": "「Amazonの富士山の天然水」500ml×24本が通常価格より14%OFFの1,180円。定期おトク便を選ぶとさらに安い1,121円に。飲料のストックにおすすめです。",
+          "period": "開催中(価格は変動あり)",
+          "deadline": null,
+          "source_name": "Car Watch",
+          "source_url": "https://car.watch.impress.co.jp/docs/series/sale/2146299.html",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "5%オフデー",
+          "service": "西友",
+          "headline": "5%OFF",
+          "detail": "毎月5日・20日は、西友・LIVINセゾンカードなどのセゾン系カードで支払うと買い物が5%オフになる「5%オフデー」。次回は10/20(火)。日用品のまとめ買いに。",
+          "period": "毎月5日・20日(次回10/20)",
+          "deadline": "2026-10-20",
+          "source_name": "お得情報まとめ",
+          "source_url": "",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "free",
+      "emoji": "🎁",
+      "title": "無料・もらえる",
+      "comment": "HafHガチャは半分当たるってお得だね!",
+      "items": [
+        {
+          "name": "夏ガチャ祭",
+          "service": "HafH",
+          "headline": "宿泊券ガチャ半額",
+          "detail": "挑戦すると1/2の確率で宿泊コインや宿泊券が当たる「夏ガチャ祭」を開催中。新規登録なら初月の会員費が割引になる特典もあります。",
+          "period": "〜10/31(土)23:59",
+          "deadline": "2026-10-31",
+          "source_name": "旅行系ニュースまとめ",
+          "source_url": "https://hafh.com/",
+          "links": [{"label": "HafH公式サイト", "url": "https://hafh.com/"}],
+          "mame_articles": [{"label": "まめさんの解説記事", "url": "https://mamesuke12.com/hafh/"}]
+        },
+        {
+          "name": "招待コード新規登録キャンペーン",
+          "service": "メルカリ",
+          "headline": "500ポイント",
+          "detail": "新規登録のときに招待コードを入力すると500ポイントがもらえます。登録後からは入力できないので、登録前に忘れずに。",
+          "period": "常時開催",
+          "deadline": null,
+          "source_name": "ポイ活まとめ記事",
+          "source_url": "",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "30日間無料体験",
+          "service": "Audible(Amazon)",
+          "headline": "30日間無料",
+          "detail": "初めて登録する人は30日間無料でオーディオブックが聴き放題。気に入らなければ期間内に解約すれば料金はかかりません。",
+          "period": "常時開催",
+          "deadline": null,
+          "source_name": "Audible公式",
+          "source_url": "https://www.audible.co.jp/",
+          "links": [{"label": "Audible公式サイト", "url": "https://www.audible.co.jp/"}],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "point",
+      "emoji": "💰",
+      "title": "ポイント・キャッシュレス還元",
+      "comment": "かっぱ寿司はPayPayでポイント還元🍣",
+      "items": [
+        {
+          "name": "PayPayクーポンキャンペーン",
+          "service": "かっぱ寿司",
+          "headline": "最大7%還元",
+          "detail": "PayPayアプリで事前にクーポンを取得し、税込5,000円以上をPayPayで払うと最大7%還元(1,000円以上で3%、3,000円以上で5%)。一部改装・休業中店舗などは対象外。",
+          "period": "10/1(木)〜10/31(土)",
+          "deadline": "2026-10-31",
+          "pick": {"rank": 3, "why": "出前前にクーポン取得で最大7%戻ってくる"},
+          "source_name": "San-tatsu",
+          "source_url": "https://san-tatsu.jp/pressrelease/558250/",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "東京ポイント交換キャンペーン",
+          "service": "三井住友カード×Vポイント",
+          "headline": "タッチ決済20%還元",
+          "detail": "「東京ポイント」をVポイントに交換(100pt以上)し、VポイントPayアプリでSMBCグループIDと連携してスマホのタッチ決済で支払うと、合計利用額の20%分のVポイントが還元されます(上限1,100pt)。東京都民向け。",
+          "period": "10/1(木)〜10/31(土)",
+          "deadline": "2026-10-31",
+          "source_name": "DXマガジン",
+          "source_url": "https://dxmagazine.jp/?p=225022",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "d払い 地域還元キャンペーン",
+          "service": "d払い(青森市・白山市・栗原市・彦根市・中津川市・長野市・広島県・北杜市)",
+          "headline": "抽選で100%還元",
+          "detail": "対象の地域・商店街で「d払い」(コード決済)で支払うと、抽選で1等は決済額の100%、2等は50%、3等は10%、4等は1%のdポイント(期間・用途限定)が戻ります。上限は1回・期間とも3万ポイント。エントリー不要。",
+          "period": "10/1(木)〜10/31(土)",
+          "deadline": "2026-10-31",
+          "source_name": "NTTドコモ・フィナンシャルグループ",
+          "source_url": "https://www.docomo.ne.jp/binary/pdf/info/news_release/docomofg/20260930151000.pdf",
+          "links": [{"label": "ドコモ公式リリース(PDF)", "url": "https://www.docomo.ne.jp/binary/pdf/info/news_release/docomofg/20260930151000.pdf"}],
+          "mame_articles": []
+        }
+      ]
+    }
   ],
-  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
 }
