@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-10-18T07:17:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日は楽天市場の感謝デーだよ✨"},
+    {"who": "edamame", "text": "ポイント最大4倍、エントリーだけでOK!"},
+    {"who": "mame", "text": "20日はイオンとウエル活も見てね"}
+  ],
+  "categories": [
+    {
+      "id": "conbini",
+      "emoji": "🏪",
+      "title": "コンビニ・コンビニアプリ",
+      "comment": "セブンマイル、20日の交換開始が楽しみだね🍊",
+      "items": [
+        {
+          "name": "セブンマイル クーポンキャンペーン(第3弾)",
+          "service": "セブン-イレブン(セブンマイル)",
+          "headline": "70マイルで交換",
+          "detail": "セブンマイルを70マイル使うと、セブンプレミアムの「アップル果汁100%」または「オレンジ果汁100%」(200ml・118円/税込127.44円)が無料クーポンに交換できます。交換は先着20,000枚限定で、なくなり次第終了です。",
+          "period": "交換10/20(火)10:00〜10/26(月)23:59・利用10/21〜11/3",
+          "deadline": "2026-10-26",
+          "pick": {"rank": 2, "why": "20日から交換開始。マイル残高を今日のうちにチェック"},
+          "source_name": "san-tatsu.jp",
+          "source_url": "https://san-tatsu.jp/pressrelease/559102/",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "title": "アプリクーポン",
+      "comment": "マツキヨのLINEクーポン、今日もチェックしてね💊",
+      "items": [
+        {
+          "name": "公式LINE友だち限定クーポン",
+          "service": "マツモトキヨシ・ココカラファイン",
+          "headline": "10%OFF+10倍",
+          "detail": "マツキヨココカラのLINE公式アカウントを友だち追加しておくと、毎月初旬・中旬・下旬の3回、医薬品・化粧品が10%OFFになるクーポンや、日用品がポイント10倍になるクーポンが届きます。登録は無料です。",
+          "period": "毎月3回配布中",
+          "deadline": null,
+          "source_name": "ペイルート",
+          "source_url": "https://pay-route.co.jp/article/?p=4881",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "週トククーポン",
+          "service": "ツルハドラッグ(公式アプリ)",
+          "headline": "毎週届くクーポン",
+          "detail": "ツルハの公式アプリ「週トク」タブでは、一人ひとりに合わせたお得なクーポンが毎週月曜日に配信されます。ポイントもアプリでたまるので、来店前にアプリを開いてチェックするのがおすすめです。",
+          "period": "毎週月曜更新",
+          "deadline": null,
+          "source_name": "ペイルート",
+          "source_url": "https://pay-route.co.jp/article/?p=4881",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "emoji": "🛒",
+      "title": "日用品・食品の激安",
+      "comment": "業務スーパーは秋の総力祭やってるよ🛒",
+      "items": [
+        {
+          "name": "秋の総力祭セール",
+          "service": "業務スーパー",
+          "headline": "総力祭セール中",
+          "detail": "業務スーパーで年2回開催される大型セール「総力祭」の秋の回を実施中。食品や日用品がお買い得価格になります。対象商品や割引額は店舗・地域によって異なるので、お近くの店舗のチラシでご確認ください。",
+          "period": "10/1〜10/31(店舗により異なる)",
+          "deadline": "2026-10-31",
+          "source_name": "トクバイ",
+          "source_url": "https://tokubai.co.jp/prefectures/11/loconavi_spots/14206/leaflet",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "お客さま感謝デー",
+          "service": "イオン・マックスバリュなど(WAON・イオンカード)",
+          "headline": "5%OFF",
+          "detail": "毎月20日・30日は、イオンカードのクレジット払いか電子マネーWAONで支払うと、買い物代金が5%OFFになります。日用品や食品のまとめ買いにおすすめです。次回は10/20(火)。",
+          "period": "毎月20日・30日(次回10/20)",
+          "deadline": "2026-10-20",
+          "source_name": "pricey.jp",
+          "source_url": "https://www.pricey.jp/web/articles/7102",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "free",
+      "emoji": "🎁",
+      "title": "無料・もらえる",
+      "comment": "ウーバーの紹介コード、知らないと損だよ🍔",
+      "items": [
+        {
+          "name": "友達紹介コードで初回4回分割引",
+          "service": "Uber Eats",
+          "headline": "1,500円引き",
+          "detail": "友達紹介コードを使って新規登録すると、初めての注文から4回分の注文に使える1,500円引きクーポンがもらえます(クーポンは登録から28日間有効・キャッシュレス決済が対象)。",
+          "period": "常時開催",
+          "deadline": null,
+          "pick": {"rank": 3, "why": "コード入力だけで初回4回分1,500円引きに"},
+          "source_name": "appllio.com",
+          "source_url": "https://appllio.com/uber-eats-coupon",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "口座開設キャンペーン",
+          "service": "楽天銀行",
+          "headline": "最大2,000円",
+          "detail": "楽天銀行の口座を新規開設し、エントリーのうえ各種条件を達成すると、現金最大2,000円がもらえます。普段使いの銀行として検討している方におすすめです。",
+          "period": "常時開催",
+          "deadline": null,
+          "source_name": "おかねの健康",
+          "source_url": "https://okane-kenko.jp/media/bank-campaign/",
+          "links": [],
+          "mame_articles": []
+        }
+      ]
+    },
+    {
+      "id": "point",
+      "emoji": "💰",
+      "title": "ポイント・キャッシュレス還元",
+      "comment": "今日は楽天市場のご愛顧感謝デーだよ✨",
+      "items": [
+        {
+          "name": "ご愛顧感謝デー",
+          "service": "楽天市場",
+          "headline": "最大4倍",
+          "detail": "毎月18日は「ご愛顧感謝デー」。事前エントリーのうえ買い物をすると、会員ランクに応じてポイントが上乗せされます(ダイヤモンド会員は最大4倍、プラチナ会員3倍、ゴールド会員2倍)。税抜33,333円の買い物まで、上限1,000ポイントです。",
+          "period": "毎月18日0:00〜23:59(本日開催)",
+          "deadline": "2026-10-18",
+          "pick": {"rank": 1, "why": "今日だけポイント最大4倍。エントリーだけでOK"},
+          "source_name": "appllio.com",
+          "source_url": "https://appllio.com/rakuten-thanks-day-campaign",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "「マスマスお得な秋!」新規入会キャンペーン",
+          "service": "三井住友カード",
+          "headline": "最大5,000円相当",
+          "detail": "対象カードに新規入会し、期間中にエントリーと「三井住友カードレター」の配信登録をすると、三井住友カード(NL)は2,000円相当、ゴールド(NL)は5,000円相当のVポイントがもらえます。",
+          "period": "10/14〜11/30",
+          "deadline": "2026-11-30",
+          "source_name": "DXマガジン",
+          "source_url": "https://dxmagazine.jp/?p=225908",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "Samsung Payタッチ決済キャンペーン",
+          "service": "三井住友カード(Vポイント)",
+          "headline": "1,000pt",
+          "detail": "対象の三井住友カードをSamsung Payに登録し、Visaのタッチ決済で合計5,000円以上支払うと、初めて使う方は1,000ポイント、過去に利用経験がある方も500ポイントがもらえます。エントリー不要です。",
+          "period": "10/1〜10/31",
+          "deadline": "2026-10-31",
+          "source_name": "ケータイWatch",
+          "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2145341.html",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "dポイント大還元祭 総額1億円山分けキャンペーン",
+          "service": "dポイント(NTTドコモ)",
+          "headline": "山分けに参加",
+          "detail": "エントリーのうえdポイント加盟店で買い物をすると口数が貯まり、11月・12月それぞれの期間で総額5,000万ポイントを山分けします。1口あたりの進呈上限は10ポイント、口数上限は各期間15口です。エントリーは一度で両期間とも対象になります。",
+          "period": "エントリー10/15〜12/31(山分けは11月・12月)",
+          "deadline": "2026-12-31",
+          "source_name": "Payment Navi",
+          "source_url": "https://paymentnavi.com/?p=177104",
+          "links": [],
+          "mame_articles": []
+        },
+        {
+          "name": "自治体キャッシュレス還元キャンペーン",
+          "service": "PayPay(沖縄県宮古島市)",
+          "headline": "最大25%還元",
+          "detail": "宮古島市内の対象店舗でPayPay払いをすると、最大25%のPayPayポイントが還元されます。期間中の上限は8,000ポイントです。帰省や旅行で訪れる方もお得に使えます。",
+          "period": "10/1〜12/31",
+          "deadline": "2026-12-31",
+          "source_name": "PayPay公式・tinpanblog",
+          "source_url": "https://paypay.ne.jp/notice/20261015/cp-jichitai/",
+          "links": [{"label": "PayPay公式のお知らせページ", "url": "https://paypay.ne.jp/notice/20261015/cp-jichitai/"}],
+          "mame_articles": []
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
+}
