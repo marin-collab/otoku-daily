@@ -1,0 +1,31 @@
+{
+  "updated_at": "2026-10-20T07:15:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はアサヒの応募、午前9時59分までだよ🍺"},
+    {"who": "edamame", "text": "セブンのおにぎり、1個でクーポンもらえるよ!"},
+    {"who": "mame", "text": "京王線ならタッチ決済だけで特典9倍だよ"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンのレシートクーポン、月末まで使えるよ🍙", "items": [
+      {"name": "おかわりクーポン", "service": "セブン-イレブン", "headline": "1個で30円引", "detail": "対象のおにぎり・寿司・弁当を1個買うと、次回使える30円引きのレシートクーポンが発券されます。クーポンでまた対象商品を買えば、さらに次のクーポンがもらえる仕組みです(冷凍のおにぎり・寿司・弁当、麺類・グラタン・ドリアは対象外)。", "period": "発券10/15〜24・利用10/15〜31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "買うだけで次が30円引き。今月末まで使える"}, "source_name": "Impress Watch(GourmetWatch)", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2145535.html", "links": [], "mame_articles": []},
+      {"name": "ウチカフェ どらもっち 無料引換券", "service": "ローソン(公式アプリ)", "headline": "無料引換券", "detail": "ローソン公式アプリにPontaまたはdポイントカードを連携しておくと、10/23(金)16:00〜10/25(日)の3日間、「ウチカフェ どらもっち(あんこ&ホイップ)」の無料引換券がアプリのクーポン欄に届く予定です。先着40万人で、なくなり次第終了します。", "period": "10/23 16:00〜10/25(先着40万人)", "deadline": "2026-10-25", "source_name": "iPhone Mania", "source_url": "https://iphone-mania.jp/news-414757/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "ロッテリアのポテト、LINEクーポンでお得に", "items": [
+      {"name": "チケットレストラン利用でVポイントプレゼント", "service": "ドトールコーヒーグループ", "headline": "+10pt", "detail": "ドトールコーヒーグループの店舗で「チケットレストラン」を使って支払うと、もれなくVポイント10ポイントがプレゼントされます。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "エデンレッド公式", "source_url": "https://edenred.jp/notice/20261001", "links": [], "mame_articles": []},
+      {"name": "ふるポテ(バターしょうゆ味) LINEクーポン", "service": "ロッテリア(LINE)", "headline": "20円引き", "detail": "LINEの「ウォレット」から取得できるクーポンで、「ふるポテ(バターしょうゆ味)」が通常350円(税込)から330円に。LINEを開いて提示するだけで使えます。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "All About", "source_url": "https://news.allabout.co.jp/articles/o/103004/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "日用品は今のうちにストック確認しておこうね🧺", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "アサヒの応募、午前9時59分までだから急いで!", "items": [
+      {"name": "アサヒスーパードライ ドライクリスタル 無料引換クーポン", "service": "アサヒビール(20歳以上限定)", "headline": "無料引換券", "detail": "対象ページから応募すると、抽選で405,000名に「アサヒスーパードライ ドライクリスタル」のコンビニ無料引換クーポンが当たります。応募は本日10/20(火)午前9:59までで、20歳以上の方限定です。", "period": "応募〜10/20 AM9:59", "deadline": "2026-10-20", "pick": {"rank": 1, "why": "今日午前9:59締切。応募だけで缶ビールが当たる"}, "source_name": "懸賞情報サイト(knshow.com)", "source_url": "https://www.knshow.com/keyword/%E3%83%93%E3%83%BC%E3%83%AB%E5%88%B8/", "links": [], "mame_articles": []},
+      {"name": "パーフェクトサントリービール×VIVANT QUOカードキャンペーン", "service": "サントリー(20歳以上限定)", "headline": "3,000円分", "detail": "対象の「パーフェクトサントリービール」のレシートまたはLINEから応募すると、抽選でQUOカード3,000円分が当たります。20歳以上の方限定です。", "period": "〜10/30", "deadline": "2026-10-30", "source_name": "懸賞情報サイト(tokaikensyo.com)", "source_url": "https://tokaikensyo.com/sweepstakes/goods/sake-matome/", "links": [], "mame_articles": []},
+      {"name": "口座開設+マネーブリッジ連携キャンペーン", "service": "楽天証券×楽天銀行", "headline": "1,000円", "detail": "楽天証券で口座を開設し、楽天銀行とマネーブリッジを連携(楽天銀行へ5万円以上入金)すると、現金1,000円がもらえます。楽天証券の公式サイトからの同時申込みとキャンペーンへのエントリーが必要です。", "period": "〜10/30", "deadline": "2026-10-30", "source_name": "楽天証券公式", "source_url": "https://www.rakuten-sec.co.jp/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "京王線など使う人はタッチ決済だけでお得だよ", "items": [
+      {"name": "乗車で貯まるVポイント スタート記念10倍キャンペーン", "service": "Vポイント(京王電鉄・つくばエクスプレス・ゆりかもめ・江ノ島電鉄)", "headline": "+9倍", "detail": "対象のVisaタッチ決済カードで「クレカ乗車」をすると、通常の乗車ポイントに加えて9倍分のVポイントが特典として進呈されます(通常分と合わせて実質10倍)。エントリー不要ですが、Vポイント利用手続きなど事前準備が必要です。特典は2027年1月末に進呈予定(江ノ島電鉄はバスを除く鉄道のみ対象)。", "period": "10/7〜12/30", "deadline": "2026-12-30", "pick": {"rank": 3, "why": "タッチ決済するだけ。京王線など4社で+9倍"}, "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002178.pdf", "links": [], "mame_articles": []},
+      {"name": "京王線・井の頭線 タッチ決済キャンペーン", "service": "三井住友カード(Vポイント)", "headline": "10%還元", "detail": "対象の三井住友カードでApple Pay・Google Pay・Samsung Payのタッチ決済を使って京王線・井の頭線に乗車すると、合計利用額200円ごとに10%のVポイントが還元されます(上限1,000ポイント)。コーポレートカードやデビット・プリペイドは対象外です。", "period": "10/7〜11/7", "deadline": "2026-11-07", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224858.jsp", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
+}
