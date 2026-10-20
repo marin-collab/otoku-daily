@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-10-21T07:15:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はセブン寄ってね🍫"},
+    {"who": "edamame", "text": "スティックチョコ買うとガルボ無料だよ!"},
+    {"who": "mame", "text": "金麦のLINE懸賞も今日やっとこ"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンとローソン、今日は見逃せないよ🍫", "items": [
+      {"name": "ガルボ・ポテトチップスなど無料引換券(1個買うと1個)", "service": "セブン-イレブン", "headline": "1個買うと1個", "detail": "明治のスティックチョコなど対象商品を1個買うと、ガルボやポテトチップスの無料引換券がもらえます。購入期限は本日10/21まで、引換は10/22〜11/4です。", "period": "購入10/15〜10/21・引換10/22〜11/4", "deadline": "2026-10-21", "pick": {"rank": 1, "why": "今日が購入期限。買うだけでガルボ等が無料に"}, "source_name": "ポイ探ニュース", "source_url": "https://pex.jp/point_news/c4c613be9c7cddd2cc22a853a05774c2", "links": [], "mame_articles": []},
+      {"name": "綾鷹 濃い緑茶/いろはす 無料引換券", "service": "セブン-イレブン", "headline": "1本で無料券", "detail": "対象の綾鷹(650ml)かいろはす(1020ml)を1本買うと、無料引換券がもらえます。10/26まで実施中です。", "period": "〜10/26", "deadline": "2026-10-26", "source_name": "ポイ探ニュース", "source_url": "https://pex.jp/point_news/8105fcb63dcd2c42469d3159da0485b9", "links": [], "mame_articles": []},
+      {"name": "セブンカフェ セレクトブレンド 30円引き", "service": "セブン-イレブン", "headline": "30円引き", "detail": "セブンカフェのセレクトブレンドコーヒーが30円引きになります。10/21から10/31までの期間限定です。", "period": "10/21〜10/31", "deadline": "2026-10-31", "source_name": "ポイ探ニュース", "source_url": "https://pex.jp/point_news/8105fcb63dcd2c42469d3159da0485b9", "links": [], "mame_articles": []},
+      {"name": "「おいしい免疫ケア」「三ツ矢特濃」無料引換券", "service": "ローソン", "headline": "無料引換券", "detail": "対象のドリンクを買うと無料引換券がもらえるキャンペーンです。10/26まで利用できます。", "period": "〜10/26", "deadline": "2026-10-26", "source_name": "コンビニ各社セール・キャンペーン情報まとめ", "source_url": "https://kojinabi.com/blog-entry-4446.html", "links": [], "mame_articles": []},
+      {"name": "クラフトボス購入でpovoデータ0.1GB+抽選", "service": "ローソン×povo(サントリー)", "headline": "povoギガ無料", "detail": "ローソンでサントリー「クラフトボス」(ブラック/ラテ/甘くないイタリアーノ)のシール付き商品を買い、プロモコードを入力すると全員に0.1GB、抽選で30GBやデータ使い放題も当たります。ローソンストア100・Lミニマートは対象外。11/30まで。", "period": "10/5〜11/30", "deadline": "2026-11-30", "source_name": "povo公式ニュースリリース", "source_url": "https://povo.jp/news/newsrelease/20261005_02/", "links": [{"label": "povo公式キャンペーンページ", "url": "https://povo.jp/campaign/detail/suntory_2026/"}], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "すき家とすかいらーくで食費コツコツ節約!", "items": [
+      {"name": "得すきクーポン(ローストポーク丼100円引き・Sukiシェイク30円引き)", "service": "すき家(公式アプリ)", "headline": "最大100円引き", "detail": "ローストポーク丼シリーズが100円引き(〜10/26)、Sukiシェイクが30円引き(〜10/31)。公式アプリでクーポンを提示して使えます(デリバリーは対象外)。", "period": "〜10/26・〜10/31", "deadline": "2026-10-26", "source_name": "Impress Watch(GourmetWatch)", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2144316.html", "links": [], "mame_articles": []},
+      {"name": "秋の食べ歩きクーポン(ガスト・バーミヤンなど20ブランド)", "service": "すかいらーくグループ", "headline": "最大25%OFF", "detail": "ガストのチーズINハンバーグなど対象メニューが最大25%OFFになるクーポンブックが配布されました。20ブランドで使え、利用期限は11/30です。", "period": "配布9/17〜9/30・利用10/1〜11/30", "deadline": "2026-11-30", "source_name": "お得情報まとめサイト", "source_url": "https://pricey.jp/web/articles/5255", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "Amazonは定期便でコツコツお得📦", "items": [
+      {"name": "Amazon定期おトク便", "service": "Amazon", "headline": "最大15%OFF", "detail": "米・水・洗剤・おむつなど定期おトク便の対象商品が通常5%OFF、同一配送先に3件以上まとめると最大15%OFFになります。セール時期を問わずいつでも使えます。", "period": "通年", "deadline": null, "source_name": "Amazonキャンペーン一覧まとめ", "source_url": "https://www.komadakoma.com/amazon-campaign/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "今日は金麦のLINE懸賞がおすすめ!", "items": [
+      {"name": "ビールになった金麦 LINE懸賞(26万名)", "service": "サントリー(金麦・LINE・20歳以上限定)", "headline": "+26万名に当たる", "detail": "サントリー公式LINEで金麦か金麦〈豊潤〉350ml缶の無料引換クーポンが抽選で26万名に当たります。期間中は当たるまで1日1回チャレンジ可能。20歳以上限定です。", "period": "〜11/4", "deadline": "2026-11-04", "pick": {"rank": 2, "why": "LINE開くだけで挑戦。26万名に無料クーポン"}, "source_name": "サントリー公式キャンペーン", "source_url": "https://kinmugi-cvs.campaign.suntory.co.jp", "links": [{"label": "サントリー公式キャンペーンページ", "url": "https://kinmugi-cvs.campaign.suntory.co.jp"}], "mame_articles": []},
+      {"name": "「のるとたまるTOKYU POINT」新規登録キャンペーン", "service": "東急電鉄(TOKYU POINT)", "headline": "+500ポイント", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録するだけでTOKYU POINT500ポイントがもらえます。新規登録者限定で定期券購入分がさらに10%還元されます。10/31まで。", "period": "9/14〜10/31", "deadline": "2026-10-31", "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/special/norutotamaru-campaign2509/", "links": [{"label": "東急電鉄公式キャンペーンページ", "url": "https://www.tokyu.co.jp/special/norutotamaru-campaign2509/"}], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "KFCでVポイント2倍、提示だけでOK✨", "items": [
+      {"name": "Vポイント2倍キャンペーン", "service": "ケンタッキーフライドチキン(Vポイント)", "headline": "ポイント2倍", "detail": "Vポイントカードを提示するだけで、通常の2倍のVポイントが貯まります。エントリー不要で10/31まで(福岡・大阪・小倉競馬場の3店舗は対象外)。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 3, "why": "提示するだけ。月末までポイントが2倍貯まる"}, "source_name": "ペイメントナビ", "source_url": "https://paymentnavi.com/?p=183127", "links": [], "mame_articles": []},
+      {"name": "d払い地域還元キャンペーン(愛知県豊田市)", "service": "d払い(豊田市)", "headline": "最大20%還元", "detail": "愛知県豊田市内の対象店舗でd払いを使うと、抽選で最大20%のdポイントが還元されます。10/25までで、予算に達すると早期終了することがあります。", "period": "8/7〜10/25", "deadline": "2026-10-25", "source_name": "d払い公式(NTTドコモ)", "source_url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/toyota/", "links": [{"label": "d払い公式キャンペーンページ(豊田市)", "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/toyota/"}], "mame_articles": []}
+    ]}
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
+}
