@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-10-23T09:00:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はファミマでファミペイ連携しよう💰"},
+    {"who": "edamame", "text": "くら寿司のQRクーポンは今週末までだよ!"},
+    {"who": "mame", "text": "日曜は楽天ペイで最大10%戻るよ"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ファミペイ連携は10/26までだよ💰", "items": [
+      {"name": "FamiPay×楽天ポイント連携キャンペーン", "service": "ファミリーマート(ファミペイ)", "headline": "+100円相当", "detail": "ファミペイに初めて楽天ポイントを連携し、ファミペイ払いで買い物すると100円相当のファミマポイントクーポンがもらえます。過去にdポイント・楽天ポイント・Vポイントを連携したことがある方は対象外です。", "period": "〜10/26 23:59", "deadline": "2026-10-26", "pick": {"rank": 1, "why": "連携して払うだけ。10/26までで日数が少ない"}, "source_name": "ファミリーマート公式", "source_url": "https://www.family.co.jp/campaign/spot/2610_famipay-rakutenpoint_cp.html", "links": [{"label": "ファミリーマート公式キャンペーンページ", "url": "https://www.family.co.jp/campaign/spot/2610_famipay-rakutenpoint_cp.html"}], "mame_articles": []},
+      {"name": "毎日抽選(セブン‐イレブンアプリ)", "service": "セブン-イレブン(セブン‐イレブンアプリ)", "headline": "毎日1回抽選", "detail": "アプリを提示して買い物すると1日1回抽選に参加でき、毎日7名に商品券やクーポンが当たります。7・17・27日は当選者が11倍の77名に。外れても毎日1万名にセブンマイル1マイルが当たります。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "さんたつ(セブン-イレブン・ジャパン発表)", "source_url": "https://san-tatsu.jp/pressrelease/559062/", "links": [{"label": "セブン-イレブン公式キャンペーンページ", "url": "https://www.sej.co.jp/cmp/app_lottery2610/"}], "mame_articles": []},
+      {"name": "買うほどランクアップチャレンジ", "service": "セブン-イレブン(セブン‐イレブンアプリ)", "headline": "最大プラチナ5g", "detail": "アプリ提示での買い物の累計金額に応じてブロンズ〜プラチナにランクアップ。プラチナ達成でプラチナ5gが当たる抽選に参加できます(ゴールドは純金1.1g抽選)。10月31日まで。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "さんたつ", "source_url": "https://san-tatsu.jp/pressrelease/559117/", "links": [], "mame_articles": []},
+      {"name": "セブンマイル交換クーポン(第4弾)", "service": "セブン-イレブン(セブンマイル)", "headline": "95マイルで交換", "detail": "セブンマイルで対象商品と交換できる企画の第4弾。焼めしは95マイルで交換(先着33,400枚)、セブンカフェは90マイルなどで交換できます。交換期間は10/27〜11/2、利用期限は11/10までです。", "period": "交換10/27〜11/2・利用〜11/10", "deadline": "2026-11-10", "source_name": "さんたつ", "source_url": "https://san-tatsu.jp/pressrelease/559102/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "くら寿司のQR見逃さないでね🍣", "items": [
+      {"name": "決算大感謝フェア QRクーポンで対象品1皿無料", "service": "くら寿司", "headline": "1皿無料", "detail": "ウナギ(一貫)など対象商品が全店100円(税込110円)で販売される「決算大感謝」フェア中、公式サイト・WEB広告で配布されるQRクーポンを使うと対象商品がもう1皿無料になります。QRクーポンの配布・利用期間は10/16〜10/25。", "period": "10/16〜10/25", "deadline": "2026-10-25", "pick": {"rank": 2, "why": "来店だけで1皿無料。10/25までの期限"}, "source_name": "共同通信PRワイヤー", "source_url": "https://kyodonewsprwire.jp/release/202610097622", "links": [], "mame_articles": []},
+      {"name": "スマートニュース・LINE・グノシー共通クーポン配信", "service": "マクドナルド", "headline": "期間限定クーポン", "detail": "スマートニュース・LINE・グノシー・Yahoo! JAPANアプリで同じ番号のクーポンが配信されており、10/21〜11/21(土)4:59まで使えます。商品ごとに割引額が異なるため、各アプリのクーポン画面で内容を確認してください。", "period": "10/21〜11/21", "deadline": "2026-11-21", "source_name": "クーポン情報まとめサイト", "source_url": "https://kupomiru.jp/mcdonalds-coupon/", "links": [], "mame_articles": []},
+      {"name": "タリーズルーレット(公式アプリ)", "service": "タリーズコーヒー(公式アプリ)", "headline": "1日1回挑戦", "detail": "タリーズ公式アプリ内で1日1回ルーレットを回すと、タリーズポイントなどが当たるチャンスがあります。アプリを開くだけで参加できる常設の特典です。", "period": "通年(アプリ常設機能)", "deadline": null, "source_name": "タリーズコーヒー公式アプリ紹介記事", "source_url": "https://app-liv.jp/5338834/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "今日は良い掲載が見つからなかったよ", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "ロイヤルカナンは今日から1,000pt🐾", "items": [
+      {"name": "マイロイヤルカナン会員登録キャンペーン", "service": "ロイヤルカナン(マイロイヤルカナン)", "headline": "+1,000pt", "detail": "ペット用品の会員サイト「マイロイヤルカナン」に新規登録すると、もれなく1,000ポイント(1pt=1円相当)がもらえます。10/31まで。", "period": "10/1〜10/31", "deadline": "2026-10-31", "source_name": "ロイヤルカナン公式", "source_url": "https://www.royalcanin.com/jp-shop/top-news/welcometomyrc2610", "links": [{"label": "ロイヤルカナン公式キャンペーンページ", "url": "https://www.royalcanin.com/jp-shop/top-news/welcometomyrc2610"}], "mame_articles": []},
+      {"name": "12〜25歳向け本人確認(eKYC)キャンペーン", "service": "PayPay", "headline": "最大1,000pt", "detail": "誕生年月が2000年10月〜2014年10月の方がPayPayアプリで本人確認を完了すると最大1,000ポイントがもらえます(9/30以降の新規登録者は1,000pt、それ以前からの登録者は500pt)。申請は10/31まで、11/30までに審査完了が必要です。", "period": "10/1〜10/31(審査完了は11/30まで)", "deadline": "2026-10-31", "source_name": "PayPay公式", "source_url": "https://paypay.ne.jp/event/youth-ekyc-20261001/", "links": [{"label": "PayPay公式キャンペーンページ", "url": "https://paypay.ne.jp/event/youth-ekyc-20261001/"}], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "日曜の楽天ペイ、要チェック💰", "items": [
+      {"name": "毎月最終日曜日は楽天ペイで最大10%還元", "service": "楽天ペイ", "headline": "最大10%戻る", "detail": "対象店舗で楽天ペイのコード決済を使うと、決済額の最大10%相当の楽天ポイントが戻ります。10月は25日(日)が対象、エントリー不要、1日の上限は2,000ポイントです。", "period": "10/25(日)が対象", "deadline": "2026-10-25", "pick": {"rank": 3, "why": "エントリー不要。日曜の支払いだけで10%戻る"}, "source_name": "ITmedia Mobile", "source_url": "https://www.itmedia.co.jp/mobile/amp/2609/03/news078.html", "links": [], "mame_articles": []},
+      {"name": "くらし応援!遠野市PayPayポイントキャンペーン(第2弾)", "service": "PayPay(岩手県遠野市)", "headline": "最大20%戻る", "detail": "対象店舗でPayPay払いすると最大20%のポイントが戻ります。上限は1回2,000ポイント・1か月5,000ポイント。クレジットカード払いやPayPay商品券は対象外です。", "period": "10/1〜11/30", "deadline": "2026-11-30", "source_name": "PayPay公式", "source_url": "https://paypay.ne.jp/event/iwate-tono-city-20261001/", "links": [{"label": "PayPay公式キャンペーンページ(遠野市)", "url": "https://paypay.ne.jp/event/iwate-tono-city-20261001/"}], "mame_articles": []},
+      {"name": "東武カード新規入会&条件達成キャンペーン", "service": "東武カード(東武マーケティング)", "headline": "+12,000pt", "detail": "新規入会で3,000pt、ショッピング利用・モバイルPASMO購入・ゴールド入会・スマリボ登録などの条件達成で最大12,000ptがもらえます。申込は10/31まで、11/30までにカード発行が必要です。", "period": "〜10/31(申込)", "deadline": "2026-10-31", "source_name": "dxマガジン", "source_url": "https://dxmagazine.jp/?p=213973", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
+}
