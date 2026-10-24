@@ -1,221 +1,177 @@
 {
-  "updated_at": "2026-10-24T07:20:00+09:00",
+  "updated_at": "2026-10-25T07:10:00+09:00",
   "dialogue": [
-    {"who": "mame", "text": "今日からアサヒビールのLINE応募スタート🍺"},
-    {"who": "edamame", "text": "開くだけで当たるかも！20歳以上限定だよ"},
-    {"who": "mame", "text": "明日25日はツルハでポイント5倍だよ"}
+    {"who": "mame", "text": "今日で終わるお得があるよ、チェックしてね"},
+    {"who": "edamame", "text": "セレッソ大阪エリアのd払い、今日が最後だよ⚽"},
+    {"who": "mame", "text": "セブンの無料引換券は今週いっぱいだよ🍫"}
   ],
   "categories": [
-    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "800円のお買い物でスイーツ券が当たるかも🍬", "items": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンの無料券、忘れずにゲットしてね🍫", "items": [
       {
-        "name": "セブン-イレブン×乃木坂46コラボキャンペーン",
+        "name": "「キットカット」「カンロのど飴」無料引換券キャンペーン",
         "service": "セブン-イレブン",
-        "headline": "800円で応募",
-        "detail": "対象店舗でたばこを除く800円(税込)購入ごとにレシートのシリアルナンバーで応募できます。抽選で限定ライブ(2,000名)、直筆サイン入りマルチケース(1,000名)、オリジナルスイーツの無料引換クーポン(2,000名)などが当たります。",
-        "period": "購入10/16〜10/31(応募〜11/7)",
-        "deadline": "2026-10-31",
-        "source_name": "乃木坂46公式サイト",
-        "source_url": "https://www.nogizaka46.com/s/n46/news/detail/102319",
-        "links": [
-          {"label": "乃木坂46公式サイトのキャンペーン告知", "url": "https://www.nogizaka46.com/s/n46/news/detail/102319"}
-        ],
-        "mame_articles": []
-      }
-    ]},
-    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "すき家のSukipassで毎日70円引きだよ！", "items": [
-      {
-        "name": "Sukipass(10月分)",
-        "service": "すき家(公式アプリ/店頭)",
-        "headline": "70円引き",
-        "detail": "牛丼・カレー・まぐろたたき丼が70円引きになる定期券型クーポン「Sukipass」。1枚200円で、店頭またはすき家公式アプリで購入できます。使用期間は10/1〜10/31です。",
-        "period": "10/1〜10/31",
-        "deadline": "2026-10-31",
-        "source_name": "Impress Watch",
-        "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2144316.html",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "マンスリークーポン",
-        "service": "モスバーガー(公式アプリ)",
-        "headline": "最大8%OFF",
-        "detail": "モスバーガー公式アプリで毎月配信されるクーポンで、対象商品が3〜8%引きになります。エントリー不要、会計時にアプリのクーポン欄を提示するだけで使えます。",
-        "period": "毎月更新",
-        "deadline": null,
-        "source_name": "ichioshi(NTTドコモ)",
-        "source_url": "https://ichioshi.smt.docomo.ne.jp/articles/limited/37318",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "楽天ペイ「ようこそ&おかえりキャンペーン」",
-        "service": "楽天ペイ",
-        "headline": "+500ポイント",
-        "detail": "楽天ペイのコード決済が初めて、または久しぶりの方が対象。エントリーのうえ対象期間中に合計2,500円以上支払うと、楽天ポイント500ポイントがもらえます。",
-        "period": "エントリー受付〜12/31",
-        "deadline": "2026-12-31",
-        "source_name": "Payment Navi",
-        "source_url": "https://paymentnavi.com/?p=181297",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "松屋 PayPayくじキャンペーン",
-        "service": "松屋(松弁ネット・松弁デリバリー・モバイルオーダー)",
-        "headline": "抽選で全額還元",
-        "detail": "松弁ネット・デリバリー・モバイルオーダーで800円以上をPayPay払いすると抽選くじが引けます。1等なら決済額の100%分のPayPayポイントが戻ることも(上限10万ポイント)。全員対象の最大10%還元クーポンもあります。",
-        "period": "10/1〜10/31",
-        "deadline": "2026-10-31",
-        "source_name": "PayPay公式",
-        "source_url": "https://paypay.ne.jp/event/matsuya-20261001/",
-        "links": [
-          {"label": "PayPay公式キャンペーンページ", "url": "https://paypay.ne.jp/event/matsuya-20261001/"}
-        ],
-        "mame_articles": []
-      }
-    ]},
-    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "グーンのおむつ、まとめ買いで+30%戻るよ", "items": [
-      {
-        "name": "グーン対象商品をd払いで購入するとdポイント+20%・+30%還元",
-        "service": "スギ薬局グループ×グーン(d払い)",
-        "headline": "+30%還元",
-        "detail": "スギ薬局・スギドラッグなど対象店舗で大王製紙「グーン」のおむつ・おしりふきなどをd払い(コード決済)で購入すると、累計6,000円(税込)以上で+20%、8,000円(税込)以上で+30%のdポイント(期間・用途限定)が還元されます。還元上限は期間中2,500ポイント、オンライン購入は対象外です。",
-        "period": "9/1〜10/31",
-        "deadline": "2026-10-31",
-        "pick": {"rank": 2, "why": "おむつ8,000円以上で+30%戻る。今月末まで"},
-        "source_name": "NTTドコモ公式サイト(d払い)",
-        "source_url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/daiouseishi_goon_2609_MI0177/",
-        "links": [
-          {"label": "d払い公式のキャンペーンページ", "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/daiouseishi_goon_2609_MI0177/"}
-        ],
-        "mame_articles": []
-      },
-      {
-        "name": "ウエルシア公式LINE 友だち登録クーポン",
-        "service": "ウエルシア(WAON POINT)",
-        "headline": "1品10%OFF",
-        "detail": "ウエルシアの公式LINEアカウントを友だち登録すると、対象商品1品が10%オフになるクーポンがもらえます。登録は無料で、レジでクーポン画面を見せるだけで使えます。",
-        "period": "配布中(期間限定なし)",
-        "deadline": null,
-        "source_name": "LINEヤフー ビジネス活用事例",
-        "source_url": "https://www.lycbiz.com/jp/case-study/line-flyer/welcia/",
-        "links": [],
-        "mame_articles": []
-      }
-    ]},
-    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "アサヒビールのLINE応募、今日から挑戦できるよ🍺", "items": [
-      {
-        "name": "アサヒビール公式LINE「贅沢搾りプレミアム」無料引換クーポン",
-        "service": "アサヒビール(LINE・20歳以上限定)",
         "headline": "無料引換券",
-        "detail": "アサヒビール公式LINEを友だち追加してアンケートに回答すると、その場の抽選で「アサヒ贅沢搾りプレミアム」350ml缶1本のコンビニ無料引換クーポンが当たります(抽選15万名、当たるまで1日1回応募可)。20歳以上の方限定です。",
-        "period": "10/15 13:00〜10/28 10:00",
+        "detail": "セブン‐イレブンで対象商品を買うと、レシートに「キットカット」や「カンロのど飴」などの無料引換券が付きます。引換は10月28日までです。",
+        "period": "〜10/28",
         "deadline": "2026-10-28",
-        "pick": {"rank": 1, "why": "LINE開くだけ。20歳以上なら今日から挑戦"},
-        "source_name": "個人の懸賞情報ブログ",
-        "source_url": "https://kojinabi.com/blog-entry-10931.html",
+        "pick": {"rank": 2, "why": "買うだけで無料券もらえる。今週中に使い切ろう"},
+        "source_name": "bg-mania.jp",
+        "source_url": "https://bg-mania.jp/2026/10/22703693.html",
         "links": [],
         "mame_articles": []
       },
       {
-        "name": "新規会員 初月メンバーシップ料金30%OFF",
-        "service": "HafH",
-        "headline": "初月30%OFF",
-        "detail": "定額制で全国のホテルに泊まれるHafHが、入会時期にかかわらず初月のメンバーシップ料金全体を30%割引するキャンペーンを実施しています。詳しい条件は公式サイト・トピックスで案内されます。",
-        "period": "2026年10月〜",
-        "deadline": null,
-        "source_name": "KabuK Style",
-        "source_url": "https://dime.jp/company_news/detail/?pr=2714694",
-        "links": [],
-        "mame_articles": [
-          {"label": "まめさんの解説記事", "url": "https://mamesuke12.com/hafh/"}
-        ]
-      },
+        "name": "Lガチャ",
+        "service": "ローソン(公式アプリ)",
+        "headline": "ガチャに挑戦",
+        "detail": "ローソンアプリで、対象商品の購入金額に応じてガチャに挑戦できる「Lガチャ」。ポイントや商品の無料引換券が当たります。11月10日まで開催中です。",
+        "period": "10/2〜11/10",
+        "deadline": "2026-11-10",
+        "source_name": "ローソン公式サイト",
+        "source_url": "https://www.lawson.co.jp/lab/campaign/lgacha/",
+        "links": [
+          {"label": "ローソン公式のLガチャページ", "url": "https://www.lawson.co.jp/lab/campaign/lgacha/"}
+        ],
+        "mame_articles": []
+      }
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "かっぱ寿司はPayPayで最大7%戻るよ!", "items": [
       {
-        "name": "新規登録+外食モニター1件完了で5,000Rポイント",
-        "service": "ファンくる",
-        "headline": "500円相当",
-        "detail": "外食モニターサイト「ファンくる」に新規登録し、対象店舗での飲食モニター(食事をしてレシートやアンケートを提出)を1件完了すると、5,000Rポイント(500円相当)がもらえます。登録に特別なコードは不要です。",
-        "period": "開催中",
-        "deadline": null,
-        "source_name": "ポイ活ブログ(りけいマイラー)",
-        "source_url": "https://rikei-miler.com/fancrew",
+        "name": "PayPayクーポンで最大7%還元",
+        "service": "かっぱ寿司",
+        "headline": "最大7%還元",
+        "detail": "PayPayアプリで事前にクーポンを取得してお支払いすると、税込1,000円以上で最大3%(上限200pt)、3,000円以上で最大5%(上限400pt)、5,000円以上で最大7%(上限600pt)のPayPayポイントが戻ります。10月31日まで。アトレ川崎店・アトレ亀戸店は対象外。",
+        "period": "10/1〜10/31",
+        "deadline": "2026-10-31",
+        "source_name": "Impress グルメWatch",
+        "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2144444.html",
         "links": [],
         "mame_articles": []
       },
       {
-        "name": "招待コード新規登録キャンペーン",
-        "service": "メルカリ",
-        "headline": "500ポイント",
-        "detail": "新規登録のときに招待コードを入力すると500ポイントがもらえます。登録後からは入力できないので、登録前に忘れずに入力しましょう。",
-        "period": "常時開催",
-        "deadline": null,
-        "source_name": "メルカリ公式サイト",
-        "source_url": "https://jp.mercari.com/",
+        "name": "LINEクーポン「ショコラ マカロン」",
+        "service": "ロッテリア(LINEクーポン)",
+        "headline": "70円",
+        "detail": "LINEで配信中のクーポンを提示すると、通常150円の「ショコラ マカロン」が70円で買えます。有効期限は11月25日です。",
+        "period": "〜11/25",
+        "deadline": "2026-11-25",
+        "source_name": "All About",
+        "source_url": "https://news.allabout.co.jp/articles/o/103467/",
+        "links": [],
+        "mame_articles": []
+      },
+      {
+        "name": "「牛すき鍋膳」割引クーポン",
+        "service": "吉野家(店頭配布)",
+        "headline": "50円引き",
+        "detail": "「秋の牛丼フェス」来店時に配布されたクーポンで、「牛すき鍋膳」が50円引き(2枚)、テイクアウトが10%引き(1枚)になります。利用期間は11月9日までです。",
+        "period": "10/21〜11/9",
+        "deadline": "2026-11-09",
+        "source_name": "Impress グルメWatch",
+        "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2147524.html",
         "links": [],
         "mame_articles": []
       }
     ]},
-    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "明日25日はツルハでポイント5倍だよ", "items": [
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "30日はイオン感謝デーだよ、覚えてて", "items": [
       {
-        "name": "ポイント5倍デー(毎月25日)",
-        "service": "ツルハドラッグ(ポイントカード)",
-        "headline": "ポイント5倍",
-        "detail": "ツルハドラッグ・くすりの福太郎などツルハグループの店舗では、毎月25日はポイントカードの通常還元が1%から5%にアップします。一部対象外商品・店舗あり。明日10/25が対象日です。",
-        "period": "毎月25日",
-        "deadline": "2026-10-25",
-        "pick": {"rank": 3, "why": "明日25日だけ。ポイント還元が5倍に"},
-        "source_name": "マネーポスト",
-        "source_url": "https://www.moneypost.jp/341178",
-        "links": [],
+        "name": "お客様感謝デー(毎月20日・30日)",
+        "service": "イオン(イオンカードなど対象支払い)",
+        "headline": "5%OFF",
+        "detail": "イオン・イオンスタイルなどで、イオンカードなど対象の支払い方法を使うと買い物が5%オフになります。次回は10月30日です。",
+        "period": "次回10/30",
+        "deadline": "2026-10-30",
+        "source_name": "イオンカード公式サイト",
+        "source_url": "https://www.aeonbank.co.jp/sp/aeoncard/incentive/discount/",
+        "links": [
+          {"label": "イオンカード公式のお客様感謝デー案内", "url": "https://www.aeonbank.co.jp/sp/aeoncard/incentive/discount/"}
+        ],
         "mame_articles": []
       },
       {
-        "name": "5のつく日キャンペーン",
-        "service": "楽天ペイ",
-        "headline": "最大3%還元",
-        "detail": "対象店舗で楽天ペイのコード・QR決済を利用すると、5のつく日(5日・15日・25日)に決済金額の最大3%の楽天ポイントが還元されます。エントリー不要。10月の対象日は10/15と10/25です。",
-        "period": "9/5〜12/25(5のつく日)",
-        "deadline": "2026-12-25",
-        "source_name": "ITmedia Mobile",
-        "source_url": "https://www.itmedia.co.jp/mobile/articles/2610/03/news012.html",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "抽選でdポイント最大777倍キャンペーン",
-        "service": "dポイント(ローソン・ナチュラルローソン・ローソンストア100)",
-        "headline": "抽選777倍",
-        "detail": "エントリーのうえ、対象店舗でdポイントカードを提示して200円(税抜)以上買い物をすると抽選に参加できます。1等777倍(100名)、2等77倍(1,000名)、3等2倍(48,900名)が当たります。ポイントの進呈は12月末予定。",
-        "period": "10/1〜10/31",
-        "deadline": "2026-10-31",
-        "source_name": "NTTドコモ公式発表",
-        "source_url": "https://dxmagazine.jp/?p=224654",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "宮古・八重山限定!抽選で最大10,000ポイント当たるキャンペーン",
-        "service": "d払い(沖縄県 宮古・八重山地区)",
-        "headline": "最大1万pt",
-        "detail": "沖縄県の宮古・八重山エリア限定。エントリーのうえ対象店舗で「d払い」(コード決済)を使い、1回500円(税込)以上支払うと抽選に参加できます。1等10,000ポイント(10名)、2等1,000ポイント(100名)、3等500ポイント(500名)、4等は1ポイント(ハズレなし)。ポイントは12月末ごろ進呈予定です。",
-        "period": "10/1〜11/15(エントリー要)",
-        "deadline": "2026-11-15",
-        "source_name": "琉球新報(PR TIMES配信)",
-        "source_url": "https://ryukyushimpo.jp/prtimes/entry-5531353.html",
-        "links": [],
-        "mame_articles": []
-      },
-      {
-        "name": "スマホのタッチ決済でコンビニ・飲食店最大7%還元",
-        "service": "三井住友カード(Visaのタッチ決済/Mastercardタッチ決済)",
-        "headline": "最大7%還元",
-        "detail": "対象のコンビニ・飲食店で、スマートフォンのApple PayやGoogle PayでVisaのタッチ決済・Mastercard(R)タッチ決済を使って支払うと、通常還元に加えて最大7%相当のVポイントが還元されます。カード現物でのタッチ決済やiD、磁気取引は対象外です。",
-        "period": "通年実施中",
+        "name": "今週の目玉クーポン(毎週木曜10時更新)",
+        "service": "楽天24",
+        "headline": "クーポン更新",
+        "detail": "楽天市場内の日用品専門店「楽天24」では、毎週木曜10時に「今週の目玉クーポン」が更新され、洗剤や飲料などの日用品がクーポンでお得に買えます。",
+        "period": "毎週木曜更新",
         "deadline": null,
-        "source_name": "三井住友カード公式サイト",
-        "source_url": "https://www.smbc-card.com/camp/article_numberless/index_a.jsp",
+        "source_name": "appllio.com",
+        "source_url": "https://appllio.com/rakuten-24-guide",
         "links": [],
+        "mame_articles": []
+      }
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "ビール6本が当たる懸賞、応募だけでOK🍺", "items": [
+      {
+        "name": "「アサヒゴールド」350ml×6本セットが当たる懸賞",
+        "service": "アサヒビール(懸賞応募・20歳以上限定)",
+        "headline": "6本セット",
+        "detail": "応募すると抽選で100名に「アサヒゴールド」350ml缶6本セットが当たります。締切は11月2日。20歳以上の方が対象です。",
+        "period": "〜11/2",
+        "deadline": "2026-11-02",
+        "pick": {"rank": 3, "why": "応募だけ。20歳以上ならビール6本当たるかも"},
+        "source_name": "懸賞生活(knshow.com)",
+        "source_url": "https://www.knshow.com/keyword/%E3%82%A2%E3%82%B5%E3%83%92%E3%83%93%E3%83%BC%E3%83%AB/s4/",
+        "links": [],
+        "mame_articles": []
+      },
+      {
+        "name": "新規口座開設+投資信託購入で5,000円プレゼント",
+        "service": "カブドットコム証券",
+        "headline": "5,000円",
+        "detail": "2026年10月1日以降に証券口座を新規開設し、投資信託を10万円以上買い付けると5,000円がもらえます。想定利回りは商品により異なり、保証はありません。事前エントリーが必要で、期間は2027年3月31日までです。",
+        "period": "10/1〜2027/3/31",
+        "deadline": "2027-03-31",
+        "source_name": "カブドットコム証券公式サイト",
+        "source_url": "https://kabu.com/campaign/20261001_1.html",
+        "links": [
+          {"label": "カブドットコム証券公式のキャンペーンページ", "url": "https://kabu.com/campaign/20261001_1.html"}
+        ],
+        "mame_articles": []
+      }
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "セレッソエリアのd払いは今日が最後だよ", "items": [
+      {
+        "name": "セレッソ大阪応援店 d払い最大100%還元キャンペーン",
+        "service": "d払い(セレッソ大阪応援店エリア)",
+        "headline": "最大100%還元",
+        "detail": "対象のセレッソ大阪応援店でd払いを使うと抽選で支払額の最大100%分のdポイント(期間・用途限定)が戻ります。1等100%・2等50%・3等10%・4等1%還元。上限は1回あたり・期間中とも30,000ポイント。今日10月25日23:59が最終日です。",
+        "period": "9/25〜10/25",
+        "deadline": "2026-10-25",
+        "pick": {"rank": 1, "why": "今日が最終日!d払いだけで最大100%還元"},
+        "source_name": "NTTドコモ公式サイト",
+        "source_url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/cerezo-osaka-support.html",
+        "links": [
+          {"label": "d払い公式のキャンペーンページ", "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/cerezo-osaka-support.html"}
+        ],
+        "mame_articles": []
+      },
+      {
+        "name": "ひろしまフードフェスティバル参加店舗限定 d払い最大100%還元",
+        "service": "d払い(広島県内の参加店舗)",
+        "headline": "最大100%還元",
+        "detail": "ひろしまフードフェスティバル2026の参加店舗でd払いを使うと抽選で支払額の最大100%分のdポイントが戻ります。1等100%・2等50%・3等10%・4等1%還元。上限は1回あたり・期間中とも30,000ポイントです。",
+        "period": "10/24〜11/23",
+        "deadline": "2026-11-23",
+        "source_name": "NTTドコモ公式サイト",
+        "source_url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/hiroshimafoodfesta2026.html",
+        "links": [
+          {"label": "d払い公式のキャンペーンページ", "url": "https://service.smt.docomo.ne.jp/keitai_payment/campaign/dpay_ouen/hiroshimafoodfesta2026.html"}
+        ],
+        "mame_articles": []
+      },
+      {
+        "name": "抽選で100名にdポイント100ポイントプレゼント",
+        "service": "京都高島屋S.C.(dポイント)",
+        "headline": "抽選100pt",
+        "detail": "京都高島屋S.C.で対象の買い物をすると、抽選で100名にdポイント100ポイントが当たります。エントリー不要の自動エントリー方式。10月26日までです。",
+        "period": "10/14〜10/26",
+        "deadline": "2026-10-26",
+        "source_name": "京都高島屋S.C.公式サイト",
+        "source_url": "https://www.takashimaya.co.jp/kyoto/departmentstore/special/13_1_20260918131604",
+        "links": [
+          {"label": "京都高島屋S.C.公式のキャンペーンページ", "url": "https://www.takashimaya.co.jp/kyoto/departmentstore/special/13_1_20260918131604"}
+        ],
         "mame_articles": []
       }
     ]}
