@@ -1,205 +1,31 @@
 {
-  "updated_at": "2026-10-26T07:18:00+09:00",
+  "updated_at": "2026-10-27T10:00:00+09:00",
   "dialogue": [
-    {"who": "mame", "text": "今日はローソンでコーヒーもらってね☕"},
-    {"who": "edamame", "text": "カード連携するだけ、今日が期限だよ！"},
-    {"who": "mame", "text": "ツルハの週トククーポンも今日更新だよ"}
+    {"who": "mame", "text": "明日はイトーヨーカドーの日だよ🛒"},
+    {"who": "edamame", "text": "ローソンでグレープスカッシュ無料になるよ！"},
+    {"who": "mame", "text": "LINEでSABONの20%OFFも明日から"}
   ],
   "categories": [
-    {
-      "id": "conbini",
-      "emoji": "🏪",
-      "title": "コンビニ・コンビニアプリ",
-      "comment": "今日中にアプリ開いてチェックしてね🍪",
-      "items": [
-        {
-          "name": "マチカフェ コーヒー(S)無料引換券(新規ポイントカード連携)",
-          "service": "ローソン(公式アプリ)",
-          "headline": "コーヒー無料",
-          "detail": "ローソンアプリで初めてPontaカードかdポイントカードを連携すると、マチカフェ コーヒー(S)の無料引換券がもらえます。連携の受付は今日10月26日まで。",
-          "period": "〜10/26",
-          "deadline": "2026-10-26",
-          "pick": {"rank": 1, "why": "今日が連携期限。開くだけでコーヒー無料に"},
-          "source_name": "ローソン公式サイト",
-          "source_url": "https://www.lawson.co.jp/lab/app/art/1511342_8411.html",
-          "links": [
-            {"label": "ローソン公式サイトの案内ページ", "url": "https://www.lawson.co.jp/lab/app/art/1511342_8411.html"}
-          ],
-          "mame_articles": []
-        },
-        {
-          "name": "アプリ抽選でPonta・dポイントが当たる",
-          "service": "ローソン(公式アプリ)",
-          "headline": "最大1000pt",
-          "detail": "ローソンアプリの抽選企画で、1・2・5・10・1000ポイントのいずれかが当たります。応募できるのは今日10月26日まで。",
-          "period": "〜10/26",
-          "deadline": "2026-10-26",
-          "source_name": "ローソン公式アプリ",
-          "source_url": "https://www.lawson.co.jp/campaign/",
-          "links": [
-            {"label": "ローソン公式のキャンペーン一覧", "url": "https://www.lawson.co.jp/campaign/"}
-          ],
-          "mame_articles": []
-        },
-        {
-          "name": "ファミペイで期間中何度でも使えるクーポン",
-          "service": "ファミリーマート(ファミペイ)",
-          "headline": "何度でも使える",
-          "detail": "小岩井 Theカフェオレ、伊藤園の充実野菜、リポビタンゼリーなどの対象商品で使えるファミペイクーポンが配信中。期間中は何度でも使えて、今日10月26日までです。",
-          "period": "〜10/26",
-          "deadline": "2026-10-26",
-          "source_name": "ファミリーマート公式サイト",
-          "source_url": "https://www.family.co.jp/campaign/spot/famipay_again_cp.html",
-          "links": [
-            {"label": "ファミリーマート公式のクーポンページ", "url": "https://www.family.co.jp/campaign/spot/famipay_again_cp.html"}
-          ],
-          "mame_articles": []
-        },
-        {
-          "name": "プライチ(1個買うと1個無料):ユンケル ローヤルG錠/のど飴",
-          "service": "セブン-イレブン",
-          "headline": "1個買うと1個無料",
-          "detail": "佐藤製薬「ユンケル ローヤルG錠 2錠入り」を1個買うと同商品の無料引換券、「濃いに恋する濃いのど飴 芳醇ぶどう味」を買うとカンロのど飴1個の無料引換券がもらえます。購入期間は10月28日まで、引換は10月29日から使えます。",
-          "period": "購入10/22〜28、引換10/29〜11/11",
-          "deadline": "2026-10-28",
-          "source_name": "セブン-イレブン公式サイト",
-          "source_url": "https://www.sej.co.jp/cmp/plaichi.html",
-          "links": [
-            {"label": "セブン‐イレブン公式のプライチページ", "url": "https://www.sej.co.jp/cmp/plaichi.html"}
-          ],
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "app",
-      "emoji": "📱",
-      "title": "アプリクーポン",
-      "comment": "月曜更新のクーポン、見逃さないで！",
-      "items": [
-        {
-          "name": "運試しルーレット(医薬品・日用品・食品クーポン)",
-          "service": "マツモトキヨシ(公式アプリ)",
-          "headline": "最大10%OFF",
-          "detail": "公式アプリで毎日1回挑戦できるルーレットで、医薬品10%OFF・日用品10%OFF・食品5%OFFなどのクーポンが当たります。当たったクーポンの有効期限は48時間と短いので早めに使いましょう。",
-          "period": "毎日開催(常時)",
-          "deadline": null,
-          "source_name": "マツモトキヨシ公式アプリ",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        },
-        {
-          "name": "週トククーポン(今週分)",
-          "service": "ツルハドラッグ(公式アプリ)",
-          "headline": "毎週更新クーポン",
-          "detail": "ツルハドラッグ公式アプリの「週トク」タブに、一人ひとり向けのクーポンが毎週月曜日に届きます。今日はちょうど更新日なので、アプリを開いてチェックしてみてください。",
-          "period": "今週分(月曜更新)",
-          "deadline": null,
-          "pick": {"rank": 3, "why": "今日更新の月曜限定クーポン。アプリ開くだけ"},
-          "source_name": "ツルハドラッグ公式アプリ",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "daily",
-      "emoji": "🛒",
-      "title": "日用品・食品の激安",
-      "comment": "豆乳クーポンも今日までだよ〜",
-      "items": [
-        {
-          "name": "キッコーマン 豆乳シリーズ 25円引きクーポン",
-          "service": "ファミリーマート(ファミペイ)",
-          "headline": "25円引き",
-          "detail": "キッコーマンの豆乳シリーズがファミペイクーポンで25円引きになります。配信は9月29日からで、使えるのは今日10月26日までです。",
-          "period": "9/29〜10/26",
-          "deadline": "2026-10-26",
-          "source_name": "ファミリーマート公式サイト",
-          "source_url": "https://www.family.co.jp/campaign/spot/famipay_again_cp.html",
-          "links": [
-            {"label": "ファミリーマート公式のクーポンページ", "url": "https://www.family.co.jp/campaign/spot/famipay_again_cp.html"}
-          ],
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "free",
-      "emoji": "🎁",
-      "title": "無料・もらえる",
-      "comment": "JAL Pay入会、今月中がお得！",
-      "items": [
-        {
-          "name": "JAL Pay新規入会キャンペーン",
-          "service": "JALカード(JAL Pay)",
-          "headline": "最大2000マイル",
-          "detail": "JAL Payに新規入会し、条件を達成すると最大2,000マイルがもらえます(条件はチャージ額などにより異なります)。期間は今月10月31日まで。",
-          "period": "〜10/31",
-          "deadline": "2026-10-31",
-          "pick": {"rank": 2, "why": "今月末までで入会だけ。最大2,000マイルお得"},
-          "source_name": "JAL公式サイト",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        },
-        {
-          "name": "どうぎん秋の口座開設キャンペーン",
-          "service": "北海道銀行",
-          "headline": "最大1500円",
-          "detail": "北海道銀行で新規に普通預金口座を開設し、アプリの「お客さまアンケート」に回答すると現金がもらえます。アプリ経由の開設で1,500円、店頭開設で500円。北海道にお住まいの方向けのキャンペーンで、期間は10月31日まで(アプリ利用登録は11月6日、アンケート回答は11月13日が期限)。",
-          "period": "9/1〜10/31",
-          "deadline": "2026-10-31",
-          "source_name": "北海道銀行公式サイト",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "point",
-      "emoji": "💰",
-      "title": "ポイント・キャッシュレス還元",
-      "comment": "都城市民はPayPayもお忘れなく",
-      "items": [
-        {
-          "name": "まちなか還元キャンペーン(最大15%)",
-          "service": "PayPay(宮崎県都城市)",
-          "headline": "最大15%還元",
-          "detail": "宮崎県都城市内の対象店舗でPayPay支払いすると最大15%のポイントが還ってきます。1回の付与上限は1,000ポイント、期間合計は1,500ポイントまで。クレジットカード払いは対象外で、期間は10月31日までです。",
-          "period": "〜10/31",
-          "deadline": "2026-10-31",
-          "source_name": "PayPay公式サイトのお知らせ",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        }
-      ]
-    },
-    {
-      "id": "crowdfunding",
-      "emoji": "🏢",
-      "title": "不動産クラウドファンディング",
-      "comment": "気になる人は記事もチェックしてね📖",
-      "items": [
-        {
-          "name": "LSEED(エルシード)#38",
-          "service": "ランドネット",
-          "detail": "想定利回り4.0%(年率・税引前)。運用期間は2026年11月1日〜2027年10月31日、最低出資額1万円、先着順です。一般募集は10月29日12:59まで。出資が成立した方にはAmazonギフトカードが贈られる特典もありますが、募集枠が満了するなど出資が成立しなかった場合は対象外です。想定利回りは確定したものではなく、元本が割れる可能性もあります。",
-          "period": "一般募集 10/19 18:00〜10/29 12:59",
-          "source_name": "ランドネット(LSEED)",
-          "source_url": "",
-          "links": [],
-          "mame_articles": []
-        }
-      ]
-    }
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ローソンは今日から新しい無料引換券だよ🍊", "items": [
+      {"name": "三ツ矢特濃グレープスカッシュ 1個買うと1個", "service": "ローソン(公式アプリ)", "headline": "1個買うと1個", "detail": "対象ドリンクを1本買うと、「三ツ矢特濃グレープスカッシュ」500mlと交換できる無料引換券がアプリでもらえます。", "period": "引換 10/27〜11/9", "deadline": "2026-11-09", "pick": {"rank": 2, "why": "今日から引換スタート。アプリ開くだけで1本無料"}, "source_name": "コンビニ特売情報まとめ", "source_url": "https://superprofitnews.main.jp/archives/19415", "links": [], "mame_articles": []},
+      {"name": "ファミペイ翌月払い 新規登録キャンペーン", "service": "ファミリーマート(ファミペイ翌月払い)", "headline": "最大2,000円分", "detail": "ファミペイ翌月払いに新規登録してエントリーすると、利用金額に応じて300円・1,000円・2,000円相当のファミマポイントがもらえます。", "period": "10/1〜11/30", "deadline": "2026-11-30", "source_name": "PAYMENT navi", "source_url": "https://paymentnavi.com/?p=182772", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "LINEとスマニュー、両方お得だよ📱", "items": [
+      {"name": "SABON全品20%OFFクーポン(Holiday Collection 2026)", "service": "SABON(LINEギフト)", "headline": "20%OFF", "detail": "LINEギフトの特集「Holiday Collection 2026」で、SABON全品20%OFFクーポンが配布されます。LINEアプリを開いて獲得するだけ。自分用にもギフトにも使えます。", "period": "配布10/28 11:00〜、利用期限11/25", "deadline": "2026-11-25", "pick": {"rank": 3, "why": "明日からLINE開くだけで20%OFFがもらえる"}, "source_name": "LINEヤフー公式リリース", "source_url": "https://www.lycorp.co.jp/ja/news/release/020872/", "links": [{"label": "LINEギフト Holiday Collection 2026", "url": "https://lin.ee/7QuVuzR"}], "mame_articles": []},
+      {"name": "モスバーガー クーポン8種配信", "service": "モスバーガー(スマートニュース)", "headline": "最大50円引き", "detail": "スマートニュースのクーポンチャンネルで10/22〜11/20までモスバーガーのクーポン8種が使えます。ポテトSセットが780円→730円になるものなど。", "period": "〜11/20", "deadline": "2026-11-20", "source_name": "企業リリース", "source_url": "https://www.nikkan.co.jp/releases/view/75680", "links": [{"label": "スマートニュース クーポンチャンネル", "url": "https://www.smartnews.com/coupon/"}], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "明日のハッピーデーは要チェック✨", "items": [
+      {"name": "ハッピーデー(毎月8・18・28日)", "service": "イトーヨーカドー", "headline": "全品5%OFF", "detail": "毎月8・18・28日の「ハッピーデー」は食料品・衣料品・住まいの品がほぼ全品5%OFFになります。次回は明日10/28です。", "period": "次回 10/28", "deadline": "2026-10-28", "pick": {"rank": 1, "why": "明日は全品5%OFF。日用品はまとめ買いのチャンス"}, "source_name": "イトーヨーカドー公式アプリ紹介記事", "source_url": "https://app-liv.jp/501683/", "links": [], "mame_articles": []},
+      {"name": "新規・リピート限定クーポン常時配布", "service": "楽天24(楽天市場)", "headline": "最大500円OFF", "detail": "楽天24では、初めて購入する方や久しぶりに購入する方向けに、最大500円OFFクーポンが常時配布されています。日用品・食品のまとめ買いに使えます。", "period": "常時", "deadline": null, "source_name": "appllio", "source_url": "https://appllio.com/rakuten-24-guide", "links": [], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "口座開設でまとまったお金がもらえるよ", "items": [
+      {"name": "口座開設+エントリーキャンペーン", "service": "三菱UFJ銀行", "headline": "現金2万円", "detail": "アプリから口座開設してエントリーし、残高を10万円以上にすると現金2万円がもらえます。申込期間は9/7〜11/27。", "period": "申込 〜11/27", "deadline": "2026-11-27", "source_name": "k-tai Watch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2143220.html", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ポイント還元は地域限定もあるから確認してね", "items": [
+      {"name": "宮古島市キャッシュレス還元キャンペーン", "service": "PayPay(沖縄県宮古島市)", "headline": "最大25%還元", "detail": "宮古島市内の対象店でPayPay支払いをすると、最大25%のポイントが還元されます。1回2,000円相当・期間中8,000円相当が上限です。", "period": "10/1〜12/31", "deadline": "2026-12-31", "source_name": "週刊アスキー", "source_url": "https://weekly.ascii.jp/elem/000/004/431/4431504/", "links": [], "mame_articles": []},
+      {"name": "8地域合同還元キャンペーン", "service": "d払い(青森市・白山市・栗原市・彦根市・中津川市・長野市・広島県・北杜市)", "headline": "抽選で最大100%還元", "detail": "対象8地域の加盟店でd払いすると、抽選で1等100%・2等50%・3等10%・4等1%のポイントが還元されます(上限3万ポイント)。", "period": "10月開催中", "deadline": null, "source_name": "ドコモ公式リリース紹介記事", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2144559.html", "links": [], "mame_articles": []},
+      {"name": "クレカ乗車 Vポイント10倍キャンペーン", "service": "Vポイント(京王電鉄・つくばエクスプレス・ゆりかもめ・江ノ島電鉄)", "headline": "乗車で10倍", "detail": "Visaのタッチ決済で「クレカ乗車」すると、京王電鉄・つくばエクスプレス・ゆりかもめ・江ノ島電鉄でVポイントが通常の10倍貯まります。エントリー不要。", "period": "10/7〜12/30", "deadline": "2026-12-30", "source_name": "Vポイント公式情報", "source_url": "https://point.vpoint.jp/", "links": [], "mame_articles": []}
+    ]}
   ],
-  "notes": [
-    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。",
-    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
-  ]
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
 }
