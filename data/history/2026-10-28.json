@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-10-28T07:15:43+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はケンタッキーの日だよ🍗"},
+    {"who": "edamame", "text": "とりの日パック、今日だけお得！"},
+    {"who": "mame", "text": "東急沿線の人は登録だけでも急いでね"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "コーヒーが安くなる日だよ☕", "items": [
+      {"name": "Vポイントおトク引換券（第4週）", "service": "セブン-イレブン（Vポイント）", "headline": "コーヒー70pt", "detail": "Vポイント70ptでセブンカフェのホット・アイスコーヒーR、90ptでセブンプレミアムのフルーツ果汁ドリンクと交換できます。毎週水曜に対象商品が切り替わる企画の今週分です。", "period": "交換は11/3まで・利用は11/10まで", "deadline": "2026-11-10", "source_name": "san-tatsu.jp", "source_url": "https://san-tatsu.jp/pressrelease/557231/", "links": [], "mame_articles": []},
+      {"name": "コーヒー20円引きクーポン", "service": "ローソン（LINE公式アカウント）", "headline": "20円引き", "detail": "ローソン公式LINEアカウントを友だち追加していると、ホットコーヒーまたはアイスコーヒーが20円引きになるクーポンが届きます。", "period": "〜11/30", "deadline": "2026-11-30", "source_name": "All About", "source_url": "https://news.allabout.co.jp/articles/o/102961/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "今日だけの特典、要チェック🔍", "items": [
+      {"name": "とりの日パック（本日限定）", "service": "ケンタッキーフライドチキン", "headline": "510円お得", "detail": "オリジナルチキン4ピース+ナゲット5ピースのパックが1,290円。単品を積み上げるより510円お得になります。10月28日限定・デリバリーは対象外。", "period": "本日10/28のみ", "deadline": "2026-10-28", "pick": {"rank": 1, "why": "今日限定510円引き、逃したら終わり"}, "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2149422.html", "links": [], "mame_articles": []},
+      {"name": "LINE友だち追加くじ", "service": "三井ショッピングパークポイント（LINE公式アカウント）", "headline": "家電が当たる", "detail": "LINE公式アカウント「@msppoint」を友だち追加（すでに友だちの人もOK）して応募するだけ。抽選でAladdinプロジェクターやBALMUDA The Speakerなどが当たります。", "period": "〜11/8", "deadline": "2026-11-08", "source_name": "三井ショッピングパーク公式", "source_url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html", "links": [{"label": "三井ショッピングパーク公式イベントページ", "url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html"}], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "お肉もお魚もお得に買える🐟", "items": [
+      {"name": "肉と魚の割引クーポン", "service": "楽天24（楽天市場）", "headline": "最大半額", "detail": "毎月28日〜翌月2日の期間限定で、精肉・水産品が最大半額になる楽天24のクーポンが配布されます。ちょうど今日から使えるタイミングです。", "period": "10/28〜11/2", "deadline": "2026-11-02", "pick": {"rank": 3, "why": "今日から使える、買い物前に忘れずに"}, "source_name": "appllio.com", "source_url": "https://appllio.com/rakuten-ichiba-coupon", "links": [], "mame_articles": []},
+      {"name": "おまとめ割引（定期おトク便）", "service": "Amazon", "headline": "最大15%OFF", "detail": "同じ届け先・同じ月に定期おトク便の商品を3件以上届けると、対象商品が最大15%OFFに。米・水・洗剤などの日用品のまとめ買いに使えます。", "period": "通年実施中", "deadline": null, "source_name": "Money Forward", "source_url": "https://media.moneyforward.com/articles/3060", "links": [], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "登録だけで貯まるチャンス✨", "items": [
+      {"name": "のるとたまるTOKYU POINT 新規登録", "service": "東急電鉄（TOKYU POINT／TOQ COIN）", "headline": "500ポイント", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録するだけで500ポイントがもらえます。東急線PASMO定期券（モバイル含む）を買うとポイント還元が一律10%になる特典も。登録は10月中に。", "period": "〜10/31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "登録だけでOK、今月末で終了間近"}, "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/", "links": [{"label": "東急電鉄公式キャンペーンページ", "url": "https://www.tokyu.co.jp/special/norutotamaru-campaign2509/"}], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "提示するだけでポイント2倍✨", "items": [
+      {"name": "Vポイント2倍+抽選プレゼント", "service": "ケンタッキーフライドチキン（Vポイント）", "headline": "Vポイント2倍", "detail": "対象カードを提示すると通常の2倍のVポイントが何度でも貯まります。記念日とエピソードを登録すると、抽選で365名に3,300ポイントが当たります。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002182.pdf", "links": [], "mame_articles": []},
+      {"name": "パワスピ・ポイントクラブ", "service": "三井住友カード（Vポイント）", "headline": "最大500pt", "detail": "対象の三井住友カードで決済すると、抽選で最大500ポイントがもらえるキャンペーンです。", "period": "10/22〜11/30", "deadline": "2026-11-30", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002188.pdf", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+}

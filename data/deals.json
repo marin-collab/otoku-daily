@@ -1,30 +1,29 @@
 {
-  "updated_at": "2026-10-27T10:00:00+09:00",
+  "updated_at": "2026-10-28T07:15:43+09:00",
   "dialogue": [
-    {"who": "mame", "text": "明日はイトーヨーカドーの日だよ🛒"},
-    {"who": "edamame", "text": "ローソンでグレープスカッシュ無料になるよ！"},
-    {"who": "mame", "text": "LINEでSABONの20%OFFも明日から"}
+    {"who": "mame", "text": "今日はケンタッキーの日だよ🍗"},
+    {"who": "edamame", "text": "とりの日パック、今日だけお得！"},
+    {"who": "mame", "text": "東急沿線の人は登録だけでも急いでね"}
   ],
   "categories": [
-    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ローソンは今日から新しい無料引換券だよ🍊", "items": [
-      {"name": "三ツ矢特濃グレープスカッシュ 1個買うと1個", "service": "ローソン(公式アプリ)", "headline": "1個買うと1個", "detail": "対象ドリンクを1本買うと、「三ツ矢特濃グレープスカッシュ」500mlと交換できる無料引換券がアプリでもらえます。", "period": "引換 10/27〜11/9", "deadline": "2026-11-09", "pick": {"rank": 2, "why": "今日から引換スタート。アプリ開くだけで1本無料"}, "source_name": "コンビニ特売情報まとめ", "source_url": "https://superprofitnews.main.jp/archives/19415", "links": [], "mame_articles": []},
-      {"name": "ファミペイ翌月払い 新規登録キャンペーン", "service": "ファミリーマート(ファミペイ翌月払い)", "headline": "最大2,000円分", "detail": "ファミペイ翌月払いに新規登録してエントリーすると、利用金額に応じて300円・1,000円・2,000円相当のファミマポイントがもらえます。", "period": "10/1〜11/30", "deadline": "2026-11-30", "source_name": "PAYMENT navi", "source_url": "https://paymentnavi.com/?p=182772", "links": [], "mame_articles": []}
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "コーヒーが安くなる日だよ☕", "items": [
+      {"name": "Vポイントおトク引換券（第4週）", "service": "セブン-イレブン（Vポイント）", "headline": "コーヒー70pt", "detail": "Vポイント70ptでセブンカフェのホット・アイスコーヒーR、90ptでセブンプレミアムのフルーツ果汁ドリンクと交換できます。毎週水曜に対象商品が切り替わる企画の今週分です。", "period": "交換は11/3まで・利用は11/10まで", "deadline": "2026-11-10", "source_name": "san-tatsu.jp", "source_url": "https://san-tatsu.jp/pressrelease/557231/", "links": [], "mame_articles": []},
+      {"name": "コーヒー20円引きクーポン", "service": "ローソン（LINE公式アカウント）", "headline": "20円引き", "detail": "ローソン公式LINEアカウントを友だち追加していると、ホットコーヒーまたはアイスコーヒーが20円引きになるクーポンが届きます。", "period": "〜11/30", "deadline": "2026-11-30", "source_name": "All About", "source_url": "https://news.allabout.co.jp/articles/o/102961/", "links": [], "mame_articles": []}
     ]},
-    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "LINEとスマニュー、両方お得だよ📱", "items": [
-      {"name": "SABON全品20%OFFクーポン(Holiday Collection 2026)", "service": "SABON(LINEギフト)", "headline": "20%OFF", "detail": "LINEギフトの特集「Holiday Collection 2026」で、SABON全品20%OFFクーポンが配布されます。LINEアプリを開いて獲得するだけ。自分用にもギフトにも使えます。", "period": "配布10/28 11:00〜、利用期限11/25", "deadline": "2026-11-25", "pick": {"rank": 3, "why": "明日からLINE開くだけで20%OFFがもらえる"}, "source_name": "LINEヤフー公式リリース", "source_url": "https://www.lycorp.co.jp/ja/news/release/020872/", "links": [{"label": "LINEギフト Holiday Collection 2026", "url": "https://lin.ee/7QuVuzR"}], "mame_articles": []},
-      {"name": "モスバーガー クーポン8種配信", "service": "モスバーガー(スマートニュース)", "headline": "最大50円引き", "detail": "スマートニュースのクーポンチャンネルで10/22〜11/20までモスバーガーのクーポン8種が使えます。ポテトSセットが780円→730円になるものなど。", "period": "〜11/20", "deadline": "2026-11-20", "source_name": "企業リリース", "source_url": "https://www.nikkan.co.jp/releases/view/75680", "links": [{"label": "スマートニュース クーポンチャンネル", "url": "https://www.smartnews.com/coupon/"}], "mame_articles": []}
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "今日だけの特典、要チェック🔍", "items": [
+      {"name": "とりの日パック（本日限定）", "service": "ケンタッキーフライドチキン", "headline": "510円お得", "detail": "オリジナルチキン4ピース+ナゲット5ピースのパックが1,290円。単品を積み上げるより510円お得になります。10月28日限定・デリバリーは対象外。", "period": "本日10/28のみ", "deadline": "2026-10-28", "pick": {"rank": 1, "why": "今日限定510円引き、逃したら終わり"}, "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2149422.html", "links": [], "mame_articles": []},
+      {"name": "LINE友だち追加くじ", "service": "三井ショッピングパークポイント（LINE公式アカウント）", "headline": "家電が当たる", "detail": "LINE公式アカウント「@msppoint」を友だち追加（すでに友だちの人もOK）して応募するだけ。抽選でAladdinプロジェクターやBALMUDA The Speakerなどが当たります。", "period": "〜11/8", "deadline": "2026-11-08", "source_name": "三井ショッピングパーク公式", "source_url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html", "links": [{"label": "三井ショッピングパーク公式イベントページ", "url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html"}], "mame_articles": []}
     ]},
-    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "明日のハッピーデーは要チェック✨", "items": [
-      {"name": "ハッピーデー(毎月8・18・28日)", "service": "イトーヨーカドー", "headline": "全品5%OFF", "detail": "毎月8・18・28日の「ハッピーデー」は食料品・衣料品・住まいの品がほぼ全品5%OFFになります。次回は明日10/28です。", "period": "次回 10/28", "deadline": "2026-10-28", "pick": {"rank": 1, "why": "明日は全品5%OFF。日用品はまとめ買いのチャンス"}, "source_name": "イトーヨーカドー公式アプリ紹介記事", "source_url": "https://app-liv.jp/501683/", "links": [], "mame_articles": []},
-      {"name": "新規・リピート限定クーポン常時配布", "service": "楽天24(楽天市場)", "headline": "最大500円OFF", "detail": "楽天24では、初めて購入する方や久しぶりに購入する方向けに、最大500円OFFクーポンが常時配布されています。日用品・食品のまとめ買いに使えます。", "period": "常時", "deadline": null, "source_name": "appllio", "source_url": "https://appllio.com/rakuten-24-guide", "links": [], "mame_articles": []}
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "お肉もお魚もお得に買える🐟", "items": [
+      {"name": "肉と魚の割引クーポン", "service": "楽天24（楽天市場）", "headline": "最大半額", "detail": "毎月28日〜翌月2日の期間限定で、精肉・水産品が最大半額になる楽天24のクーポンが配布されます。ちょうど今日から使えるタイミングです。", "period": "10/28〜11/2", "deadline": "2026-11-02", "pick": {"rank": 3, "why": "今日から使える、買い物前に忘れずに"}, "source_name": "appllio.com", "source_url": "https://appllio.com/rakuten-ichiba-coupon", "links": [], "mame_articles": []},
+      {"name": "おまとめ割引（定期おトク便）", "service": "Amazon", "headline": "最大15%OFF", "detail": "同じ届け先・同じ月に定期おトク便の商品を3件以上届けると、対象商品が最大15%OFFに。米・水・洗剤などの日用品のまとめ買いに使えます。", "period": "通年実施中", "deadline": null, "source_name": "Money Forward", "source_url": "https://media.moneyforward.com/articles/3060", "links": [], "mame_articles": []}
     ]},
-    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "口座開設でまとまったお金がもらえるよ", "items": [
-      {"name": "口座開設+エントリーキャンペーン", "service": "三菱UFJ銀行", "headline": "現金2万円", "detail": "アプリから口座開設してエントリーし、残高を10万円以上にすると現金2万円がもらえます。申込期間は9/7〜11/27。", "period": "申込 〜11/27", "deadline": "2026-11-27", "source_name": "k-tai Watch", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2143220.html", "links": [], "mame_articles": []}
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "登録だけで貯まるチャンス✨", "items": [
+      {"name": "のるとたまるTOKYU POINT 新規登録", "service": "東急電鉄（TOKYU POINT／TOQ COIN）", "headline": "500ポイント", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録するだけで500ポイントがもらえます。東急線PASMO定期券（モバイル含む）を買うとポイント還元が一律10%になる特典も。登録は10月中に。", "period": "〜10/31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "登録だけでOK、今月末で終了間近"}, "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/", "links": [{"label": "東急電鉄公式キャンペーンページ", "url": "https://www.tokyu.co.jp/special/norutotamaru-campaign2509/"}], "mame_articles": []}
     ]},
-    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ポイント還元は地域限定もあるから確認してね", "items": [
-      {"name": "宮古島市キャッシュレス還元キャンペーン", "service": "PayPay(沖縄県宮古島市)", "headline": "最大25%還元", "detail": "宮古島市内の対象店でPayPay支払いをすると、最大25%のポイントが還元されます。1回2,000円相当・期間中8,000円相当が上限です。", "period": "10/1〜12/31", "deadline": "2026-12-31", "source_name": "週刊アスキー", "source_url": "https://weekly.ascii.jp/elem/000/004/431/4431504/", "links": [], "mame_articles": []},
-      {"name": "8地域合同還元キャンペーン", "service": "d払い(青森市・白山市・栗原市・彦根市・中津川市・長野市・広島県・北杜市)", "headline": "抽選で最大100%還元", "detail": "対象8地域の加盟店でd払いすると、抽選で1等100%・2等50%・3等10%・4等1%のポイントが還元されます(上限3万ポイント)。", "period": "10月開催中", "deadline": null, "source_name": "ドコモ公式リリース紹介記事", "source_url": "https://k-tai.watch.impress.co.jp/docs/news/2144559.html", "links": [], "mame_articles": []},
-      {"name": "クレカ乗車 Vポイント10倍キャンペーン", "service": "Vポイント(京王電鉄・つくばエクスプレス・ゆりかもめ・江ノ島電鉄)", "headline": "乗車で10倍", "detail": "Visaのタッチ決済で「クレカ乗車」すると、京王電鉄・つくばエクスプレス・ゆりかもめ・江ノ島電鉄でVポイントが通常の10倍貯まります。エントリー不要。", "period": "10/7〜12/30", "deadline": "2026-12-30", "source_name": "Vポイント公式情報", "source_url": "https://point.vpoint.jp/", "links": [], "mame_articles": []}
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "提示するだけでポイント2倍✨", "items": [
+      {"name": "Vポイント2倍+抽選プレゼント", "service": "ケンタッキーフライドチキン（Vポイント）", "headline": "Vポイント2倍", "detail": "対象カードを提示すると通常の2倍のVポイントが何度でも貯まります。記念日とエピソードを登録すると、抽選で365名に3,300ポイントが当たります。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002182.pdf", "links": [], "mame_articles": []},
+      {"name": "パワスピ・ポイントクラブ", "service": "三井住友カード（Vポイント）", "headline": "最大500pt", "detail": "対象の三井住友カードで決済すると、抽選で最大500ポイントがもらえるキャンペーンです。", "period": "10/22〜11/30", "deadline": "2026-11-30", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002188.pdf", "links": [], "mame_articles": []}
     ]}
   ],
   "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
