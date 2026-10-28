@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-10-29T07:23:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はVクーポンで抽選チャンス💰"},
+    {"who": "edamame", "text": "1,000円のお買い物で1万ptが当たるかも!"},
+    {"who": "mame", "text": "ミニストップのMINIくじも毎日挑戦してね"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ミニストップのくじ、今日も挑戦できるよ🎯", "items": [
+      {"name": "出店200店舗達成記念キャンペーン", "service": "セブン-イレブン沖縄", "headline": "記念クーポン", "detail": "沖縄県内の出店200店舗達成を記念し、10月31日から限定商品6品の発売やアプリ限定クーポン配布などを順次展開します。炭火焼牛カルビおむすびなどの記念商品も登場予定です。", "period": "10/31〜", "deadline": null, "source_name": "琉球新報(PR TIMES配信)", "source_url": "https://ryukyushimpo.jp/prtimes/entry-4727229.html", "links": [], "mame_articles": []},
+      {"name": "MINIくじ", "service": "ミニストップ(公式アプリ)", "headline": "毎日1回挑戦", "detail": "ミニストップ公式アプリで1日1回無料で挑戦できる「MINIくじ」。当たると割引クーポンや無料引換クーポンがもらえます。セット後30分以内にバーコードを提示して使います。", "period": "常時(アプリ常設機能)", "deadline": null, "pick": {"rank": 3, "why": "アプリ開くだけ。毎日1回無料で挑戦できる"}, "source_name": "app-liv.jp", "source_url": "https://app-liv.jp/5345103/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "ドミノは持ち帰り半額、覚えておいてね🍕", "items": [
+      {"name": "秋の食べ歩きクーポンブック", "service": "すかいらーくグループ(ガスト・バーミヤン等)", "headline": "最大25%OFF", "detail": "20ブランド・78枚のクーポンをまとめた「秋の食べ歩きクーポンブック」。ガストのチーズINハンバーグが25%OFF、バーミヤンの本格焼餃子が110円引きなどで使えます。9月に配布された冊子をお持ちの方は11月30日まで利用できます。", "period": "利用10/1〜11/30", "deadline": "2026-11-30", "source_name": "iko-yo.net", "source_url": "https://report.iko-yo.net/articles/33728", "links": [], "mame_articles": []},
+      {"name": "持ち帰り全品50%OFF", "service": "ドミノ・ピザ(公式アプリ/Web)", "headline": "持ち帰り50%OFF", "detail": "注文時に「テイクアウト」を選ぶと、クーポンコード不要で全品が通常価格の50%OFFになります。公式アプリやサイトから注文できる定番の割引です。", "period": "常時実施中", "deadline": null, "source_name": "pricey.jp", "source_url": "https://www.pricey.jp/web/articles/3691", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "今日は良い掲載が見つからなかったよ", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "LINEでビールが当たるかも🍺", "items": [
+      {"name": "答えて当てよう!アンケートキャンペーン", "service": "アサヒビール(LINE公式アカウント・20歳以上限定)", "headline": "抽選で商品", "detail": "アサヒビールのLINE公式アカウントを友だち追加し、簡単なアンケートに答えると、抽選でアサヒビールの人気商品がもらえます。満20歳以上・日本国内在住の方限定で、応募は一人一回までです。", "period": "開催中(応募締切12/1 10:00)", "deadline": "2026-12-01", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/370247", "links": [], "mame_articles": []},
+      {"name": "どさんこアプリ会員限定懸賞", "service": "サントリー(どさんこアプリ・北海道限定・20歳以上)", "headline": "抽選プレゼント", "detail": "北海道在住の方向け「どさんこアプリ」の会員限定懸賞です。氏名・住所等を登録済みで満20歳以上のアプリ会員が対象で、応募は10月31日までです。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/387232", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "Vクーポン、今日と明日がラストチャンス✨", "items": [
+      {"name": "Vクーポン ネットショッピング抽選", "service": "三井住友カード(Vポイント)", "headline": "抽選1万pt", "detail": "対象のVクーポンを経由して、期間中に合計1,000円(税込)以上のネットショッピングをすると抽選に参加できます。1等は300名に10,000ポイント、外れてもWチャンスで5,000名に200ポイントが当たります。10月31日まで。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 1, "why": "ネットで1,000円買うだけ。今日と明日が最終日"}, "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224526.jsp", "links": [], "mame_articles": []},
+      {"name": "東京ポイント→au PAY残高交換キャンペーン", "service": "au PAY(東京都・東京ポイント)", "headline": "+1,000pt", "detail": "東京都公式アプリで貯めた「東京ポイント」を、キャンペーンページからエントリーのうえ合計11,000pt以上au PAY残高に交換すると、先着10,000名にPontaポイント1,000pt、続く先着10,000名に500ptがもらえます。東京都にお住まいの方向けの企画です。", "period": "10/16〜11/15", "deadline": "2026-11-15", "source_name": "au.com", "source_url": "https://www.au.com/information/topic/content/2026-011/", "links": [], "mame_articles": []},
+      {"name": "ローソンPontaプラス新規入会キャンペーン", "service": "ローソン銀行(ローソンPontaプラス)", "headline": "最大3,000pt", "detail": "クレジットカード「ローソンPontaプラス」に新規入会すると500ポイント、楽Pay登録と15万円以上のショッピング利用で2,500ポイントが追加され、合計最大3,000Pontaポイントがもらえます。申込は12月20日まで、入会・エントリーは12月31日までに完了が必要です。", "period": "8/21〜12/20(申込)", "deadline": "2026-12-20", "pick": {"rank": 2, "why": "入会するなら今。最大3,000ポイントもらえる"}, "source_name": "voix.jp", "source_url": "https://voix.jp/?p=120234", "links": [], "mame_articles": []}
+    ]},
+    {"id": "crowdfunding", "emoji": "🏢", "title": "不動産クラウドファンディング", "comment": "VIFA27号、応募は今日18時までだよ⏰", "items": [
+      {"name": "おうちの再生ファンドVIFA 27号", "service": "レクストアセットマネジメント(おうちの再生ファンドVIFA)", "detail": "三重県度会郡玉城町矢野の木造2階建て物件を対象にしたファンド。想定利回りは年利7.5%(税引前)、最低出資額は1万円から、募集金額は優先出資分600万円です。出資者には玉城町の特産品プレゼントの特典もあります。一般募集は本日10月29日18:00までです。想定利回りは確定したものではなく、元本が割れる可能性もあります。", "period": "募集 10/19 12:00〜10/29 18:00", "deadline": "2026-10-29", "source_name": "voix.jp", "source_url": "https://voix.jp/money/?p=34142", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。",
+    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
+  ]
+}

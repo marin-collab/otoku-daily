@@ -1,30 +1,35 @@
 {
-  "updated_at": "2026-10-28T07:15:43+09:00",
+  "updated_at": "2026-10-29T07:23:00+09:00",
   "dialogue": [
-    {"who": "mame", "text": "今日はケンタッキーの日だよ🍗"},
-    {"who": "edamame", "text": "とりの日パック、今日だけお得！"},
-    {"who": "mame", "text": "東急沿線の人は登録だけでも急いでね"}
+    {"who": "mame", "text": "今日はVクーポンで抽選チャンス💰"},
+    {"who": "edamame", "text": "1,000円のお買い物で1万ptが当たるかも!"},
+    {"who": "mame", "text": "ミニストップのMINIくじも毎日挑戦してね"}
   ],
   "categories": [
-    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "コーヒーが安くなる日だよ☕", "items": [
-      {"name": "Vポイントおトク引換券（第4週）", "service": "セブン-イレブン（Vポイント）", "headline": "コーヒー70pt", "detail": "Vポイント70ptでセブンカフェのホット・アイスコーヒーR、90ptでセブンプレミアムのフルーツ果汁ドリンクと交換できます。毎週水曜に対象商品が切り替わる企画の今週分です。", "period": "交換は11/3まで・利用は11/10まで", "deadline": "2026-11-10", "source_name": "san-tatsu.jp", "source_url": "https://san-tatsu.jp/pressrelease/557231/", "links": [], "mame_articles": []},
-      {"name": "コーヒー20円引きクーポン", "service": "ローソン（LINE公式アカウント）", "headline": "20円引き", "detail": "ローソン公式LINEアカウントを友だち追加していると、ホットコーヒーまたはアイスコーヒーが20円引きになるクーポンが届きます。", "period": "〜11/30", "deadline": "2026-11-30", "source_name": "All About", "source_url": "https://news.allabout.co.jp/articles/o/102961/", "links": [], "mame_articles": []}
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ミニストップのくじ、今日も挑戦できるよ🎯", "items": [
+      {"name": "出店200店舗達成記念キャンペーン", "service": "セブン-イレブン沖縄", "headline": "記念クーポン", "detail": "沖縄県内の出店200店舗達成を記念し、10月31日から限定商品6品の発売やアプリ限定クーポン配布などを順次展開します。炭火焼牛カルビおむすびなどの記念商品も登場予定です。", "period": "10/31〜", "deadline": null, "source_name": "琉球新報(PR TIMES配信)", "source_url": "https://ryukyushimpo.jp/prtimes/entry-4727229.html", "links": [], "mame_articles": []},
+      {"name": "MINIくじ", "service": "ミニストップ(公式アプリ)", "headline": "毎日1回挑戦", "detail": "ミニストップ公式アプリで1日1回無料で挑戦できる「MINIくじ」。当たると割引クーポンや無料引換クーポンがもらえます。セット後30分以内にバーコードを提示して使います。", "period": "常時(アプリ常設機能)", "deadline": null, "pick": {"rank": 3, "why": "アプリ開くだけ。毎日1回無料で挑戦できる"}, "source_name": "app-liv.jp", "source_url": "https://app-liv.jp/5345103/", "links": [], "mame_articles": []}
     ]},
-    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "今日だけの特典、要チェック🔍", "items": [
-      {"name": "とりの日パック（本日限定）", "service": "ケンタッキーフライドチキン", "headline": "510円お得", "detail": "オリジナルチキン4ピース+ナゲット5ピースのパックが1,290円。単品を積み上げるより510円お得になります。10月28日限定・デリバリーは対象外。", "period": "本日10/28のみ", "deadline": "2026-10-28", "pick": {"rank": 1, "why": "今日限定510円引き、逃したら終わり"}, "source_name": "Impress Watch", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2149422.html", "links": [], "mame_articles": []},
-      {"name": "LINE友だち追加くじ", "service": "三井ショッピングパークポイント（LINE公式アカウント）", "headline": "家電が当たる", "detail": "LINE公式アカウント「@msppoint」を友だち追加（すでに友だちの人もOK）して応募するだけ。抽選でAladdinプロジェクターやBALMUDA The Speakerなどが当たります。", "period": "〜11/8", "deadline": "2026-11-08", "source_name": "三井ショッピングパーク公式", "source_url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html", "links": [{"label": "三井ショッピングパーク公式イベントページ", "url": "https://mitsui-shopping-park.com/lalaport/yokohama/event/3646844.html"}], "mame_articles": []}
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "ドミノは持ち帰り半額、覚えておいてね🍕", "items": [
+      {"name": "秋の食べ歩きクーポンブック", "service": "すかいらーくグループ(ガスト・バーミヤン等)", "headline": "最大25%OFF", "detail": "20ブランド・78枚のクーポンをまとめた「秋の食べ歩きクーポンブック」。ガストのチーズINハンバーグが25%OFF、バーミヤンの本格焼餃子が110円引きなどで使えます。9月に配布された冊子をお持ちの方は11月30日まで利用できます。", "period": "利用10/1〜11/30", "deadline": "2026-11-30", "source_name": "iko-yo.net", "source_url": "https://report.iko-yo.net/articles/33728", "links": [], "mame_articles": []},
+      {"name": "持ち帰り全品50%OFF", "service": "ドミノ・ピザ(公式アプリ/Web)", "headline": "持ち帰り50%OFF", "detail": "注文時に「テイクアウト」を選ぶと、クーポンコード不要で全品が通常価格の50%OFFになります。公式アプリやサイトから注文できる定番の割引です。", "period": "常時実施中", "deadline": null, "source_name": "pricey.jp", "source_url": "https://www.pricey.jp/web/articles/3691", "links": [], "mame_articles": []}
     ]},
-    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "お肉もお魚もお得に買える🐟", "items": [
-      {"name": "肉と魚の割引クーポン", "service": "楽天24（楽天市場）", "headline": "最大半額", "detail": "毎月28日〜翌月2日の期間限定で、精肉・水産品が最大半額になる楽天24のクーポンが配布されます。ちょうど今日から使えるタイミングです。", "period": "10/28〜11/2", "deadline": "2026-11-02", "pick": {"rank": 3, "why": "今日から使える、買い物前に忘れずに"}, "source_name": "appllio.com", "source_url": "https://appllio.com/rakuten-ichiba-coupon", "links": [], "mame_articles": []},
-      {"name": "おまとめ割引（定期おトク便）", "service": "Amazon", "headline": "最大15%OFF", "detail": "同じ届け先・同じ月に定期おトク便の商品を3件以上届けると、対象商品が最大15%OFFに。米・水・洗剤などの日用品のまとめ買いに使えます。", "period": "通年実施中", "deadline": null, "source_name": "Money Forward", "source_url": "https://media.moneyforward.com/articles/3060", "links": [], "mame_articles": []}
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "今日は良い掲載が見つからなかったよ", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "LINEでビールが当たるかも🍺", "items": [
+      {"name": "答えて当てよう!アンケートキャンペーン", "service": "アサヒビール(LINE公式アカウント・20歳以上限定)", "headline": "抽選で商品", "detail": "アサヒビールのLINE公式アカウントを友だち追加し、簡単なアンケートに答えると、抽選でアサヒビールの人気商品がもらえます。満20歳以上・日本国内在住の方限定で、応募は一人一回までです。", "period": "開催中(応募締切12/1 10:00)", "deadline": "2026-12-01", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/370247", "links": [], "mame_articles": []},
+      {"name": "どさんこアプリ会員限定懸賞", "service": "サントリー(どさんこアプリ・北海道限定・20歳以上)", "headline": "抽選プレゼント", "detail": "北海道在住の方向け「どさんこアプリ」の会員限定懸賞です。氏名・住所等を登録済みで満20歳以上のアプリ会員が対象で、応募は10月31日までです。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/387232", "links": [], "mame_articles": []}
     ]},
-    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "登録だけで貯まるチャンス✨", "items": [
-      {"name": "のるとたまるTOKYU POINT 新規登録", "service": "東急電鉄（TOKYU POINT／TOQ COIN）", "headline": "500ポイント", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録するだけで500ポイントがもらえます。東急線PASMO定期券（モバイル含む）を買うとポイント還元が一律10%になる特典も。登録は10月中に。", "period": "〜10/31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "登録だけでOK、今月末で終了間近"}, "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/", "links": [{"label": "東急電鉄公式キャンペーンページ", "url": "https://www.tokyu.co.jp/special/norutotamaru-campaign2509/"}], "mame_articles": []}
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "Vクーポン、今日と明日がラストチャンス✨", "items": [
+      {"name": "Vクーポン ネットショッピング抽選", "service": "三井住友カード(Vポイント)", "headline": "抽選1万pt", "detail": "対象のVクーポンを経由して、期間中に合計1,000円(税込)以上のネットショッピングをすると抽選に参加できます。1等は300名に10,000ポイント、外れてもWチャンスで5,000名に200ポイントが当たります。10月31日まで。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 1, "why": "ネットで1,000円買うだけ。今日と明日が最終日"}, "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224526.jsp", "links": [], "mame_articles": []},
+      {"name": "東京ポイント→au PAY残高交換キャンペーン", "service": "au PAY(東京都・東京ポイント)", "headline": "+1,000pt", "detail": "東京都公式アプリで貯めた「東京ポイント」を、キャンペーンページからエントリーのうえ合計11,000pt以上au PAY残高に交換すると、先着10,000名にPontaポイント1,000pt、続く先着10,000名に500ptがもらえます。東京都にお住まいの方向けの企画です。", "period": "10/16〜11/15", "deadline": "2026-11-15", "source_name": "au.com", "source_url": "https://www.au.com/information/topic/content/2026-011/", "links": [], "mame_articles": []},
+      {"name": "ローソンPontaプラス新規入会キャンペーン", "service": "ローソン銀行(ローソンPontaプラス)", "headline": "最大3,000pt", "detail": "クレジットカード「ローソンPontaプラス」に新規入会すると500ポイント、楽Pay登録と15万円以上のショッピング利用で2,500ポイントが追加され、合計最大3,000Pontaポイントがもらえます。申込は12月20日まで、入会・エントリーは12月31日までに完了が必要です。", "period": "8/21〜12/20(申込)", "deadline": "2026-12-20", "pick": {"rank": 2, "why": "入会するなら今。最大3,000ポイントもらえる"}, "source_name": "voix.jp", "source_url": "https://voix.jp/?p=120234", "links": [], "mame_articles": []}
     ]},
-    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "提示するだけでポイント2倍✨", "items": [
-      {"name": "Vポイント2倍+抽選プレゼント", "service": "ケンタッキーフライドチキン（Vポイント）", "headline": "Vポイント2倍", "detail": "対象カードを提示すると通常の2倍のVポイントが何度でも貯まります。記念日とエピソードを登録すると、抽選で365名に3,300ポイントが当たります。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002182.pdf", "links": [], "mame_articles": []},
-      {"name": "パワスピ・ポイントクラブ", "service": "三井住友カード（Vポイント）", "headline": "最大500pt", "detail": "対象の三井住友カードで決済すると、抽選で最大500ポイントがもらえるキャンペーンです。", "period": "10/22〜11/30", "deadline": "2026-11-30", "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/company/news/26/news0002188.pdf", "links": [], "mame_articles": []}
+    {"id": "crowdfunding", "emoji": "🏢", "title": "不動産クラウドファンディング", "comment": "VIFA27号、応募は今日18時までだよ⏰", "items": [
+      {"name": "おうちの再生ファンドVIFA 27号", "service": "レクストアセットマネジメント(おうちの再生ファンドVIFA)", "detail": "三重県度会郡玉城町矢野の木造2階建て物件を対象にしたファンド。想定利回りは年利7.5%(税引前)、最低出資額は1万円から、募集金額は優先出資分600万円です。出資者には玉城町の特産品プレゼントの特典もあります。一般募集は本日10月29日18:00までです。想定利回りは確定したものではなく、元本が割れる可能性もあります。", "period": "募集 10/19 12:00〜10/29 18:00", "deadline": "2026-10-29", "source_name": "voix.jp", "source_url": "https://voix.jp/money/?p=34142", "links": [], "mame_articles": []}
     ]}
   ],
-  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。",
+    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
+  ]
 }
