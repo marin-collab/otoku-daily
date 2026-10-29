@@ -1,0 +1,29 @@
+{
+  "updated_at": "2026-10-30T07:15:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "今日はららぽーとのdポイント抽選、最終日!"},
+    {"who": "edamame", "text": "Apple Gift Cardはあと2日でお得に🍎"},
+    {"who": "mame", "text": "セブンの豆乳プライチもお忘れなく🫘"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンの豆乳プライチ、買うなら今週中🫘", "items": [
+      {"name": "プライチ:豆乳を買うと豆乳1本無料", "service": "セブン-イレブン", "headline": "1本買うと1本無料", "detail": "キッコーマンの調製豆乳や無調整豆乳など対象の豆乳を1本買うと、別の豆乳と交換できる無料引換券がレシートに印字されます。購入期間は10月27日から31日までです。", "period": "購入10/27〜10/31", "deadline": "2026-10-31", "source_name": "セブン‐イレブン公式/Yahoo!ニュース", "source_url": "https://www.sej.co.jp/cmp/plaichi.html", "links": [{"label": "セブン‐イレブン公式のプライチ案内ページ", "url": "https://www.sej.co.jp/cmp/plaichi.html"}], "mame_articles": []},
+      {"name": "Apple Account チャージキャンペーン", "service": "セブン‐イレブン・ファミリーマート・ローソン・ミニストップ", "headline": "最大5000円分", "detail": "対象店舗のレジでApple Accountへチャージすると、チャージ額の10%相当がApple Gift Cardとしてもらえます(上限5,000円分)。キャンペーンは11月1日までです。", "period": "〜11/1", "deadline": "2026-11-01", "pick": {"rank": 2, "why": "あと2日。Appleを使うなら今チャージがお得"}, "source_name": "Mac OTAKARA", "source_url": "https://www.macotakara.jp/tag/%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3/AppleGiftCard/%E3%83%9F%E3%83%8B%E3%82%B9%E3%83%88%E3%83%83%E3%83%97/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "楽天ペイは次の5の日(11/5)が狙い目!", "items": [
+      {"name": "生活応援キャンペーン第1弾(5のつく日還元)", "service": "楽天ペイ", "headline": "最大3%還元", "detail": "対象店舗で5日・15日・25日など「5のつく日」に楽天ペイのコード・QR決済で支払うと、最大3%分の楽天ポイントが還元されます。キャンペーン自体は12月27日まで実施中なので、次は11月5日が狙い目です。", "period": "8/30〜12/27(5のつく日限定)", "deadline": "2026-12-27", "source_name": "news.mynavi.jp", "source_url": "https://news.mynavi.jp/article/20260903-4906497/", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "今日は良い掲載が見つからなかったよ", "items": []},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "登録だけでポイントもらえる2つ、あと2日!", "items": [
+      {"name": "JAL Pay新規入会キャンペーン", "service": "JAL Pay", "headline": "最大300pt", "detail": "プロモーションコード(JPP2607)を入力してJAL Payに新規登録し、条件を達成すると最大300 JAL Payポイントがもらえます。登録は10月31日までです。", "period": "7/1〜10/31", "deadline": "2026-10-31", "source_name": "JAL公式", "source_url": "https://www.jal.co.jp/jp/ja/jmb/jalpay/pay/campaign/2607-new/", "links": [{"label": "JAL Pay新規入会キャンペーン公式ページ", "url": "https://www.jal.co.jp/jp/ja/jmb/jalpay/pay/campaign/2607-new/"}], "mame_articles": []},
+      {"name": "のるとたまるTOKYU POINT新規登録キャンペーン", "service": "東急電鉄(TOKYU POINT)", "headline": "新規で500pt", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録すると500ポイントがもらえます。期間中に東急線PASMO定期券を購入すると、通常0.5〜3%のところ一律10%のTOKYU POINTが加算されます。登録期限は10月31日です。", "period": "9/14〜10/31", "deadline": "2026-10-31", "pick": {"rank": 3, "why": "あと2日。登録だけで500ポイントもらえる"}, "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/", "links": [{"label": "東急電鉄公式のキャンペーン案内", "url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/"}], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ららぽーとのdポイント抽選、今日が勝負✨", "items": [
+      {"name": "dポイントカード提示キャンペーン", "service": "ららぽーと・三井アウトレットパーク・高島屋など(dポイント)", "headline": "抽選3万pt", "detail": "キャンペーンサイトからエントリーのうえ、対象施設でのお会計時にdポイントカードを提示して合計10ポイント以上貯めると、抽選で最大30,000ポイントが当たります。本日10月30日が最終日です。", "period": "10/3〜10/30", "deadline": "2026-10-30", "pick": {"rank": 1, "why": "今日が最終日。お会計でカード提示するだけ"}, "source_name": "三井ショッピングパーク公式", "source_url": "https://mitsui-shopping-park.com/lalaport/togo/event/3646119.html", "links": [], "mame_articles": []},
+      {"name": "新規入会&条件達成で最大12,000ptプレゼント", "service": "東武カード(東武マーケティング)", "headline": "最大12000pt", "detail": "東武カードに新規入会し、ショッピング利用・モバイルPASMO購入・ゴールド入会・スマリボ登録などの条件を達成すると、合計最大12,000ポイントがもらえます。新規入会だけで3,000pt付与。申込は10月31日までです。", "period": "7/16〜10/31(申込)", "deadline": "2026-10-31", "source_name": "dxmagazine.jp", "source_url": "https://dxmagazine.jp/news/2629uk29/", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": [
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
+  ]
+}

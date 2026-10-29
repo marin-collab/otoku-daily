@@ -1,35 +1,29 @@
 {
-  "updated_at": "2026-10-29T07:23:00+09:00",
+  "updated_at": "2026-10-30T07:15:00+09:00",
   "dialogue": [
-    {"who": "mame", "text": "今日はVクーポンで抽選チャンス💰"},
-    {"who": "edamame", "text": "1,000円のお買い物で1万ptが当たるかも!"},
-    {"who": "mame", "text": "ミニストップのMINIくじも毎日挑戦してね"}
+    {"who": "mame", "text": "今日はららぽーとのdポイント抽選、最終日!"},
+    {"who": "edamame", "text": "Apple Gift Cardはあと2日でお得に🍎"},
+    {"who": "mame", "text": "セブンの豆乳プライチもお忘れなく🫘"}
   ],
   "categories": [
-    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ミニストップのくじ、今日も挑戦できるよ🎯", "items": [
-      {"name": "出店200店舗達成記念キャンペーン", "service": "セブン-イレブン沖縄", "headline": "記念クーポン", "detail": "沖縄県内の出店200店舗達成を記念し、10月31日から限定商品6品の発売やアプリ限定クーポン配布などを順次展開します。炭火焼牛カルビおむすびなどの記念商品も登場予定です。", "period": "10/31〜", "deadline": null, "source_name": "琉球新報(PR TIMES配信)", "source_url": "https://ryukyushimpo.jp/prtimes/entry-4727229.html", "links": [], "mame_articles": []},
-      {"name": "MINIくじ", "service": "ミニストップ(公式アプリ)", "headline": "毎日1回挑戦", "detail": "ミニストップ公式アプリで1日1回無料で挑戦できる「MINIくじ」。当たると割引クーポンや無料引換クーポンがもらえます。セット後30分以内にバーコードを提示して使います。", "period": "常時(アプリ常設機能)", "deadline": null, "pick": {"rank": 3, "why": "アプリ開くだけ。毎日1回無料で挑戦できる"}, "source_name": "app-liv.jp", "source_url": "https://app-liv.jp/5345103/", "links": [], "mame_articles": []}
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "セブンの豆乳プライチ、買うなら今週中🫘", "items": [
+      {"name": "プライチ:豆乳を買うと豆乳1本無料", "service": "セブン-イレブン", "headline": "1本買うと1本無料", "detail": "キッコーマンの調製豆乳や無調整豆乳など対象の豆乳を1本買うと、別の豆乳と交換できる無料引換券がレシートに印字されます。購入期間は10月27日から31日までです。", "period": "購入10/27〜10/31", "deadline": "2026-10-31", "source_name": "セブン‐イレブン公式/Yahoo!ニュース", "source_url": "https://www.sej.co.jp/cmp/plaichi.html", "links": [{"label": "セブン‐イレブン公式のプライチ案内ページ", "url": "https://www.sej.co.jp/cmp/plaichi.html"}], "mame_articles": []},
+      {"name": "Apple Account チャージキャンペーン", "service": "セブン‐イレブン・ファミリーマート・ローソン・ミニストップ", "headline": "最大5000円分", "detail": "対象店舗のレジでApple Accountへチャージすると、チャージ額の10%相当がApple Gift Cardとしてもらえます(上限5,000円分)。キャンペーンは11月1日までです。", "period": "〜11/1", "deadline": "2026-11-01", "pick": {"rank": 2, "why": "あと2日。Appleを使うなら今チャージがお得"}, "source_name": "Mac OTAKARA", "source_url": "https://www.macotakara.jp/tag/%E3%83%AD%E3%83%BC%E3%82%BD%E3%83%B3/AppleGiftCard/%E3%83%9F%E3%83%8B%E3%82%B9%E3%83%88%E3%83%83%E3%83%97/", "links": [], "mame_articles": []}
     ]},
-    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "ドミノは持ち帰り半額、覚えておいてね🍕", "items": [
-      {"name": "秋の食べ歩きクーポンブック", "service": "すかいらーくグループ(ガスト・バーミヤン等)", "headline": "最大25%OFF", "detail": "20ブランド・78枚のクーポンをまとめた「秋の食べ歩きクーポンブック」。ガストのチーズINハンバーグが25%OFF、バーミヤンの本格焼餃子が110円引きなどで使えます。9月に配布された冊子をお持ちの方は11月30日まで利用できます。", "period": "利用10/1〜11/30", "deadline": "2026-11-30", "source_name": "iko-yo.net", "source_url": "https://report.iko-yo.net/articles/33728", "links": [], "mame_articles": []},
-      {"name": "持ち帰り全品50%OFF", "service": "ドミノ・ピザ(公式アプリ/Web)", "headline": "持ち帰り50%OFF", "detail": "注文時に「テイクアウト」を選ぶと、クーポンコード不要で全品が通常価格の50%OFFになります。公式アプリやサイトから注文できる定番の割引です。", "period": "常時実施中", "deadline": null, "source_name": "pricey.jp", "source_url": "https://www.pricey.jp/web/articles/3691", "links": [], "mame_articles": []}
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "楽天ペイは次の5の日(11/5)が狙い目!", "items": [
+      {"name": "生活応援キャンペーン第1弾(5のつく日還元)", "service": "楽天ペイ", "headline": "最大3%還元", "detail": "対象店舗で5日・15日・25日など「5のつく日」に楽天ペイのコード・QR決済で支払うと、最大3%分の楽天ポイントが還元されます。キャンペーン自体は12月27日まで実施中なので、次は11月5日が狙い目です。", "period": "8/30〜12/27(5のつく日限定)", "deadline": "2026-12-27", "source_name": "news.mynavi.jp", "source_url": "https://news.mynavi.jp/article/20260903-4906497/", "links": [], "mame_articles": []}
     ]},
     {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "今日は良い掲載が見つからなかったよ", "items": []},
-    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "LINEでビールが当たるかも🍺", "items": [
-      {"name": "答えて当てよう!アンケートキャンペーン", "service": "アサヒビール(LINE公式アカウント・20歳以上限定)", "headline": "抽選で商品", "detail": "アサヒビールのLINE公式アカウントを友だち追加し、簡単なアンケートに答えると、抽選でアサヒビールの人気商品がもらえます。満20歳以上・日本国内在住の方限定で、応募は一人一回までです。", "period": "開催中(応募締切12/1 10:00)", "deadline": "2026-12-01", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/370247", "links": [], "mame_articles": []},
-      {"name": "どさんこアプリ会員限定懸賞", "service": "サントリー(どさんこアプリ・北海道限定・20歳以上)", "headline": "抽選プレゼント", "detail": "北海道在住の方向け「どさんこアプリ」の会員限定懸賞です。氏名・住所等を登録済みで満20歳以上のアプリ会員が対象で、応募は10月31日までです。", "period": "〜10/31", "deadline": "2026-10-31", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/387232", "links": [], "mame_articles": []}
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "登録だけでポイントもらえる2つ、あと2日!", "items": [
+      {"name": "JAL Pay新規入会キャンペーン", "service": "JAL Pay", "headline": "最大300pt", "detail": "プロモーションコード(JPP2607)を入力してJAL Payに新規登録し、条件を達成すると最大300 JAL Payポイントがもらえます。登録は10月31日までです。", "period": "7/1〜10/31", "deadline": "2026-10-31", "source_name": "JAL公式", "source_url": "https://www.jal.co.jp/jp/ja/jmb/jalpay/pay/campaign/2607-new/", "links": [{"label": "JAL Pay新規入会キャンペーン公式ページ", "url": "https://www.jal.co.jp/jp/ja/jmb/jalpay/pay/campaign/2607-new/"}], "mame_articles": []},
+      {"name": "のるとたまるTOKYU POINT新規登録キャンペーン", "service": "東急電鉄(TOKYU POINT)", "headline": "新規で500pt", "detail": "「電車とバスで貯まるTOKYU POINT」に新規登録すると500ポイントがもらえます。期間中に東急線PASMO定期券を購入すると、通常0.5〜3%のところ一律10%のTOKYU POINTが加算されます。登録期限は10月31日です。", "period": "9/14〜10/31", "deadline": "2026-10-31", "pick": {"rank": 3, "why": "あと2日。登録だけで500ポイントもらえる"}, "source_name": "東急電鉄公式", "source_url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/", "links": [{"label": "東急電鉄公式のキャンペーン案内", "url": "https://www.tokyu.co.jp/area/shibuya/article/arti-01M22KXTVPB7ZPPDVZ026DT0KS/"}], "mame_articles": []}
     ]},
-    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "Vクーポン、今日と明日がラストチャンス✨", "items": [
-      {"name": "Vクーポン ネットショッピング抽選", "service": "三井住友カード(Vポイント)", "headline": "抽選1万pt", "detail": "対象のVクーポンを経由して、期間中に合計1,000円(税込)以上のネットショッピングをすると抽選に参加できます。1等は300名に10,000ポイント、外れてもWチャンスで5,000名に200ポイントが当たります。10月31日まで。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 1, "why": "ネットで1,000円買うだけ。今日と明日が最終日"}, "source_name": "三井住友カード公式", "source_url": "https://www.smbc-card.com/mem/cardinfo/26/cardinfo7224526.jsp", "links": [], "mame_articles": []},
-      {"name": "東京ポイント→au PAY残高交換キャンペーン", "service": "au PAY(東京都・東京ポイント)", "headline": "+1,000pt", "detail": "東京都公式アプリで貯めた「東京ポイント」を、キャンペーンページからエントリーのうえ合計11,000pt以上au PAY残高に交換すると、先着10,000名にPontaポイント1,000pt、続く先着10,000名に500ptがもらえます。東京都にお住まいの方向けの企画です。", "period": "10/16〜11/15", "deadline": "2026-11-15", "source_name": "au.com", "source_url": "https://www.au.com/information/topic/content/2026-011/", "links": [], "mame_articles": []},
-      {"name": "ローソンPontaプラス新規入会キャンペーン", "service": "ローソン銀行(ローソンPontaプラス)", "headline": "最大3,000pt", "detail": "クレジットカード「ローソンPontaプラス」に新規入会すると500ポイント、楽Pay登録と15万円以上のショッピング利用で2,500ポイントが追加され、合計最大3,000Pontaポイントがもらえます。申込は12月20日まで、入会・エントリーは12月31日までに完了が必要です。", "period": "8/21〜12/20(申込)", "deadline": "2026-12-20", "pick": {"rank": 2, "why": "入会するなら今。最大3,000ポイントもらえる"}, "source_name": "voix.jp", "source_url": "https://voix.jp/?p=120234", "links": [], "mame_articles": []}
-    ]},
-    {"id": "crowdfunding", "emoji": "🏢", "title": "不動産クラウドファンディング", "comment": "VIFA27号、応募は今日18時までだよ⏰", "items": [
-      {"name": "おうちの再生ファンドVIFA 27号", "service": "レクストアセットマネジメント(おうちの再生ファンドVIFA)", "detail": "三重県度会郡玉城町矢野の木造2階建て物件を対象にしたファンド。想定利回りは年利7.5%(税引前)、最低出資額は1万円から、募集金額は優先出資分600万円です。出資者には玉城町の特産品プレゼントの特典もあります。一般募集は本日10月29日18:00までです。想定利回りは確定したものではなく、元本が割れる可能性もあります。", "period": "募集 10/19 12:00〜10/29 18:00", "deadline": "2026-10-29", "source_name": "voix.jp", "source_url": "https://voix.jp/money/?p=34142", "links": [], "mame_articles": []}
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "ららぽーとのdポイント抽選、今日が勝負✨", "items": [
+      {"name": "dポイントカード提示キャンペーン", "service": "ららぽーと・三井アウトレットパーク・高島屋など(dポイント)", "headline": "抽選3万pt", "detail": "キャンペーンサイトからエントリーのうえ、対象施設でのお会計時にdポイントカードを提示して合計10ポイント以上貯めると、抽選で最大30,000ポイントが当たります。本日10月30日が最終日です。", "period": "10/3〜10/30", "deadline": "2026-10-30", "pick": {"rank": 1, "why": "今日が最終日。お会計でカード提示するだけ"}, "source_name": "三井ショッピングパーク公式", "source_url": "https://mitsui-shopping-park.com/lalaport/togo/event/3646119.html", "links": [], "mame_articles": []},
+      {"name": "新規入会&条件達成で最大12,000ptプレゼント", "service": "東武カード(東武マーケティング)", "headline": "最大12000pt", "detail": "東武カードに新規入会し、ショッピング利用・モバイルPASMO購入・ゴールド入会・スマリボ登録などの条件を達成すると、合計最大12,000ポイントがもらえます。新規入会だけで3,000pt付与。申込は10月31日までです。", "period": "7/16〜10/31(申込)", "deadline": "2026-10-31", "source_name": "dxmagazine.jp", "source_url": "https://dxmagazine.jp/news/2629uk29/", "links": [], "mame_articles": []}
     ]}
   ],
   "notes": [
-    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。",
-    "不動産クラファンは元本割れの可能性があり、利回りは保証されません。"
+    "情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"
   ]
 }
