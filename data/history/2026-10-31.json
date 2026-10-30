@@ -1,0 +1,32 @@
+{
+  "updated_at": "2026-10-31T07:15:00+09:00",
+  "dialogue": [
+    {"who": "mame", "text": "ロイヤルカナン登録は今日が最終日だよ"},
+    {"who": "edamame", "text": "ローソンはXフォロー&リポストで無料券が当たるよ🍬"},
+    {"who": "mame", "text": "イオンの超ブラックフライデーも今日スタート✨"}
+  ],
+  "categories": [
+    {"id": "conbini", "emoji": "🏪", "title": "コンビニ・コンビニアプリ", "comment": "ナチュラルローソンの無料券、今日中に応募を！🍬", "items": [
+      {"name": "対象お菓子が当たるXリポストキャンペーン", "service": "ローソン(公式X・ナチュラルローソン)", "headline": "抽選で無料券", "detail": "ローソン公式Xをフォローして対象ポストをリポストすると抽選に参加でき、毎日1万名(期間合計5万名)に「ナチュラルローソン」対象お菓子の無料引換券が当たります。応募期間は10月28日〜11月1日、引換期間は10月28日〜11月4日です。", "period": "応募10/28〜11/1", "deadline": "2026-11-01", "pick": {"rank": 3, "why": "応募は明日まで。フォロー&リポストだけで参加できる"}, "source_name": "ローソン公式", "source_url": "https://www.lawson.co.jp/lab/tsuushin/art/1532083_4659.html", "links": [{"label": "ローソン公式のキャンペーン案内", "url": "https://www.lawson.co.jp/lab/tsuushin/art/1532083_4659.html"}], "mame_articles": []},
+      {"name": "プライチ:リポビタンD8を買うとリポビタンDが無料", "service": "セブン‐イレブン", "headline": "1本で1本無料", "detail": "大正製薬「リポビタンD8」を1本買うと、別の「リポビタンD」1本と交換できる無料引換券がレシートに付きます。発券期間は10月29日〜11月4日、引換期間は11月5日〜11月18日です。", "period": "発券10/29〜11/4", "deadline": "2026-11-04", "source_name": "セブン‐イレブン公式", "source_url": "https://www.sej.co.jp/cmp/plaichi.html", "links": [{"label": "セブン‐イレブン公式のプライチ案内ページ", "url": "https://www.sej.co.jp/cmp/plaichi.html"}], "mame_articles": []},
+      {"name": "「セブンならPayPayへ」セブンカフェ半額クーポン", "service": "セブン‐イレブン×PayPay", "headline": "カフェ半額", "detail": "セブン‐イレブンアプリとPayPayを連携すると、税抜130円以下のセブンカフェが半額(131円以上は65円引き)になるクーポンが届きます。11月1日以降に初めて連携した方は連携から24時間以内にクーポンが届くので、今日のうちの連携がおすすめです。", "period": "11/1〜2027/3/31(月替わり)", "deadline": "2027-03-31", "source_name": "PayPay公式", "source_url": "https://paypay.ne.jp/event/seven-eleven-20261101/", "links": [{"label": "PayPay公式のキャンペーンページ", "url": "https://paypay.ne.jp/event/seven-eleven-20261101/"}], "mame_articles": []}
+    ]},
+    {"id": "app", "emoji": "📱", "title": "アプリクーポン", "comment": "やよい軒の50円引き、明日で終わるよ🍚", "items": [
+      {"name": "スマートニュースクーポン配信中", "service": "マクドナルド(スマートニュース)", "headline": "クーポン配信中", "detail": "スマートニュースのクーポンチャンネルで、マクドナルドの割引クーポンが10月21日〜11月21日の期間配信中です。アプリの「クーポン」タブから選び、お店で提示するだけで使えます。", "period": "10/21〜11/21", "deadline": "2026-11-21", "source_name": "pricey.jp", "source_url": "https://www.pricey.jp/web/articles/3780", "links": [], "mame_articles": []},
+      {"name": "週替わり50円引きクーポン", "service": "やよい軒(公式アプリ)", "headline": "50円引き", "detail": "やよい軒の公式アプリで配信中の「週替わり50円引きクーポン」。対象定食が50円引きになります。配信期間は10月12日〜11月1日です。", "period": "10/12〜11/1", "deadline": "2026-11-01", "source_name": "グルメWatch(Impress)", "source_url": "https://gourmet.watch.impress.co.jp/docs/news/2151478.html", "links": [], "mame_articles": []},
+      {"name": "新規友だち追加でみそ汁無料クーポン", "service": "吉野家(LINE公式アカウント)", "headline": "みそ汁無料", "detail": "吉野家のLINE公式アカウントを新規に友だち追加すると、みそ汁の無料引換クーポンがもらえます。定食に付くみそ汁には使えず、テイクアウトのWEB決済・デリバリーも対象外です。", "period": "常時(新規友だち限定)", "deadline": null, "source_name": "pricey.jp", "source_url": "https://pricey.jp/web/articles/3882", "links": [], "mame_articles": []}
+    ]},
+    {"id": "daily", "emoji": "🛒", "title": "日用品・食品の激安", "comment": "イオンのブラックフライデー、今日スタート✨", "items": [
+      {"name": "超!ブラックフライデー ネット先行セール", "service": "イオンスタイルオンライン", "headline": "15%OFFクーポン", "detail": "イオンスタイルオンラインで「超!ブラックフライデー」のネット先行セールが本日10月31日10時からスタート。家電・日用品など対象約5万点に使える15%OFFクーポンが配布されます。セールは11月16日9時59分まで、過去最長の先行期間です。", "period": "10/31 10:00〜11/16 9:59", "deadline": "2026-11-16", "pick": {"rank": 1, "why": "今日10時スタート。対象5万点に15%OFFクーポン"}, "source_name": "ベストカレンダー", "source_url": "https://bestcalendar.jp/press/161494", "links": [], "mame_articles": []}
+    ]},
+    {"id": "free", "emoji": "🎁", "title": "無料・もらえる", "comment": "ロイヤルカナン登録、今日が最後だよ🐾", "items": [
+      {"name": "新規会員登録キャンペーン", "service": "マイ ロイヤルカナン", "headline": "1000pt", "detail": "ペットフードのロイヤルカナンの会員サービス「マイ ロイヤルカナン」に新規登録すると1,000ポイントがもらえます。応募手続きは不要で、登録完了後1営業日以内に付与。登録期限は本日10月31日23時59分までです。", "period": "10/1〜10/31", "deadline": "2026-10-31", "pick": {"rank": 2, "why": "今日23:59まで。登録だけで1000ptもらえる"}, "source_name": "ロイヤルカナン公式", "source_url": "https://www.royalcanin.com/jp-shop/top-news/welcometomyrc2610", "links": [{"label": "ロイヤルカナン公式のキャンペーン案内", "url": "https://www.royalcanin.com/jp-shop/top-news/welcometomyrc2610"}], "mame_articles": []},
+      {"name": "ハロウィン お菓子+くじ", "service": "ノジマ", "headline": "お菓子+くじ", "detail": "ノジマの店頭で「トリック・オア・トリート!」と言うか対象商品を1点購入すると、おたのしみくじ付きのお菓子がもらえます。本日10月31日までの開催で、SNSでは「キッザニア東京」のチケットが当たる企画も実施中です。", "period": "10/26〜10/31", "deadline": "2026-10-31", "source_name": "ノジマ公式", "source_url": "https://www.nojima.co.jp/?p=730950", "links": [{"label": "ノジマ公式のキャンペーン案内", "url": "https://www.nojima.co.jp/?p=730950"}], "mame_articles": []},
+      {"name": "アンケート応募キャンペーン", "service": "アサヒビール(公式LINEアカウント・20歳以上限定)", "headline": "抽選で当たる", "detail": "アサヒビール公式LINEアカウントを友だち追加してアンケートに回答すると、抽選でプレゼントが当たります。応募は満20歳以上の国内在住者限定で、締切は12月1日午前10時です。", "period": "〜12/1", "deadline": "2026-12-01", "source_name": "koubo.jp", "source_url": "https://koubo.jp/contest/370247", "links": [], "mame_articles": []}
+    ]},
+    {"id": "point", "emoji": "💰", "title": "ポイント・キャッシュレス還元", "comment": "三井住友カードは入会だけでも特典あるよ💳", "items": [
+      {"name": "新規入会&利用キャンペーン", "service": "三井住友カード(Vポイント)", "headline": "最大5万円相当", "detail": "三井住友カードに新規入会し、条件を満たして利用すると最大50,000円相当のVポイントがもらえます(プラチナプリファードは最大52,000円相当)。付与額はカードの種類や利用額などの達成条件によって変わります。", "period": "常時開催", "deadline": null, "source_name": "まつのすけ.jp", "source_url": "https://matsunosuke.jp/?p=92576", "links": [], "mame_articles": []}
+    ]}
+  ],
+  "notes": ["情報は自動更新時点のものです。クーポンは数量限定・先着のことがあるので、アプリや公式サイトでご確認ください。"]
+}
